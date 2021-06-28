@@ -1,8 +1,9 @@
 +++
 title = "about me"
 date = 2021-06-27T19:24:19-05:00
-description = "Who even am I?"
+description = "legends say that the stache is commensurate with my wisdom"
 draft = false
+summary = "![fun and flirty](image/fun_and_flirty.jpeg) \n\n Hi, I'm Zach! I do science and solve problems at Vanderbilt University in Nashville, TN. I'm currently a graduate student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) applying ML to medical and neuroscientific data -- mainly brain MRI, endoscopic feeds, fMRI, and EEG. I'm also interested in dimensionality reduction, control theory, optimization, and robotics. Check out my projects to see what I'm working on!"
 [schema]
   type="AboutPage"
 [[copyright]]
@@ -19,8 +20,6 @@ draft = false
 I do science and solve problems at Vanderbilt University in Nashville, TN. I'm currently a graduate student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) applying ML to medical and neuroscientific data -- mainly brain MRI, endoscopic feeds, fMRI, and EEG. I'm also interested in dimensionality reduction, control theory, optimization, and robotics. 
 
 Check out my projects to see what I'm working on!
-
-<!--more-->
 
 ---
 
