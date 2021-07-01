@@ -38,7 +38,8 @@ Essentially, this project compares linear vs. non-linear DR.
 
 # Method
 
-## Dataset
+**Dataset**
+
 The [dataset](https://zenodo.org/record/2949959#.X6tuDC9h3RY) and article [Sofroniew, Nicholas James et al. “Neural coding in barrel cortex during whisker-guided locomotion.”](http://elifesciences.org/content/4/e12559v1) can be found on the [author's GitHub repo](https://github.com/sofroniewn/tactile-coding). Of the 16,000 recorded neurons, approx. 30 neurons were recorded for each of 13 subjects. Each recording was comprised of 53 voltage measurements. Overall, the dataset is composed of 302 waveforms. Unavoidably, the dataset is unbalanced; regular spikers comprise 247 of the examples while intermediate spikers only make up 4 examples.
 
 <figure>
@@ -46,7 +47,10 @@ The [dataset](https://zenodo.org/record/2949959#.X6tuDC9h3RY) and article [Sofro
 <figcaption><i>Figure 1. Summary of the waveforms with mean waveform (left) and waveform distributions by cell type (right). Note that the mean waveform is essentially the tightly bounded waveform distribution for regular spikers, which dominate the dataset.</i></figcaption>
 </figure>
 
-## Classification
+
+
+**Classification**
+
 To compare and contrast the baseline, PCA, and autoencoding, I implemented a KNN classifier that uses Euclidean distance and majority vote for classification. To find the best number of neighbors given the dataset, I ran it through a standard hyperparameter search using cross-validation and a stratified split of the dataset to mitigate unbalanced classes. Once a good k-value was found, I evaluated the model on the test set, as well as a reclassification of the training set for debugging purposes. 
 
 
