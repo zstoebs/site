@@ -19,8 +19,6 @@ type="post"
 
 [GitHub](https://github.com/zstoebs/neural_dim_reduction)
 
-Check out the full project paper [here](/doc/cs4262_paper.pdf)!
-
 # Motivation
 As I began learning about ML, I became fascinated by [dimensionality reduction ](https://machinelearningmastery.com/dimensionality-reduction-for-machine-learning/) (DR) methods. For those that don't know, DRs project data from a high-dimensional space to a low-dimensional space. In essence, they are generalizations of the vector projection methods onto the x-, y-, and z-axes taught in a multivariable calculus course. DR is akin to conventional information compression, trading off size for information loss so choosing the best method and lower dimension is as much art as it is strategy. 
 
