@@ -10,29 +10,31 @@
     <meta name="generator" content="After Dark Hugo">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dimensionality Reduction on Neural Data | Zach Stoebner</title>
-    <meta name="description" content="Exploring PCA vs. autoencoder as dimensionality reduction modalities.">
-    <meta name="keywords" content="course, ">
+    <title>The Fast Inverse Square Root | Zach Stoebner</title>
+    <meta name="description" content="Imagine being so perspicacious.">
+    <meta name="keywords" content="course, hacks, intro, math, personal, programming, ">
     
     
     
     
-    <meta property="og:title" content="Dimensionality Reduction on Neural Data" />
-<meta property="og:description" content="Exploring PCA vs. autoencoder as dimensionality reduction modalities." />
+    <meta property="og:title" content="The Fast Inverse Square Root" />
+<meta property="og:description" content="Imagine being so perspicacious." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/projects/neural_dim/" /><meta property="og:image" content="/projects/neural_dim/image/header.jpeg"/><meta property="article:section" content="projects" />
-<meta property="article:published_time" content="2021-06-27T20:58:15-05:00" />
-<meta property="article:modified_time" content="2021-06-27T20:58:15-05:00" />
+<meta property="og:url" content="/posts/fast-inv-sqrt/" /><meta property="og:image" content="/posts/fast-inv-sqrt/image/deriv.jpg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-07-01T22:46:27-05:00" />
+<meta property="article:modified_time" content="2021-07-01T22:46:27-05:00" />
 
 
     <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="/projects/neural_dim/image/header.jpeg"/>
-<meta name="twitter:title" content="Dimensionality Reduction on Neural Data"/>
-<meta name="twitter:description" content="Exploring PCA vs. autoencoder as dimensionality reduction modalities."/>
+<meta name="twitter:image" content="/posts/fast-inv-sqrt/image/deriv.jpg"/>
+<meta name="twitter:title" content="The Fast Inverse Square Root"/>
+<meta name="twitter:description" content="Imagine being so perspicacious."/>
 
     
 
 
+
+  <meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322">
 
 
     
@@ -87,7 +89,7 @@ fetchInject(["/js/lazysizes.min.js"]);
 
 
     
-    <link rel="canonical" href="/projects/neural_dim/">
+    <link rel="canonical" href="/posts/fast-inv-sqrt/">
     
     
     <link rel="icon" sizes="any" href="data:image/svg+xml,%3Csvg%20viewBox='0%200%2046%2045'%20xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EAfter%20Dark%3C/title%3E%3Cpath%20d='M.708%2045L23%20.416%2045.292%2045H.708zM35%2038L23%2019%2011%2038h24z'%20fill='%23000'/%3E%3C/svg%3E">
@@ -222,12 +224,12 @@ ul.thumbnail.grid li a:hover figure::after {
     
       
       
-        <a itemprop="url" class="active" href="/projects/">projects</a>
+        <a itemprop="url" href="/projects/">projects</a>
       
     
       
       
-        <a itemprop="url" href="/posts/">posts</a>
+        <a itemprop="url" class="active" href="/posts/">posts</a>
       
     
   </nav>
@@ -239,193 +241,36 @@ ul.thumbnail.grid li a:hover figure::after {
 
 </header>
     <main>
-  
+  <header>
+    <h1>The Fast Inverse Square Root</h1>
+  </header>
+  <pre><code>float Q_rsqrt( float number ) {
+    long i;
+    float x2, y;
+    const float threehalfs = 1.5F;
     
-      <style>{{ -}}.hack header figure[itemtype*=ImageObject]{position:relative}.hack header figure[itemtype*=ImageObject] figcaption{position:absolute;bottom:0;right:0;text-align:right;padding:15px;font-style:oblique;font-size:smaller;mix-blend-mode:soft-light}.hack header figure[itemtype*=ImageObject] [itemprop=headline]{font-weight:700}</style>
-    
-  
-  <article itemscope itemtype="https://schema.org/BlogPosting">
-    <meta itemprop="name" content="Dimensionality Reduction on Neural Data">
-<meta itemprop="description" content="Exploring PCA vs. autoencoder as dimensionality reduction modalities."><meta itemprop="datePublished" content="2021-06-27T20:58:15-05:00" />
-<meta itemprop="dateModified" content="2021-06-27T20:58:15-05:00" />
-<meta itemprop="wordCount" content="834"><meta itemprop="image" content="/projects/neural_dim/image/header.jpeg">
-<meta itemprop="keywords" content="" />
-    <header>
-      <h1 itemprop="headline name">Dimensionality Reduction on Neural Data</h1>
-      <p class="muted">
-        <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <circle cx="16" cy="16" r="14" />
-  <path d="M16 8 L16 16 20 20" />
-</svg>
-<span>4 minute read</span>
-<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
-</svg>
-
-  Published: <time datetime="2021-06-27T20:58:15-05:00">27 Jun, 2021</time>
-
-
-      </p>
-      
-        <blockquote itemprop="description">Exploring PCA vs. autoencoder as dimensionality reduction modalities.</blockquote>
-      
-      
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <figure class="ratio-container" aria-hidden="true" itemscope itemtype="https://schema.org/ImageObject">
-    <link itemprop="contentUrl" href="/projects/neural_dim/image/header.jpeg">
-    <meta itemprop="encodingFormat" content="image/jpeg">
-    <meta itemprop="name" content="header thumbnail">
-    
-    
-    
-    
-    
-    <img
-      itemprop="thumbnailUrl"
-      alt="header thumbnail"
-      class="lazyload blur-up"
-      src="/projects/neural_dim/image/header_hud366522702ae6d6fb1c99033d116571d_28042_600x338_fill_q60_box_center.jpeg"
-      srcset="/projects/neural_dim/image/header_hud366522702ae6d6fb1c99033d116571d_28042_300x169_fill_q20_box_center.jpeg"
-      data-srcset="/projects/neural_dim/image/header_hud366522702ae6d6fb1c99033d116571d_28042_300x169_fill_q20_box_center.jpeg 300w, /projects/neural_dim/image/header_hud366522702ae6d6fb1c99033d116571d_28042_600x338_fill_q60_box_center.jpeg 600w, /projects/neural_dim/image/header_hud366522702ae6d6fb1c99033d116571d_28042_900x506_fill_q70_box_center.jpeg 900w, /projects/neural_dim/image/header_hud366522702ae6d6fb1c99033d116571d_28042_1200x675_fill_q80_box_center.jpeg 1200w, /projects/neural_dim/image/header_hud366522702ae6d6fb1c99033d116571d_28042_1600x900_fill_q90_box_center.jpeg 1600w"
-      data-sizes="auto"
-    >
-    
-  </figure>
-
-
-    </header>
-    
-  <details>
-    <summary>Table of Contents</summary>
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#motivation">Motivation</a></li>
-    <li><a href="#content">Content</a></li>
-    <li><a href="#method">Method</a>
-      <ul>
-        <li><a href="#dataset">Dataset</a></li>
-        <li><a href="#classification">Classification</a></li>
-      </ul>
-    </li>
-    <li><a href="#results">Results</a></li>
-    <li><a href="#future">Future</a></li>
-    <li><a href="#references">References</a></li>
-  </ul>
-</nav>
-  </details>
-
-
-    <div itemprop="articleBody">
-      <p><a href="https://github.com/zstoebs/neural_dim_reduction">GitHub</a></p>
-<h1 id="motivation">Motivation</h1>
-<p>As I began learning about ML, I became fascinated by <a href="https://machinelearningmastery.com/dimensionality-reduction-for-machine-learning/">dimensionality reduction </a> (DR) methods. For those that don&rsquo;t know, DRs project data from a high-dimensional space to a low-dimensional space. In essence, they are generalizations of the vector projection methods onto the x-, y-, and z-axes taught in a multivariable calculus course. DR is akin to conventional information compression, trading off size for information loss so choosing the best method and lower dimension is as much art as it is strategy.</p>
-<h1 id="content">Content</h1>
-<p>I used this project to put fingers to keyboard and learn through implementation. I explored two avenues, applying</p>
-<ol>
-<li>PCA</li>
-<li>An autoencoder</li>
-</ol>
-<p>to a waveform-to-cell type classification problem.</p>
-<p><a href="https://en.wikipedia.org/wiki/Principal_component_analysis">PCA</a> is the OG DR method. It decomposes the covariance matrix of the dataset to discover components that explain the most variance of the dataset. Then, the dataset is projected onto these components, which often times could .</p>
-<p><a href="https://en.wikipedia.org/wiki/Autoencoder">Autoencoders</a> (AEs) are a deep neural network (DNN) that learns to encode examples in a dataset to a lower dimensional latent vector and then decode the latent vector back to the original example. Usually, AEs learn to project examples to a manifold, i.e., they are <a href="https://en.wikipedia.org/wiki/Nonlinear_dimensionality_reduction">non-linear DR methods</a>.</p>
-<p>Essentially, this project compares linear vs. non-linear DR.</p>
-<h1 id="method">Method</h1>
-<h2 id="dataset">Dataset</h2>
-<p>The <a href="https://zenodo.org/record/2949959#.X6tuDC9h3RY">dataset</a> and article <a href="http://elifesciences.org/content/4/e12559v1">Sofroniew, Nicholas James et al. “Neural coding in barrel cortex during whisker-guided locomotion.”</a> can be found on the <a href="https://github.com/sofroniewn/tactile-coding">author&rsquo;s GitHub repo</a>. Of the 16,000 recorded neurons, approx. 30 neurons were recorded for each of 13 subjects. Each recording was comprised of 53 voltage measurements. Overall, the dataset is composed of 302 waveforms. Unavoidably, the dataset is unbalanced; regular spikers comprise 247 of the examples while intermediate spikers only make up 4 examples.</p>
+    x2 = number * 0.5F;
+    y = number;
+    i = * ( long * ) &amp;y; // part 1
+    i = 0x5f3759df - ( i &gt;&gt; 1 ); // part 2
+    y = * ( float * ) &amp;i;
+    y = y * ( threehalfs - ( x2 * y * y ) ); // part 3
+}
+</code></pre><p>I found it on <a href="https://www.youtube.com/watch?v=p8u_k2LIZyo">YouTube</a> and, as my friend Nolan reminded me the other night, this algorithm is not new. The <a href="https://en.wikipedia.org/wiki/Fast_inverse_square_root">fast inverse square root</a> shook the nerd world due to its implementation in Quake III (1999).</p>
+<p>Notice that it doesn’t use any division operator which is naturally slow on a digital computer; this algorithm speeds up computation of the inverse square root by 3x compared to conventional division and square root operations.  The reason for writing it in C is evident in the first part, although these tricks also have analogs in often in other languages such as C++, Python, etc. and is thus implemented in those languages as well.</p>
+<h1 id="part-1">Part 1</h1>
+<p>It uses tricks inherent in the language to cast the address of float (aka a float pointer) to a long pointer. The importance of using a long is evinced in the second part because it allows for quick division by 2. Since standard binary numbers, unlike floats, are not disjointed numbers in base 2, a single right bit shift performs floor halving.</p>
+<h1 id="part-2">Part 2</h1>
+<p>This part is the real meat of the trickery in this clever solution. The second half I already explained in the first part but the first half involves rearranging the floating-point formula for a square root division to solve for scalar values. Recall that floating point numbers are comprised of a mantissa and an exponent. The actual digit number can then be composed of a formula of these two parts: <code>(1 + M/2^23)*2^(E - 127)</code> . The exponent is shifted down by 127 in IEEE 754 in order to represent negative values so <code>2^4</code> is actually <code>2^(131-127)</code> where 131 is the number passed in the exponent. Since the mantissa needs to be between 1 and 2 in binary a 1 is fixed as the first digit before the point and the mantissa is divided by <code>2^23</code> since the mantissa is represented by 23 bits. Taking the logarithm of the above formula results in: <code>log(1+M/2^23) + log(2^(E - 127))</code> . The trick to the problem is that <code>log(1+x) ~= x + mu</code> for small numbers (e.g. fractions less than 1). So this simplifies to: <code>M/2^23 + mu + E - 127</code>. Rearranging results in: <code>1/2^23 * (M + 2^23*E) + mu - 127</code> which is much more useful because the bit representation of a floating point number <code>(M + 2^23*E)</code> is included. Recall that the binary number for a floating number is 8 bits for E followed by 23 bits for M.</p>
+<p>Now that the background is setup, we can continue calculating <code>1/sqrt(x)</code>, or actually <code>1/sqrt(y)</code> in this case. With the rearrangements above, it becomes much easier to calculate the logarithm of a floating point number. So  <code>log(1/sqrt(y)) = log(y^(-1/2)) = -(1/2)*log(y) </code>. So if we want to solve for some G s.t. <code>G = 1/sqrt(y)</code> where <code>log(G) = -(1/2)log(y)</code>, we can substitute in the above rearranged logarithm formula for a floating point number and solve for the bit representation for G which ends up as: <code>M_G + 2^23*E_G = (3/2)*2^23*(127 - mu) - (1/2)*(M_y + 2^23*E_y)</code>. Hence, the first term is that bizarre hexadecimal number and the dexter term is the subtracted single rightshift to halve the number.</p>
+<p>The reason for casting the floating point y to a long should be fairly obvious; we need the hard-coded bit representation of y to be treated as such, not as a floating point number which has different arithmetic operators.</p>
+<h1 id="part-3">Part 3</h1>
+<p>The third step is a little esoteric but not as technical as the second step. As with everything on computers, the numbers computed prior to this step are just an approximation. Due to all of the assumptions previously made (e.g. that the halving above isn’t floored for an odd number, that our chosen mu is accurate, etc.), we need to correct by some amount. Cue the Newton Iteration, which computes the error of x from a root for the function y. For this problem, the function is <code>f(y) = 1/y^2 - x</code>  which rearranges to <code>y = 1/sqrt(x)</code> when y is a root (e.g. <code>f(y) = 0</code>).  We need to compute <code>x_new = x - f(x)/f’(x)</code>. Breaking down the derivative of a function: the derivative is described by the tangent line and where it intercepts the x-axis, composing the triangle below:</p>
 <figure>
-<img src="image/waveforms.jpg" alt="waveform summaries" style="height:400px;" /> 
-<figcaption><i>Figure 1. Summary of the waveforms with mean waveform (left) and waveform distributions by cell type (right). Note that the mean waveform is essentially the tightly bounded waveform distribution for regular spikers, which dominate the dataset.</i></figcaption>
+<img src="image/deriv.jpg" alt="function derivative" /> 
+<figcaption>A useful reference for a function derivative.</figcaption>
 </figure>
-<br>
-<h2 id="classification">Classification</h2>
-<p>To compare and contrast the baseline, PCA, and autoencoding, I implemented a KNN classifier that uses Euclidean distance and majority vote for classification. To find the best number of neighbors given the dataset, I ran it through a standard hyperparameter search using cross-validation and a stratified split of the dataset to mitigate unbalanced classes. Once a good k-value was found, I evaluated the model on the test set, as well as a reclassification of the training set for debugging purposes.</p>
-<h1 id="results">Results</h1>
-<p>The experiments for PCA and autoencoding had the same structure: 1. find the best reduced dimensionality, 2. reduce the dataset, and 3. test with KNN.</p>
-<figure>
-<img src="image/variance.jpg" alt="PCA variance summaries" style="height:400px;" /> 
-<figcaption><i>Figure 2. Scree plot (left) and cumulative explained variance of the first N components (right) from PCA applied to the waveforms.</i></figcaption>
-</figure>
-<figure>
-<img src="image/table1.jpeg" alt="baseline results table" style="height:400px;" /> 
-<figcaption><i>Table 1. Baseline results for a KNN fit on 53-dimensional waveform feature vectors.</i></figcaption>
-</figure>
-<figure>
-<img src="image/table2.jpeg" alt="PCA results table" style="height:400px;" /> 
-<figcaption><i>Table 2. PCA results for a KNN fit on 3- dimensional waveform components.</i></figcaption>
-</figure>
-<figure>
-<img src="image/dim_red_cells.png" alt="PCA results projection" style="height:400px;" /> 
-<figcaption><i>Figure 3. 3D spatial distribution of the waveform principal components from PCA.</i></figcaption>
-</figure>
-<figure>
-<img src="image/table3.jpeg" alt="AE results table" style="height:400px;" /> 
-<figcaption><i>Table 3. Autoencoding results for a KNN fit on 3-dimensional waveform components.</i></figcaption>
-</figure>
-<figure>
-<img src="image/encoded_cells.png" alt="AE results projection" style="height:400px;" /> 
-<figcaption><i>Figure 4. 3D spatial distribution of the encodings from the bottleneck layer of the autoencoder.</i></figcaption>
-</figure>
-<p>For both PCA and autoencoding, the accuracy is only slightly worse than that of the baseline. For PCA, the test accuracy is exactly the same for the 3 seeds while for the autoencoder it is only slightly worse. On the other hand, for the debug accuracy, PCA performs worse than the baseline while the autoencoder performs better. Given that trend, it might suggest that the autoencoder is somewhat overfitting the dataset, diminishing its generalizability. However, the test accuracy suggests that it is not significantly detrimental. All in all, dimensionality reduction still yields data suitable for high performance, even with information loss.</p>
-<h1 id="future">Future</h1>
-<p>PCA is a fixed method but AEs are newer and more flexible. A whole study could be done just exploring AE architectures that yield the best projection for this classification task, not to mention other relevant tasks. Of course, other non-DNN non-linear DR methods could be applied to this dataset, which would be particularly interesting for the classification of waveform to subject. Perhaps one of those methods or an AE would be able to adequately separate these classes, which were not easily separable by PCA when I tried.</p>
-<figure>
-<img src="image/dim_red_subjs.png" alt="PCA subjs results projection" style="height:400px;" /> 
-<figcaption><i>Figure 5. 3D spatial distribution of the waveform principal components from PCA for each subject. PCA could not separate these overlapping classes very well,.</i></figcaption>
-</figure>
-<h1 id="references">References</h1>
-<p>Cunningham, J., Yu, B. Dimensionality reduction for large-scale neural recordings. Nat Neurosci 17, 1500–1509 (2014). <a href="https://doi.org/10.1038/nn.3776">https://doi.org/10.1038/nn.3776</a></p>
-<p>Paninski L, Cunningham JP. Neural data science: accelerating the experiment-analysis- theory cycle in large-scale neuroscience. Curr Opin Neurobiol. 2018 Jun;50:232-241. doi: 10.1016/j.conb.2018.04.007. PMID: 29738986.</p>
-<p>Wu, Tong et al. “Deep Compressive Autoencoder for Action Potential Compression in Large-Scale Neural Recording.” Journal of Neural Engineering 15.6 (2018): n. pag. Journal of Neural Engineering. Web.</p>
-<p>Ladjal, Saïd, Alasdair Newson, and Chi Hieu Pham. “A PCA-like Autoencoder.” arXiv 2 Apr. 2019: n. pag. Print.</p>
-<p><a href="https://jmausolf.github.io/code/pca_in_python/">Scree and cumulative explained variance plots</a></p>
-<p><a href="https://stackabuse.com/seaborn-scatter-plot-tutorial-and-examples/">Matplotlib 3D scatter plot</a></p>
-<p><a href="https://blog.keras.io/building-autoencoders-in-keras.html">Keras autoencoder guide</a></p>
-<p>Hyperparameter grid search for Keras:</p>
-<ul>
-<li><a href="https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/">https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/</a></li>
-<li><a href="https://stackoverflow.com/questions/49823192/autoencoder-gridsearch-hyperparameter-tuning-keras">https://stackoverflow.com/questions/49823192/autoencoder-gridsearch-hyperparameter-tuning-keras</a></li>
-<li><a href="https://towardsdatascience.com/autoencoders-for-the-compression-of-stock-market-data-28e8c1a2da3e">https://towardsdatascience.com/autoencoders-for-the-compression-of-stock-market-data-28e8c1a2da3e</a></li>
-</ul>
-
-    </div>
-    <footer>
-      <hr>
-      <p>
-  Published
-  
-    
-      by <span itemprop="author">Zach Stoebner</span>
-    
-  
-  <time itemprop="datePublished" datetime="2021-06-27T20:58:15-05:00">
-    27 Jun, 2021
-  </time>
-  
-    in <span itemprop="articleSection"><a href="/categories/course/">course</a></span>
-  
-  
-  using <span itemprop="wordCount">834</span> words.
-</p>
-
-      
-
-
-
-
-    </footer>
-  </article>
+<p>Since the ratio of the shifts times the shift in x equals the shift in y, the shift in x can be solved for as the shift in y divided by the ratio which ends up as: <code>f(x)/f’(x)</code>. The actual implementation details of this aren’t made clear by the video, nor is the function derivative computed and I’m quite uncertain about which variable we take the derivative from, x or y. Nonetheless, it results in a static expression without any division operators required.</p>
 </main>
     <footer>
   <small class="muted">
