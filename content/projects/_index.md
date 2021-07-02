@@ -1,7 +1,7 @@
 +++
 title = "projects"
 date = 2021-06-27T23:08:00-05:00
-description = "List of my course, personal, and research projects"
+description = "Check out my projects!"
 draft = false
 [[copyright]]
   owner = "Zach Stoebner"

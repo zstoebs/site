@@ -31,10 +31,14 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
   author = "Zach Stoebner" # Optional, controls author name display on posts
   hide_author = false # Optional, set true to hide author name on posts
   disable_csp = false # Optional, set true to disable content security policy
-  # images = [
-  #   "https://source.unsplash.com/collection/983219/2000x1322"
-  # ] # Suggested, controls default Open Graph images
+  images = [
+    "https://source.unsplash.com/collection/983219/2000x1322"
+  ] # Suggested, controls default Open Graph images
+  related_content_limit = 5 # limit to 5 items maximum site-wide
+  latest_count = 3
 
+[params.hackcss]
+  disabled = false # disable skin styles entirely
 [params.layout.menu.main]
   hidden = false # Optional, set false or remove to show section menu
 
@@ -48,26 +52,47 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
   enabled = true # Optional, set false to disable module
   decoders = ["bpgdec8a"] # Optional, 8-bit javascript decoder with animation
 
+### SECTIONS
+[params.layout.project.featured]
+ limit = 3
+ items = [
+   "neural-dim",
+   "quad-build"
+ ]
+
+[params.layout.project.related]
+  limit = 4
+  thumbs = ["fill", "400x400"] # Optional, thumbnail image processing
+
+[params.layout.blog.featured]
+ limit = 3
+ items = [
+   "intro"
+ ]
+
+[params.layout.blog.related]
+  limit = 4
+  thumbs = ["fill", "400x400"] # Optional, thumbnail image processing
+
+### HOMEPAGE
 [params.layout.home]
    hide_blog = true
 
-### HOMEPAGE
+[[params.layout.home.section]]
+ type = "projects"
+ weight = 1
+ limit = 3
+ thumbs = ["resize", "150x150"]
+
+[[params.layout.home.section]]
+ type = "posts"
+ weight = 2
+ limit = 3
+ thumbs = ["resize", "150x150"]
+
 [[params.layout.home.section]]
   type = "about"
-  weight = 1
-  thumbs = ["fit", "400x400"]
-
-[[params.layout.home.section]]
-  type = "projects"
-  limit = 3
-  weight = 2
-  thumbs = ["fit", "400x400"]
-
-[[params.layout.home.section]]
-  type = "posts"
-  limit = 3
   weight = 3
-  thumbs = ["fit", "400x400"]
 
 ### MENU
 [[menu.main]]

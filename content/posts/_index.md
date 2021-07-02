@@ -1,7 +1,7 @@
 +++
 title = "posts"
 date = 2021-06-27T23:07:53-05:00
-description = "List of my posts"
+description = "Check out my blog posts!"
 draft = false
 [[copyright]]
   owner = "Zach Stoebner"
