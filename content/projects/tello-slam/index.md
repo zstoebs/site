@@ -20,6 +20,11 @@ toc = true
 
 **tl;dr** Implementation of face detection / following and vSLAM on a [Ryze Tello](https://www.ryzerobotics.com/tello) using its [MATLAB toolkit](https://www.mathworks.com/hardware-support/tello-drone-matlab.html).
 
+# Links
+[GitHub](https://github.com/zstoebs/tello_detection_SLAM)
+
+[Paper](/doc/eece6356_paper.pdf)
+
 # Motivation
 Following my [quad build](https://zstoebs.github.io/projects/quad-build/) experience, I set the intention of continuing to work with and learn more about quads. Whereas in that project I focused more on the hardware side of quads, I wanted to focus more on the software side in this one. Specifically, I wanted to program a quad with autonomous functionality. While working on the quad build, I stumbled upon face detection & following and SLAM. Face detection & following is straightforward: use deep learning to draw a bounding box around faces in the image and compute the direction to travel based on the size and offset from the image's center. vSLAM on the other hand is more interesting in my opinion. For those that don't know: [simultaneous localization & mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) (SLAM) uses sensor data, i.e., lidar, radar, camera, etc., to create a map and track the location(s) of the agent(s) on the map. This problem is intractable and elegantly implementing it in the field is a unique challenge, often requiring a team with intimate knowledge of the UAV to tailor clever SLAM algorithms to it. 
 
@@ -117,11 +122,6 @@ vSLAM was a much harder task to get right. One crux of the system was the speed 
 2. Implement general object detection alongside the face detection pipeline. 
 3. Add autonomous movement based on point cloud --> remove need for a predetermined path. 
 4. The implementations here are stepping stones to some more intelligent autonomous UAV behavior. I have the idea that I'll implemennt path planning on a Tello as well. Once I have that, I may integrate these three features into a Tello hide-n-seek project.
-
-# Links
-[GitHub](https://github.com/zstoebs/tello_detection_SLAM)
-
-[Paper](/doc/eece6356_paper.pdf)
 
 # References
 ## Papers
