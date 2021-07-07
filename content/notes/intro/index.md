@@ -2,11 +2,11 @@
 title = "blog intro & intentions"
 date = 2021-06-27T14:18:39-05:00
 categories = ["intro"]
-description = "Briefly outlining my intentions for blog posts."
+description = "Briefly outlining my intentions for notes."
 summary = "Welcome!"
 draft = false
 [schema]
- type = "blog"
+ type = "note"
 [[copyright]]
   owner = "Zach Stoebner"
   date = "2021"
@@ -28,6 +28,6 @@ draft = false
 
 Welcome!
 
-To inaugurate this blog, here are my intentions: 
-1. To collect and structure what I learn and ideate
-2. To hopefully help and entertain weary travelers and passersby
+To inaugurate my notes, here are my intentions: 
+1. To collect and structure what I learn and ideate. 
+2. To hopefully help and entertain weary travelers and passersby. 

@@ -25,7 +25,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 <article itemprop="citation{{ if eq $schema_type "BlogPosting" }} blogPost{{ end }}" itemscope itemtype="https://schema.org/{{ $schema_type }}" id="{{ .Title | anchorize }}">
   <header>
     <h1 itemprop="{{ if $is_typeof_article }}headline{{ else }}name{{ end }}">
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      :: <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </h1>
     {{ if eq .Type "post" }}
       <p class="muted">{{ partial "post/meta.html" . }}</p>

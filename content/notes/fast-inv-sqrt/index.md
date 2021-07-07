@@ -1,12 +1,13 @@
 +++
-title = "The Fast Inverse Square Root"
+title = "fast inverse square root"
 date = 2021-07-01T22:46:27-05:00
-categories = ["math", "programming","hacks"]
-description = "Imagine being so perspicacious."
+categories = ["math", "programming"]
+description = "An awe-inspiring C exploit imo."
+summary = "I found it on [YouTube](https://www.youtube.com/watch?v=p8u_k2LIZyo) and, as my friend Nolan reminded me the other night, this algorithm is not new. The [fast inverse square root](https://en.wikipedia.org/wiki/Fast_inverse_square_root) shook the nerd world with its implementation in Quake III (1999). "
 draft = false
 toc = true
 [schema]
- type = "blog"
+ type = "note"
 [[copyright]]
   owner = "Zach Stoebner"
   date = "2021"
@@ -35,9 +36,7 @@ float Q_rsqrt( float number ) {
 }
 ```
 
-<!--more-->
-
- I found it on [YouTube](https://www.youtube.com/watch?v=p8u_k2LIZyo) and, as my friend Nolan reminded me the other night, this algorithm is not new. The [fast inverse square root](https://en.wikipedia.org/wiki/Fast_inverse_square_root) shook the nerd world due to its implementation in Quake III (1999). 
+ I found it on [YouTube](https://www.youtube.com/watch?v=p8u_k2LIZyo) and, as my friend Nolan reminded me the other night, this algorithm is not new. The [fast inverse square root](https://en.wikipedia.org/wiki/Fast_inverse_square_root) shook the nerd world with its implementation in Quake III (1999). 
  
 Notice that it doesn’t use any division operator which is naturally slow on a digital computer; this algorithm speeds up computation of the inverse square root by 3x compared to conventional division and square root operations.  The reason for writing it in C is evident in the first part, although these tricks also have analogs in often in other languages such as C++, Python, etc. and is thus implemented in those languages as well. 
 

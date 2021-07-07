@@ -27,7 +27,7 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
 [params]
   powered_by = false
   show_menu = true
-  description = "My personal website" # Suggested, controls default description meta
+  description = "Zach Stoebner's portfolio website" # Suggested, controls default description meta
   author = "Zach Stoebner" # Optional, controls author name display on posts
   hide_author = false # Optional, set true to hide author name on posts
   disable_csp = false # Optional, set true to disable content security policy
@@ -57,22 +57,24 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
  limit = 3
  items = [
    "neural-dim",
+   "tello-slam",
    "quad-build"
  ]
 
 [params.layout.project.related]
-  limit = 4
-  thumbs = ["fill", "400x400"] # Optional, thumbnail image processing
+  limit = 5
+  thumbs = ["resize", "150x150"] # Optional, thumbnail image processing
 
-[params.layout.blog.featured]
+[params.layout.note.featured]
  limit = 3
  items = [
-   "intro"
+   "haiku-senryu",
+   "fast-inv-sqrt"
  ]
 
-[params.layout.blog.related]
-  limit = 4
-  thumbs = ["fill", "400x400"] # Optional, thumbnail image processing
+[params.layout.note.related]
+  limit = 5
+  thumbs = ["resize", "150x150"] # Optional, thumbnail image processing
 
 ### HOMEPAGE
 [params.layout.home]
@@ -82,13 +84,13 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
  type = "projects"
  weight = 1
  limit = 3
- thumbs = ["resize", "150x150"]
+ thumbs = ["fill", "400x400"]
 
 [[params.layout.home.section]]
- type = "posts"
+ type = "notes"
  weight = 2
  limit = 3
- thumbs = ["resize", "150x150"]
+ thumbs = ["fill", "400x400"]
 
 [[params.layout.home.section]]
   type = "about"
@@ -114,7 +116,7 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
   url = "/projects/"
 
 [[menu.main]]
-  name = "posts"
+  name = "notes"
   weight = 4
-  identifier = "posts"
-  url = "/posts/"
+  identifier = "notes"
+  url = "/notes/"

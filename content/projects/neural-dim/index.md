@@ -1,9 +1,9 @@
 +++
-title = "Dimensionality Reduction on Neural Data"
+title = "dimensionality reduction on neural data"
 date = 2021-06-27T20:58:15-05:00
-categories = ["course"]
-description = "Exploring PCA vs. autoencoder as dimensionality reduction modalities."
-summary = "As I began learning about ML, I became fascinated by dimensionality reduction methods. For those that don't know, DRs project data from a high-dimensional space to a low-dimensional space. In essence, they are generalizations of the vector projection methods onto the x-, y-, and z-axes taught in a multivariable calculus course. DR is akin to conventional information compression, trading off size for information loss so choosing the best method and lower dimension is as much art as it is strategy. "
+categories = ["course", "neuroscience", "machine learning"]
+description = "PCA vs. autoencoder: the ultimate dimension reduction showdown"
+summary = "I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder."
 draft = false
 toc = true
 [schema]
@@ -22,10 +22,10 @@ toc = true
 <figcaption>A shallow autoencoder's projection of 53-dimensional vectors to 3 dimensions.</figcaption>
 </figure>
 
-[GitHub](https://github.com/zstoebs/neural_dim_reduction)
+**tl;dr** I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder. 
 
 # Motivation
-As I began learning about ML, I became fascinated by [dimensionality reduction ](https://machinelearningmastery.com/dimensionality-reduction-for-machine-learning/) (DR) methods. For those that don't know, DRs project data from a high-dimensional space to a low-dimensional space. In essence, they are generalizations of the vector projection methods onto the x-, y-, and z-axes taught in a multivariable calculus course. DR is akin to conventional information compression, trading off size for information loss so choosing the best method and lower dimension is as much art as it is strategy. 
+As I began learning about ML and statistical ML in particular, I became fascinated by [dimensionality reduction ](https://machinelearningmastery.com/dimensionality-reduction-for-machine-learning/) (DR) methods. For those that don't know, DRs project data from a high-dimensional space to a low-dimensional space. In essence, they are generalizations of the vector projection methods onto the x-, y-, and z-axes taught in a multivariable calculus course. DR is akin to conventional information compression, trading off size for information loss so choosing the best method and lower dimension is as much art as it is strategy. 
 
 
 # Content
@@ -101,6 +101,11 @@ PCA is a fixed method but AEs are newer and more flexible. A whole study could b
 <img src="image/dim_red_subjs.png" alt="PCA subjs results projection" style="height:400px;" /> 
 <figcaption><i>Figure 5. 3D spatial distribution of the waveform principal components from PCA for each subject. PCA could not separate these overlapping classes very well,.</i></figcaption>
 </figure>
+
+# Links 
+[GitHub](https://github.com/zstoebs/neural_dim_reduction)
+
+[Paper](/doc/cs4262_paper.pdf)
 
 # References
 

@@ -4,7 +4,7 @@ date = 2021-06-27T19:24:19-05:00
 categories = ["intro"]
 description = "Legends say that the stache grows commensurately with my wisdom."
 [schema]
- type = "blog"
+ type = "note"
 [[copyright]]
   owner = "Zach Stoebner"
   date = "2021"
@@ -19,9 +19,13 @@ description = "Legends say that the stache grows commensurately with my wisdom."
 <figcaption>Hi, I'm Zach!</figcaption>
 </figure>
 
-I love science and solving problems. I'm currently a graduate student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) at Vanderbilt University applying ML to medical and neuroscientific data -- mainly brain MRI, endoscopic feeds, fMRI, and EEG. I'm also interested in dimensionality reduction, control theory, optimization, and robotics. 
+I love science and solving problems. I'm currently a graduate student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) at Vanderbilt University applying ML to medical and neuroscientific data -- mainly brain MRI, endoscopic feeds, fMRI, and EEG. I'm also interested in dimensionality reduction, cyberphysical systems, control theory, optimization, and robotics. 
 
 Check out my projects to see what I'm working on!
+
+[GitHub](https://github.com/zstoebs)
+[LinkedIn](https://www.linkedin.com/in/zstoebs/)
+[goodreads](https://www.goodreads.com/user/show/99553326-zachary-stoebner)
 
 <!--more-->
 
@@ -31,12 +35,8 @@ I graduated from Vandy in May 2021 with a B.S. in computer science and neuroscie
 
 ---
 
-Outside of research, I enjoy heavy weights, friendship, hendiadys, esports, kombucha, haiku,  cucumber cocktails, and sunset runs. Occasionally, I take a good photo. 
+Outside of research, I enjoy heavy weights, friendship, hendiadys, esports, kombucha, haiku & senryu, cucumber cocktails, and sunset runs. Occasionally, I take a good photo and write a haiku or senryu to pair with it.  
 
 ---
 
 I am always open to new opportunities, especially those that align with my interests. You can contact me at zachary.a.stoebner@vanderbilt.edu.
-
-[GitHub](https://github.com/zstoebs)
-[LinkedIn](https://www.linkedin.com/in/zstoebs/)
-[goodreads](https://www.goodreads.com/user/show/99553326-zachary-stoebner)
