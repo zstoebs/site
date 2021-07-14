@@ -1,6 +1,7 @@
 +++
 title = "on haiku & senryu"
-categories = ["haiku", "senryu", "tanka", "renga", "poetry"]
+categories = ["poetry"]
+tags = ["haiku", "senryu", "tanka", "renga"]
 date = 2021-07-05T16:54:04-05:00
 description = "I love prime numbers."
 summary = "For most of my life, I've been writing poetry when I experience a lightbulb moment. Over time, this habit shapeshifted to mainly haiku & senryu, often composing sequences of 23 - 31 or more on a day out. Although they're usually reluctant to share, the more people that I've met, the more I've discovered also have this practice. People are like onions; they have layers. If you peel back enough, you'll reach the heart -- haiku & senryu are the key to mine. "
@@ -70,9 +71,11 @@ In my opinion, the weakest structure for this senryu is the traditional 3-line o
 
 3. Haiku & senryu should be built upon sensory images
 
-Haiku are intrinsically tied with nature and senryu reflect on the human condition. Both types should generate an image in the reader's mind. Convey the beauty and the rawness of the subject, not something similar to the subject unless that something is part of the image. The goal is to literally capture an experience that evoked an emotion so that the reader may also experience that same emotion. 
+Haiku are intrinsically tied with nature and senryu reflect on the human condition. Both types should generate an image in the reader's mind, often tied with emotion. The goal is to literally capture an experience that evoked an emotion so that the reader may also experience that same emotion. 
 
 A complete haiku incorporates kigo, aka "seasonal reference". The season can be associated with the haiku either through an explicit word or inferred from the image or culture of the poem. 
+
+**Check this out**: [Here](https://gendaihaiku.com/onishi/onishi-yasuyo-haiku.htm) are some of Onishi Yasuyo's astounding senryu. This selection is considered [gendai haiku](https://gendaihaiku.com), aka modern haiku that challenge tradition. 
 
 4. Kireji, aka the "cutting word", blur the boundary between haiku & senryu
 
@@ -88,7 +91,7 @@ wasted again <br>
 </b>
 </i>
 
-<i>Is the screw wasted because it fell some place where I can't retrieve while I was building, or am I wasted at noon?? Up to you, chat.</i>
+<i>Is the screw wasted because, while I was building, it fell somewhere unreachable, or am I wasted at noon?? Up to you, chat.</i>
 
 # History
 - Matsuo Basho is considered the first haiku master
@@ -106,3 +109,4 @@ wasted again <br>
 - Gurga, Lee, and Scott Metz. Haiku 21: an Anthology of Contemporary English-Language Haiku. Modern Haiku Press, 2011. 
 - Matsuo, Bashō, et al. Basho: the Complete Haiku. Kodansha International, 2008. 
 - [https://www.escapeintolife.com/essays/the-art-of-haiku/](https://www.escapeintolife.com/essays/the-art-of-haiku/)
+- [https://gendaihaiku.com](https://gendaihaiku.com)

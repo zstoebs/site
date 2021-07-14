@@ -1,7 +1,8 @@
 +++
 title = "quadcopter build"
 date = 2021-07-01T16:57:10-05:00
-categories = ["personal", "quadcopter", "CPS", "robotics"]
+categories = ["personal"]
+tags = ["quadcopter", "CPS", "robotics"]
 description = "Learning about quadcopters by building one."
 summary = "A life-changing introduction to quadcopters and robotics in which I learned a lot about the ecosystem and constitution. However, I suggest following a smaller, cheaper, and recent build guide. Although my naivete showed through here, my fascination with quads has not soured; check out my [Tello face following and vSLAM project](https://zstoebs.github.io/projects/tello-slam/)!"
 draft = false

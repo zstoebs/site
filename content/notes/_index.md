@@ -1,7 +1,7 @@
 +++
 title = "notes"
 date = 2021-06-27T23:07:53-05:00
-description = "Mes notes avec un je-ne-sais-quoi :vulcan_salute:."
+description = "Avec el não-sei-quê."
 draft = false
 [[copyright]]
   owner = "Zach Stoebner"

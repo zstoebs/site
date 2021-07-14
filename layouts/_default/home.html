@@ -43,7 +43,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         {{ else if gt $page_count 1 }}
           <header>
             <h1 itemprop="name">
-              <a href="{{ $index.RelPermalink }}">recent {{ $index.Title }}</a>
+              :: <a href="{{ $index.RelPermalink }}">recent {{ $index.Title }}</a>
             </h1>
             <blockquote itemprop="description">{{ $index.Description }}</blockquote>
           </header>
