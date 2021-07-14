@@ -2,9 +2,9 @@
 title = "visualizing temporal graph networks"
 date = 2021-07-09T13:28:40-05:00
 categories = ["course"]
-tags = ["GNN", "machine learning", "viz"]
+tags = ["gnn", "ml", "viz"]
 description = "me, 6 months ago: data viz is a dedicated research field??, me, now: thank gawd for data viz researchers..."
-summary = "Visualizing the resulting link prediction graph of a [temporal graph network](https://arxiv.org/pdf/2006.10637.pdf) on a [Wikipedia dataset](https://snap.stanford.edu/jodie/)."
+summary = "Visualizing the resulting [link prediction graph](https://observablehq.com/@zstoebs/cs-8395-project) from a [temporal graph network](https://arxiv.org/pdf/2006.10637.pdf) on a [Wikipedia dataset](https://snap.stanford.edu/jodie/). "
 draft = false
 toc = true
 [[copyright]]
@@ -17,7 +17,7 @@ toc = true
     title = "graph network"
 +++
 
-**tl;dr** Visualizing the resulting link prediction graph of a [temporal graph network](https://arxiv.org/pdf/2006.10637.pdf) on a [Wikipedia dataset](https://snap.stanford.edu/jodie/). 
+**tl;dr** Visualizing the resulting [link prediction graph](https://observablehq.com/@zstoebs/cs-8395-project) from a [temporal graph network](https://arxiv.org/pdf/2006.10637.pdf) on a [Wikipedia dataset](https://snap.stanford.edu/jodie/). 
 
 # Usage
 1. Clone the repo.

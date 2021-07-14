@@ -2,7 +2,7 @@
 title = "quadcopter build"
 date = 2021-07-01T16:57:10-05:00
 categories = ["personal"]
-tags = ["quadcopter", "CPS", "robotics"]
+tags = ["quads", "cps", "robotics"]
 description = "Learning about quadcopters by building one."
 summary = "A life-changing introduction to quadcopters and robotics in which I learned a lot about the ecosystem and constitution. However, I suggest following a smaller, cheaper, and recent build guide. Although my naivete showed through here, my fascination with quads has not soured; check out my [Tello face following and vSLAM project](https://zstoebs.github.io/projects/tello-slam/)!"
 draft = false
@@ -94,13 +94,13 @@ Drill and Drill Bits: https://amzn.to/2SQrZBK
 # Lessons
 Building a drone is easy, getting it to fly is hard. Soldering, plugging, and fixing hardware to the frame is like legos. Flashing the flight OS onto the Raspberry Pi + Navio2 flight controller is no problem. Finding a functioning ground control software from this century = yikes. Then you just have to pray that it's compatible with your flight controller. 
 
-On a side note, this drone is deceptively big. Although I'm not an expert aerospace engineer, I deduce that getting big things to fly is much more of hassle than for small things, especially if you live in an apartment in the city.
+On a side note, this drone is deceptively big. Although I'm not an expert aerospace engineer, I deduce that getting big things to fly is much more of a hassle than for small things, especially if you live in an apartment in the city.
 
 One super fun takeaway: learning how components connect to the whole quad, how they communicate with each other, and how a full-fledged cyberphysical system can come together was extremely rewarding. 
 
 
 # Future
-Off and on, I may try to get this quad flying. However, it will likely remain a trophy of my first foray into quads, and also a testament to my initial learning curve. As I've hinted at many times, I soon intend to follow a smaller, cheaper build. Most importantly, I'm excited to take what I learned here and apply broadly it to other hardware projects. 
+Off and on, I may try to get this quad flying. However, it will likely remain a trophy of my first foray into quads, and also a testament to my initial learning curve. As I've hinted at many times, I soon intend to follow a smaller, cheaper build. Most importantly, I'm excited to take what I learned here and apply it broadly to other hardware projects. 
 
 
 # References
