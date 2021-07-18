@@ -8,3 +8,7 @@ draft = false
   date = "2021"
   license = "cc-by-nd-4.0"
 +++
+
+{{< hackcss-alert type="info" >}}
+Categories <a href="/categories/poetry">poetry</a> <a href="/categories/algo">algo</a> 
+{{< /hackcss-alert >}}
