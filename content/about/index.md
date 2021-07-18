@@ -37,11 +37,9 @@ During undergrad, I was a mentor in the VUSE Design Studio. I have had the privi
 
 ---
 
-Outside of research, I enjoy heavy weights, friendship, hendiadys, esports, kombucha, haiku & senryu, cucumber cocktails, and sunset runs. Occasionally, I take a good photo and write a haiku or senryu to pair with it.  
+Outside of research, I enjoy heavy weights, friendship, haiku & senryu, hendiadys, esports, kombucha, cucumber cocktails, and sunset runs. Occasionally, I take a good photo and write a haiku or senryu to pair with it.  
 
-My big dream is to discover the omphalos for deep learning & neuroscience and develop its gestalt. Ted Chiang is my favorite sci-fi writer. 
-
-I am a Lusophone > Hispanophone > Francophone. I self-studied Portuguese throughout high school, then I took a crucial gap year of emotional and linguistic growth in Lisbon, Portugal. 
+I am a Lusophone >> Hispanophone >>> Francophone. I self-studied Portuguese throughout high school, then I took a crucial gap year of emotional and linguistic growth in Lisbon, Portugal. 
 
 My hometown is Austin, TX. 
 
