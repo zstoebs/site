@@ -1,5 +1,5 @@
 +++
-title = "fast inverse square root"
+title = "on fast inverse square root"
 date = 2021-07-01T22:46:27-05:00
 categories = ["algo"]
 tags = ["C", "hacking"]

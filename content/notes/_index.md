@@ -1,7 +1,7 @@
 +++
 title = "notes"
 date = 2021-06-27T23:07:53-05:00
-description = "Avec el não-sei-quê."
+description = "O que j'aprendí avec el não-sei-quê."
 draft = false
 [[copyright]]
   owner = "Zach Stoebner"
@@ -10,5 +10,5 @@ draft = false
 +++
 
 {{< hackcss-alert type="info" >}}
-Categories <a href="/categories/poetry">poetry</a> <a href="/categories/algo">algo</a> 
+Categories <a href="/categories/poetry">poetry</a> <a href="/categories/algo">algo</a>  <a href="/categories/about">about</a> 
 {{< /hackcss-alert >}}

@@ -1,7 +1,7 @@
 +++
 title = "notes intro & intentions"
 date = 2021-06-27T14:18:39-05:00
-categories = ["intro"]
+categories = ["about"]
 description = "Briefly outlining my intentions for notes."
 summary = "Welcome!"
 draft = false

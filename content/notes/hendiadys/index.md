@@ -24,7 +24,7 @@ toc = true
 
 {{< hackcss-alert type="info" >}}
 To help you understand, if these tail a structure in a sentence then it: <br>
-<strong>;)</strong> ---> is, or could be formed as, hendiadys. <br>
+<strong>;)</strong> ---> is, or could be formed as, a hendiadys. <br>
 <strong>:'(</strong> --> could be confused as a possible hendiadys.
 {{< /hackcss-alert >}}
 
@@ -48,7 +48,7 @@ What does this even mean? The movie is iconic and in my opinion you cannot have 
 
 - "Look on my Works, ye Mighty, and despair!" Percy Bysshe Shelley, <i>Ozymandias</i>
 
-If you haven't read this brief [poem](https://www.poetryfoundation.org/poems/46565/ozymandias), do that right the hell now. When you read this line, "my Works" and "ye Mighty" likely mean the same thing with an epic effect, then to round it off you read "despair." At first glance, "despair" is a verb -- a command to the reader to know their place. However, hwo do you know? "Despair" could also be a noun where Ozymandias' mighty works are despair embodied. 
+If you haven't read this brief [poem](https://www.poetryfoundation.org/poems/46565/ozymandias), do that right the hell now. When you read this line, "my Works" and "ye Mighty" likely mean the same thing with an epic effect, then to round it off you read "despair." At first glance, "despair" is a verb -- a command to the reader to know their place. However, how do you know? "Despair" could also be a noun and Ozymandias' mighty works are despair embodied. 
 
 <i>
 <b>Ozymandias</b> is one of my all-time favorites and that line in particular is possibly my favorite line in poetry, despite its not being a hendiadys. 
