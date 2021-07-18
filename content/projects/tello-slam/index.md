@@ -88,13 +88,13 @@ The local mapping steps are as follows:
 <img src="image/face_detect.jpg" alt="example face detect frame." /> 
 <figcaption> Fig 3. Examples of when my face is detected. Looking at the Tello (left) and not looking at the Tello (right). Nonetheless, it still detects my face and doesn’t pick up much noise, even in low light. </figcaption>
 </figure>
-
+<br>
 
 <figure>
 <img src="image/fake_face.png" alt="example face detect misclassification." /> 
 <figcaption> Fig 4. Example of face misclassification. These misclassifications typically occur when there is no face in view of the camera. Otherwise, they are rare and not noticeable during a face following run. </figcaption>
 </figure>
-
+<br>
 
 Face following was easy to implement. The ony hindrance was the occasional misclassification confusing the Tello, causing it to align with that "face". You can see from these face detection frames that a bounding box computed. From here, the distance to the target can be inferred from the area of the bounding box and the alignment offset can be inferred from the bounding box center's distance from the frame's center. 
 
@@ -105,16 +105,19 @@ Face following was easy to implement. The ony hindrance was the occasional miscl
 <img src="image/matches.png" alt="map initialization matches." /> 
 <figcaption> Fig 5. Example of a map initialization feature match. Typically, the map initialized and I could get a sense of where the features were. </figcaption>
 </figure>
+<br>
 
 <figure>
 <img src="image/feature_extract.jpg" alt="feature extraction." /> 
 <figcaption> Fig 6. Examples of good (left) and average (right) feature extraction. Often times, the good initial feature extractions really set the momentum for how the rest of the main loop would turn out. Notice that the busier nearby area with more edges acquires more features. </figcaption>
 </figure>
+<br>
 
 <figure>
 <img src="image/map_locate.jpg" alt="mapping and localization." /> 
 <figcaption> Fig 7. Examples of map plots and estimated trajectories and camera pose. Both of the movement sequences were left and right images and that the number on the camera indicates that there were 10 keyframes in this vSLAM run.</figcaption>
 </figure>
+<br>
 
 vSLAM was a much harder task to get right. One crux of the system was the speed at which the Tello captured frames; for vSLAM to work well, frames need to be captured in quick succession, with very slight movements. Precisely moving the Tello proved to be very challenging with the MATLAB toolkit, plus an indoor environment where the Tello's own gusts from its propellers reflected off of hard surfaces would significantly alter its course. Regardless, the system was still able to generate a point cloud and update location within the map.  
 
