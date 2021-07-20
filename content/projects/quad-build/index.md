@@ -23,7 +23,7 @@ toc = true
 <figcaption>My fully built quadcopter on the ground, not flying... yet.</figcaption>
 </figure>
 
-**tl;dr** A life-changing introduction to quadcopters and robotics in which I learned a lot about the ecosystem and constitution. However, I suggest following a smaller, cheaper, and recent build guide. Although my naivete showed through here, my fascination with quads has not soured; check out my [Tello face following and vSLAM project](https://zstoebs.github.io/projects/tello-slam/)! 
+**tl;dr** A life-changing introduction to quadcopters and robotics in which I learned a lot about the quad ecosystem and their constitution. However, I suggest following a smaller, cheaper, and recent build guide. Although my naivete showed through here, my fascination with quads has not soured; check out my [Tello face following and vSLAM project](https://zstoebs.github.io/projects/tello-slam/)! 
 
 # Motivation
 As much as I like software, I also like hardware. I quickly realized that pure computer science wasn't going to expose me to much hardware so I took it upon myself in summer 2020 -- mid-quarantine -- to teach myself. At the time, I was stumbling down a rabbit hole and obsessing over quadcopters, yet I had never laid my hands on one. To me at the time, building a quad from parts was as good a place to start as any. 
@@ -97,6 +97,8 @@ Building a drone is easy, getting it to fly is hard. Soldering, plugging, and fi
 On a side note, this drone is deceptively big. Although I'm not an expert aerospace engineer, I deduce that getting big things to fly is much more of a hassle than for small things, especially if you live in an apartment in the city.
 
 One super fun takeaway: learning how components connect to the whole quad, how they communicate with each other, and how a full-fledged cyberphysical system can come together was extremely rewarding. 
+
+**Large quad with exposed wires and point ends = the ultimate cat chew-toy**
 
 
 # Future

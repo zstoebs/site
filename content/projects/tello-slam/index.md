@@ -27,7 +27,7 @@ toc = true
 [Paper](/doc/eece6356_paper.pdf)
 
 # Motivation
-Following my [quad build](https://zstoebs.github.io/projects/quad-build/) experience, I set the intention of continuing to work with and learn more about quads. Whereas in that project I focused more on the hardware side of quads, I wanted to focus more on the software side in this one. Specifically, I wanted to program a quad with autonomous functionality. While working on the quad build, I stumbled upon face detection & following and SLAM. Face detection & following is straightforward: use deep learning to draw a bounding box around faces in the image and compute the direction to travel based on the size and offset from the image's center. vSLAM on the other hand is more interesting in my opinion. For those that don't know: [simultaneous localization & mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) (SLAM) uses sensor data, i.e., lidar, radar, camera, etc., to create a map and track the location(s) of the agent(s) on the map. This problem is intractable and elegantly implementing it in the field is a unique challenge, often requiring a team with intimate knowledge of the UAV to tailor clever SLAM algorithms to it. 
+Following my [quad build](https://zstoebs.github.io/projects/quad-build/) experience, I set the intention to continue working with and learning more about quads. Whereas in that project I focused more on the hardware side of quads, I wanted to focus more on the software side in this one. Specifically, I wanted to program a quad with autonomous functionality. While working on the quad build, I stumbled upon face detection & following and SLAM. Face detection & following is straightforward: use deep learning to draw a bounding box around faces in the image and compute the direction to travel based on the size and offset from the image's center. vSLAM on the other hand is more interesting in my opinion. For those that don't know: [simultaneous localization & mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) (SLAM) uses sensor data, i.e., lidar, radar, camera, etc., to create a map and track the location(s) of the agent(s) on the map. This problem is intractable and elegantly implementing it in the field is a unique challenge, often requiring a team with intimate knowledge of the UAV to tailor clever SLAM algorithms to it. 
 
 
 # Contents
@@ -96,7 +96,7 @@ The local mapping steps are as follows:
 </figure>
 <br>
 
-Face following was easy to implement. The ony hindrance was the occasional misclassification confusing the Tello, causing it to align with that "face". You can see from these face detection frames that a bounding box computed. From here, the distance to the target can be inferred from the area of the bounding box and the alignment offset can be inferred from the bounding box center's distance from the frame's center. 
+Face following was easy to implement. The ony hindrance was the occasional misclassification confusing the Tello, causing it to align with that "face". You can see from these face detection frames that a bounding box was computed. From here, the distance to the target can be inferred from the area of the bounding box and the alignment offset can be inferred from the bounding box center's distance from the frame's center. 
 
 
 ## vSLAM
@@ -119,7 +119,7 @@ Face following was easy to implement. The ony hindrance was the occasional miscl
 </figure>
 <br>
 
-vSLAM was a much harder task to get right. One crux of the system was the speed at which the Tello captured frames; for vSLAM to work well, frames need to be captured in quick succession, with very slight movements. Precisely moving the Tello proved to be very challenging with the MATLAB toolkit, plus an indoor environment where the Tello's own gusts from its propellers reflected off of hard surfaces would significantly alter its course. Regardless, the system was still able to generate a point cloud and update location within the map.  
+vSLAM was a much harder task to get right. One crux of the system was the speed at which the Tello captured frames; for vSLAM to work well, frames need to be captured in quick succession, with very slight movements. Precisely moving the Tello proved to be very challenging with the MATLAB toolkit, plus an indoor environment where the Tello's own gusts reflecting off of hard surfaces would significantly alter its course. Regardless, the system was still able to generate a point cloud and update location within the map.  
 
 # Future
 1. Streamline main.m with user input to guide the program and improve the functionality of vslam.m as best I can for Tello. 

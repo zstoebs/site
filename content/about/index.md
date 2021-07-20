@@ -21,11 +21,11 @@ description = "Legends say that the stache grows commensurately with my wisdom."
 
 I love science and solving problems. I'm currently a graduate student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) at Vanderbilt University applying ML to medical and neuroscientific data -- mainly brain MRI, endoscopic feeds, fMRI, and EEG. I'm also interested in dimensionality reduction, cyberphysical systems, control theory, optimization, and robotics. 
 
-Check out my projects to see what I'm working on!
+Check out my [projects](/projects/) to see what I'm working on!
 
 [GitHub](https://github.com/zstoebs)
 [LinkedIn](https://www.linkedin.com/in/zstoebs/)
-[goodreads](https://www.goodreads.com/user/show/99553326-zachary-stoebner)
+[Goodreads](https://www.goodreads.com/user/show/99553326-zachary-stoebner)
 
 <!--more-->
 
