@@ -7,6 +7,8 @@ description = "Noobs think linear regression is easy... try LMMs."
 summary = "My first completed research project and incredibly my first first-authorship. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then perform statistical analyses on the results using SurfStat and random field theory."
 draft = false
 toc = true
+[schema]
+  type = "project"
 [[copyright]]
   owner = "Zach Stoebner"
   date = "2021"

@@ -7,10 +7,12 @@ description = ""
 summary = ""
 draft = true
 toc = true
+[schema]
+  type = "project"
 [[copyright]]
   owner = "Zach Stoebner"
   date = "2021"
   license = "cc-by-nd-4.0"
 +++
 
-**tl;dr**
+**tl;dr** 

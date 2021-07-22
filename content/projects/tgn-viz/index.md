@@ -7,6 +7,8 @@ description = "me, 6 months ago: data viz is a dedicated research field??, me, n
 summary = "Visualizing the resulting [link prediction graph](https://observablehq.com/@zstoebs/cs-8395-project) from a [temporal graph network](https://arxiv.org/pdf/2006.10637.pdf) on a [Wikipedia dataset](https://snap.stanford.edu/jodie/). "
 draft = false
 toc = true
+[schema]
+  type = "project"
 [[copyright]]
   owner = "Zach Stoebner"
   date = "2021"

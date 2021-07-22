@@ -7,6 +7,8 @@ description = "1 + 1 ≠ 2, existential me circa 1600"
 summary = "I bet you have no idea what this is. You've definitely seen one before... but you just didn't know it. Boo!"
 draft = false
 toc = true
+[schema]
+  type = "note"
 [[copyright]]
   owner = "Zach Stoebner"
   date = "2021"
