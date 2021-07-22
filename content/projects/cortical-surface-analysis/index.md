@@ -4,7 +4,7 @@ date = 2021-07-14T10:38:19-05:00
 categories = ["research"]
 tags = ["ml", "neuro", "matlab", "R"]
 description = "Noobs think linear regression is easy... try LMMs."
-summary = "My first completed research project and incredibly my first first-authorship. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then perform statistical analyses on the results using SurfStat and random field theory."
+summary = "My first completed research project and incredibly my first first-authorship. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. I learned that complicated statistical anlayses are uniquely challenging, that I love LMMs and RFT, and that they are too esoteric in the current day -- let's make them more accessible!"
 draft = false
 toc = true
 [schema]
@@ -19,13 +19,13 @@ toc = true
   title = "LGI results"
 +++
 
-**tl;dr** My first completed research project and incredibly my first first-authorship. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory.
+**tl;dr** My first completed research project and incredibly my first first-authorship. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. I learned that complicated statistical anlayses are uniquely challenging, that I love LMMs and RFT, and that they are too esoteric in the current day -- let's make them more accessible!
 
 # Links
-**We are still in the process of submitting our manuscript. As soon as it's published, I will link it here.**
+**We are in the process of submitting our manuscript. As soon as it's published, I will link it here.**
 
 # Background
-My first complete research project, the main takeaway was learning the scientific process in action and, most importantly, learning to work with more experienced researchers. I wrote the code and performed all of the analysis that produced our results. However, I did not develop the awesome acquisition method that generated our LGI data nor the statistical theory behind the analysis. Throughout the project, I have relied heavily on the expertise of my co-authors -- all of whom have PhDs whereas I was an undergrad until recently. This first journey in research has been inspiring and indelible and I am beyond grateful for it!
+My first complete research project, a main takeaway was learning the scientific process in action and, most importantly, learning to work with more experienced researchers. I wrote the code and performed all of the analysis that produced our results. However, I did not develop the awesome acquisition method that generated our LGI data nor the statistical theory behind the analysis. Throughout the project, I have relied heavily on the expertise of my co-authors -- all of whom have PhDs whereas I was an undergrad until recently. This first journey in research has been inspiring and indelible and I am beyond grateful for it!
 
 [LMMs](https://stats.idre.ucla.edu/other/mult-pkg/introduction-to-linear-mixed-models/)
 
