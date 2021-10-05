@@ -10,5 +10,5 @@ draft = false
 +++
 
 {{< hackcss-alert type="info" >}}
-Categories <a href="/categories/research">research</a> <a href="/categories/course">course</a> <a href="/categories/personal">personal</a>
+<a href="/categories/research">research</a> <a href="/categories/course">course</a> <a href="/categories/personal">personal</a>
 {{< /hackcss-alert >}}

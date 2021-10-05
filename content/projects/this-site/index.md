@@ -3,7 +3,7 @@ title = "how to host a Hugo After Dark site on GitHub Pages: a saga"
 date = 2021-07-09T23:36:07-05:00
 categories = ["personal"]
 tags = ["webdev", "html", "hugo", "js"]
-description = "¡¡host fast, pretty website 4 free!! really, not kidding, this is a life hack."
+description = "¡¡host fast, pretty website 4 free!! for real, not kidding."
 summary = "From knowing very little about webdev to everything (or at least most) you need to know, all in one place! The [Hugo hosting docs](https://gohugo.io/hosting-and-deployment/hosting-on-github/) and [After Dark]((https://after-dark.habd.as)) tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be. "
 draft = false
 toc = true
@@ -24,12 +24,14 @@ toc = true
    license = "https://unsplash.com/license" 
 +++
 
-**tl;dr** From knowing very little about webdev to everything (or at least most) you need to know, all in one place! The [Hugo hosting docs](https://gohugo.io/hosting-and-deployment/hosting-on-github/) and [After Dark]((https://after-dark.habd.as)) tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be. 
+**tl;dr** From knowing very little about webdev to the bare minimum that you need to know, all in one place! The [Hugo hosting docs](https://gohugo.io/hosting-and-deployment/hosting-on-github/) and [After Dark]((https://after-dark.habd.as)) tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be. 
 
 # Links
 [Site source](https://github.com/zstoebs/site)
 
 [Generated source](https://github.com/zstoebs/zstoebs.github.io)
+
+[Here](https://motherfuckingwebsite.com) justifies my <i>perfect</i> website build. 
 
 
 # How to Host

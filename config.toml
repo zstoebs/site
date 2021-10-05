@@ -81,20 +81,26 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
    hide_blog = true
 
 [[params.layout.home.section]]
- type = "projects"
+ type = "about"
  weight = 1
- limit = 3
- thumbs = ["fill", "400x400"]
 
 [[params.layout.home.section]]
- type = "notes"
+ type = "projects"
  weight = 2
  limit = 3
  thumbs = ["fill", "400x400"]
 
 [[params.layout.home.section]]
-  type = "about"
-  weight = 3
+ type = "notes"
+ weight = 3
+ limit = 3
+ thumbs = ["fill", "400x400"]
+
+[[params.layout.home.section]]
+type = "kū"
+weight = 4
+limit = 3
+thumbs = ["fill", "400x400"]
 
 ### MENU
 [[menu.main]]
@@ -120,3 +126,9 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
   weight = 4
   identifier = "notes"
   url = "/notes/"
+
+[[menu.main]]
+  name = "kū"
+  weight = 5
+  identifier = "kū"
+  url = "/kū/"
