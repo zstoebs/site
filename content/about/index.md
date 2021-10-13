@@ -21,7 +21,7 @@ description = "Legends say that the stache grows commensurately with my wisdom."
 
 I leverage machine learning to solve challenging problems in neuroscience, computer vision, & intelligent systems. I'm currently a graduate student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) at Vanderbilt University investigating applied ML to medical and neuroscientific data. Generally, my interests are ML & neuroscience, intelligent systems & robotics, and optimization & control theory. 
 
-Check out my [projects](/projects/) to see what I'm working on, [notes](/notes/) to see what I'm thinking about, and [kū](/kū/) to see what I'm seeing!
+Check out my [projects](/projects/) to see what I'm working on, [notes](/notes/) to see what I'm thinking about, and [kū](/ku/) to see what I'm seeing!
 
 <!--[CV](/doc/CV.pdf)-->
 [GitHub](https://github.com/zstoebs)
@@ -38,7 +38,7 @@ During undergrad, I was a mentor in the VUSE Design Studio. I have had the privi
 
 ---
 
-Outside of research, I enjoy heavy weights, friendship, haiku & senryu, hendiadys, esports, kombucha, cucumber cocktails, and sunset runs. Occasionally, I take a good photo and write a haiku or senryu to pair with it.  
+Outside of research, I enjoy heavy weights, friendship, haiku & senryu, hendiadys, esports, kombucha, cucumber cocktails, and sunset runs. Occasionally, I take a good photo and write a haiku or senryu to pair with it. I especially like to take shameless photoshoots of my cats, Amie and Chaussure (Sir for short). 
 
 I am a Lusophone > Hispanophone > Francophone. I self-studied Portuguese throughout high school, then I took a crucial gap year of emotional and linguistic growth in Lisbon, Portugal. 
 

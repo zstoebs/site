@@ -97,7 +97,7 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
  thumbs = ["fill", "400x400"]
 
 [[params.layout.home.section]]
-type = "kū"
+type = "ku"
 weight = 4
 limit = 3
 thumbs = ["fill", "400x400"]
@@ -130,5 +130,5 @@ thumbs = ["fill", "400x400"]
 [[menu.main]]
   name = "kū"
   weight = 5
-  identifier = "kū"
-  url = "/kū/"
+  identifier = "ku"
+  url = "/ku/"
