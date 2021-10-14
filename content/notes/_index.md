@@ -10,5 +10,5 @@ draft = false
 +++
 
 {{< hackcss-alert type="info" >}}
-<a href="/categories/poetry">poetry</a> <a href="/categories/algo">algo</a>  <a href="/categories/about">me</a> 
+<a href="/categories/poetry">poetry</a> <a href="/categories/algo">algo</a>  <a href="/categories/me">me</a> 
 {{< /hackcss-alert >}}

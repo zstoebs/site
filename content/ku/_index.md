@@ -9,6 +9,9 @@ draft = false
   license = "cc-by-nd-4.0"
 +++
 
+<!-- href="/categories/haiku">haiku</a> <a href="/categories/senryu">senryū</a>-->
+
 {{< hackcss-alert type="info" >}}
-<a href="/categories/haiku">haiku</a> <a href="/categories/senryu">senryū</a>
+ <a href="/notes/haiku-senryu"><b><i>README</i><b></a> <br>
+ All kū photos were taken by me with a Canon EOS DIGITAL REBEL XS. 
 {{< /hackcss-alert >}}

@@ -1,8 +1,9 @@
 +++
 title = "kū português"
 date = 2021-06-27T19:24:19-05:00
-description = "Select kū written during 2016-2017 in Portugal"
-categories = ["haiku","senryu","poetry"]
+description = "select kū written during 2016-2017 in Portugal"
+summary = "seja alfacinha quem for"
+categories = ["haiku","senryu"]
 tags = ["portuguese"]
 draft = false
 [schema]

@@ -103,10 +103,11 @@ wasted again <br>
 - Tanka = hokku + geku
 	- Tanka was the form often used in samurai death poems and consists of 5 lines totaling 31 syllables, usually reflecting on the beauty of life and the environment
 
-# References
+# (Good) References
 
 - Higginson, William J., and Penny Harter. The Haiku Handbook: How to Write, Teach, and Appreciate Haiku. Kodansha USA, 2013. 
 - Gurga, Lee, and Scott Metz. Haiku 21: an Anthology of Contemporary English-Language Haiku. Modern Haiku Press, 2011. 
 - Matsuo, Bashō, et al. Basho: the Complete Haiku. Kodansha International, 2008. 
-- [https://www.escapeintolife.com/essays/the-art-of-haiku/](https://www.escapeintolife.com/essays/the-art-of-haiku/)
-- [https://gendaihaiku.com](https://gendaihaiku.com)
+- [Gendai Haiku Collection](https://gendaihaiku.com)
+- [Blog: The Art of Haiku](https://www.escapeintolife.com/essays/the-art-of-haiku/)
+- [Blog: Becoming a Haiku Poet](http://www.graceguts.com/essays/becoming-a-haiku-poet)
