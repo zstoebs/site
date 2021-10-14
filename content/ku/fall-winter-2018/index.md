@@ -1,8 +1,8 @@
 +++
 title = "fall-winter 2018"
 date = 2021-07-02T11:46:28-05:00
-description = "haiku, senryu, and tanka from fall-winter 2018"
-summary = "season of the dog"
+description = "kū and tanka from fall-winter 2018"
+summary = "season of the puppy dawg"
 categories = ["haiku","senryu","tanka"]
 tags = ["fall","winter"]
 draft = false

@@ -1,7 +1,7 @@
 +++
 title = "fall-winter 2019"
 date = 2021-07-14T10:38:19-05:00
-description = "haiku and senryu from fall-winter 2019"
+description = "kū from fall-winter 2019"
 summary = "not many here"
 categories = ["haiku","senryu"]
 tags = ["fall","winter"]
