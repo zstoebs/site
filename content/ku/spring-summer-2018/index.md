@@ -32,6 +32,8 @@ green deception <br>
 {{< /hackcss-cell >}}
 {{< /hackcss-grid >}}
 
+<br>
+
 {{< hackcss-grid >}}
 {{< hackcss-cell class="-6of12" >}}
 urbano <br>
