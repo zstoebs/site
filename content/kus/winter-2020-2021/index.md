@@ -22,8 +22,8 @@ windows are closed, but listen <br>
 world solitude <br>
 
 devotion -- <br>
-    sun that invites you <br>
-                            upon inspection <br>
+	sun that invites you <br>
+			upon inspection <br>
 
 seated on winter grass -- <br>
 computer juxtaposed <br>

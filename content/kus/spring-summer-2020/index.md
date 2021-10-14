@@ -38,7 +38,7 @@ the spring robin <br>
 <img src="image/lantern.JPG" />
 
 the green samurai -- <br>
-approaches me with light <br>
+nears me with day light <br>
 and his stone <br>
 
 # summer

@@ -58,7 +58,7 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
  items = [
    "neural-dim",
    "tello-slam",
-   "quad-build"
+   "cortical-surface-analysis"
  ]
 
 [params.layout.project.related]
@@ -69,12 +69,25 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
  limit = 3
  items = [
    "haiku-senryu",
-   "fast-inv-sqrt"
+   "fast-inv-sqrt",
+   "hendiadys"
  ]
 
 [params.layout.note.related]
   limit = 5
   thumbs = ["resize", "150x150"] # Optional, thumbnail image processing
+
+[params.layout.ku.related]
+  limit = 5
+  thumbs = ["resize", "150x150"] # Optional, thumbnail image processing
+
+[params.layout.ku.featured]
+ limit = 3
+ items = [
+   "portugues",
+   "spring-summer-2020",
+   "spring-summer-2019"
+ ]
 
 ### HOMEPAGE
 [params.layout.home]
@@ -97,7 +110,7 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
  thumbs = ["fill", "400x400"]
 
 [[params.layout.home.section]]
-type = "ku"
+type = "kus"
 weight = 4
 limit = 3
 thumbs = ["fill", "400x400"]
@@ -130,5 +143,5 @@ thumbs = ["fill", "400x400"]
 [[menu.main]]
   name = "kū"
   weight = 5
-  identifier = "ku"
-  url = "/ku/"
+  identifier = "kus"
+  url = "/kus/"

@@ -26,9 +26,9 @@ pelo pecado puro e <br>
 decepção verde <br>
 {{< /hackcss-cell >}}
 {{< hackcss-cell class="-6of12" >}}
-fatality --  <br>
+<i>fatality --  <br>
 by the pure sin and <br>
-green deception <br>
+green deception <br></i>
 {{< /hackcss-cell >}}
 {{< /hackcss-grid >}}
 
@@ -43,11 +43,11 @@ cidades construídos <br>
 em cima de outras <br>
 {{< /hackcss-cell >}}
 {{< hackcss-cell class="-6of12" >}}
-urban <br>
+<i>urban <br>
 development -- <br>
 human <br>
 cities built <br>
-on others <br>
+on others <br></i>
 {{< /hackcss-cell >}}
 {{< /hackcss-grid >}}
 

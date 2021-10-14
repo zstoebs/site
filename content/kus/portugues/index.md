@@ -26,9 +26,9 @@ surpreedente em Cascais que <br>
 não atrevem nadar <br>
 {{< /hackcss-cell >}}
 {{< hackcss-cell class="-6of12" >}}
-rare, hot day --  <br>
+<i>rare, hot day --  <br>
 surprising in Cascais that <br>
-they don't dare swim <br>
+they don't dare swim <br></i>
 {{< /hackcss-cell >}}
 {{< /hackcss-grid >}}
 
@@ -41,9 +41,9 @@ passo do pente pelo cabelo e <br>
 chove bate a janela
 {{< /hackcss-cell >}}
 {{< hackcss-cell class="-6of12" >}}
-watery shampoo <br>
+<i>watery shampoo <br>
 comb passes through hair and <br>
-rain batters the window <br>
+rain batters the window <br></i>
 {{< /hackcss-cell >}}
 {{< /hackcss-grid >}}
 
@@ -56,9 +56,9 @@ relaxam-me nas costas --  <br>
 ventos até inverno <br>
 {{< /hackcss-cell >}}
 {{< hackcss-cell class="-6of12" >}}
-waves of the Tejo <br>
+<i>waves of the Tejo <br>
 relax me on my back -- <br>
-winds to winter <br>
+winds to winter <br></i>
 {{< /hackcss-cell >}}
 {{< /hackcss-grid >}}
 
@@ -71,9 +71,9 @@ metais bem empregados <br>
 atrás da faixa amarela <br>
 {{< /hackcss-cell >}}
 {{< hackcss-cell class="-6of12" >}}
-cold winds above :  <br>
+<i>cold winds above :  <br>
 well-employed metals <br>
-behind the yellow line <br>
+behind the yellow line <br></i>
 {{< /hackcss-cell >}}
 {{< /hackcss-grid >}}
 
@@ -86,9 +86,9 @@ escrito no prédio :  <br>
 nuvens em tudo <br>
 {{< /hackcss-cell >}}
 {{< hackcss-cell class="-6of12" >}}
-smoke here <br>
+<i>smoke here <br>
 written on the building :  <br>
-clouds everywhere <br>
+clouds everywhere <br></i>
 {{< /hackcss-cell >}}
 {{< /hackcss-grid >}}
 
@@ -101,9 +101,9 @@ enquanto olho ao branco -- <br>
 Camões vacia  <br>
 {{< /hackcss-cell >}}
 {{< hackcss-cell class="-6of12" >}}
-I drink from red <br>
+<i>I drink from red <br>
 while looking at white -- <br>
-empty Camões <br>
+empty Camões <br></i>
 {{< /hackcss-cell >}}
 {{< /hackcss-grid >}}
 
@@ -115,8 +115,8 @@ porém ao ver o pássaro procura  <br>
 na telha cinzas <br>
 {{< /hackcss-cell >}}
 {{< hackcss-cell class="-6of12" >}}
-but upon seeing the bird search <br>
-on grey tiles <br>
+<i>but upon seeing the bird search <br>
+on grey tiles <br></i>
 {{< /hackcss-cell >}}
 {{< /hackcss-grid >}}
 
@@ -129,9 +129,9 @@ busca <br>
 gajo <br>
 {{< /hackcss-cell >}}
 {{< hackcss-cell class="-6of12" >}}
-taxi <br>
+<i>taxi <br>
 pick up <br>
-guy <br>
+guy <br></i>
 {{< /hackcss-cell >}}
 {{< /hackcss-grid >}}
 
@@ -144,9 +144,9 @@ tenho de o derrotar -- <br>
 a primavera já <br>
 {{< /hackcss-cell >}}
 {{< hackcss-cell class="-6of12" >}}
-coffee <br>
+<i>coffee <br>
 I have to defeat it -- <br>
-spring now <br>
+spring now <br></i>
 {{< /hackcss-cell >}}
 {{< /hackcss-grid >}}
 
@@ -159,9 +159,9 @@ nade à casa  <br>
 inverno vem <br>
 {{< /hackcss-cell >}}
 {{< hackcss-cell class="-6of12" >}}
-blue jellyfish <br>
+<i>blue jellyfish <br>
 may swim home <br>
-winter comes  <br>
+winter comes  <br></i>
 {{< /hackcss-cell >}}
 {{< /hackcss-grid >}}
 

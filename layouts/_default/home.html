@@ -27,6 +27,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
   <header>
     <h1 itemprop="name">{{ .Title }}</h1>
   </header>
+  {{ .Content }}
   {{ with .Site.Params.layout.home.section }}
     {{ if ne $.Site.Params.hackcss.disabled true }}
       {{ with resources.Get "css/conditional/layouts/partials/page-thumbs.css" | minify }}

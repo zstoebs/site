@@ -13,5 +13,5 @@ draft = false
 
 {{< hackcss-alert type="info" >}}
  <a href="/notes/haiku-senryu"><b><i>README</i><b></a> <br>
- All kū photos were taken by me with (mostly) a Canon EOS DIGITAL REBEL XS. 
+ All kū photos were taken by me (mostly) with a Canon EOS DIGITAL REBEL XS. 
 {{< /hackcss-alert >}}
