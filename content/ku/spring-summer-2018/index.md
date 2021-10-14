@@ -13,7 +13,7 @@ draft = false
   date = "2021"
   license = "cc-by-nd-4.0"
 [[resources]]
-  src = "image/wyatt.JPG"
+  src = "image/seattle.JPG"
   name = "header thumbnail"
 +++
 
@@ -56,5 +56,3 @@ eggs rest on rice  <br>
 caving in <br>
 My chest crumbles with anxiety <br>
 Waiting to board their flight <br>
-
-<img src="image/seattle.JPG" />
