@@ -23,7 +23,7 @@ I leverage machine learning to solve challenging problems in neuroscience, compu
 
 Check out my [projects](/projects/) to see what I'm working on, [notes](/notes/) to see what I'm thinking about, and [kū](/ku/) to see what I'm seeing!
 
-<!--[CV](/doc/CV.pdf)-->
+[CV](/doc/CV.pdf)
 [GitHub](https://github.com/zstoebs)
 [LinkedIn](https://www.linkedin.com/in/zstoebs/)
 [Goodreads](https://www.goodreads.com/user/show/99553326-zachary-stoebner)

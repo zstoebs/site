@@ -24,7 +24,7 @@ toc = true
       keywords = ["Basho", "haiku", "yellow", "mountain", "roses", "rapids"]
 +++
 
-For most of my life, I've been writing poetry when I experience a lightbulb moment. Over time, this habit shapeshifted to mainly haiku & senryū, often composing sequences of 23 - 31 or more on a day out. Although they're usually reluctant to share, the more people that I've met, the more I've discovered also have this practice. People are like onions; they have layers. If you peel back enough, you'll reach the heart -- haiku & senryū are the key to mine. 
+For most of my life, I've been writing poetry when I experience a lightbulb moment. Over time, this habit shapeshifted to mainly haiku & senryū, often composing sequences of 23 - 31 or more on a day out. Although they're usually reluctant to share, the more people that I've met, the more I've discovered that also have this practice in one way or another. People are like onions; they have layers. If you peel back enough, you'll reach the heart -- haiku & senryū are the key to mine.
 
 # 5 Tips
 1. Haiku & senryū do **not** have to follow the 5-7-5 syllable pattern
