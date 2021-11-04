@@ -19,7 +19,7 @@ toc = true
 +++
 
 <figure>
-<img src="image/header.jpeg" alt="My fully built quadcopter." style="height:500px width:200px;" /> 
+<img src="image/header.jpeg" alt="My fully built Raspberry Pi + Navio2 quadcopter." style="height:500px width:200px;" /> 
 <figcaption>My fully built quadcopter on the ground, not flying... yet.</figcaption>
 </figure>
 

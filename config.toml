@@ -7,6 +7,9 @@ languageCode = "en-US" # Controls site language
 paginate = 11 # Number of posts to show before paginating
 copyright = "Copyright &copy; Zachary Stoebner. Licensed under <a target=\"_blank\" rel=\"external noopener license\" href=\"https://creativecommons.org/licenses/by-nd/4.0/\">CC-BY-ND-4.0</a>." # Optional, remove to suppress copyright notices
 
+# sets Google Analytics Property stream token for analytics template called in baseof.html
+googleAnalytics = "G-CLGDWRWCBJ"
+
 # Controls default theme and theme components
 theme = [
   "fractal-forest", # OBSD
