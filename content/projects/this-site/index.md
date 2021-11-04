@@ -83,6 +83,10 @@ Supposedly, if you want to have a featured list of posts for each section displa
 
 <i>Since the overridden default layouts call these, it's easier to put them here and keep the relative paths. Randomly, there is a conditional block preventing the display of post metadata unless `type = "post"` in the front matter. To my knowledge, this doesn't occur elsewhere in other After Dark source files and removing it immediately allowed for post metadata in listings.</i>
 
+- Copy `/themes/after-dark/layouts/_default/baseof.html` into `/layouts/_default/` and add `{{ template "_internal/google_analytics.html" . }}` and `{{ template "_internal/google_analytics_async.html" . }}` into the `<head>` block. In config.toml, add the line `googleAnalytics = <YOUR_TRACKING_STREAM_ID>`. 
+
+<i>I started reading about SEO because I want this site to be ranked as the top search result under my name. According to this [academic personal website  tutorial](https://www.elsevier.com/connect/creating-a-simple-and-effective-academic-personal-website), Google Analytics categorizes the best keywords for achieving your SEO goals. Naturally, I am also interested in my site's analytics so I linked up the site using Hugo's Google Analytics templates, following [this procedure](https://gideonwolfe.com/posts/sysadmin/hugo/hugogoogleanalytics/).</i>
+
 
 # References
 [Cedric LeRoy](https://cedricleroy.github.io)
