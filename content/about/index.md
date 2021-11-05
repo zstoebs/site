@@ -19,7 +19,7 @@ description = "Legends say that the stache grows commensurately with my wisdom."
 <figcaption>Hi, I'm Zach!</figcaption>
 </figure>
 
-I leverage machine learning to solve challenging problems in neuroscience, computer vision, & intelligent systems. I'm currently a graduate student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) at Vanderbilt University investigating applied ML to medical and neuroscientific data. Generally, my interests are ML & neuroscience, intelligent systems & robotics, and optimization & control theory. 
+I leverage machine learning to solve challenging problems in neuroscience, computer vision, & intelligent systems. I'm currently a graduate student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) at Vanderbilt University investigating applied ML for medical and neuroscientific data. Generally, my interests are ML & neuroscience, intelligent systems & robotics, and optimization & control theory. 
 
 Check out my [projects](/projects/) to see what I'm working on, [notes](/notes/) to see what I'm thinking about, and [kū](/ku/) to see what I'm seeing!
 
