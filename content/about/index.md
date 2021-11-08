@@ -15,7 +15,7 @@ description = "Legends say that the stache grows commensurately with my wisdom."
 +++
 
 <figure>
-<img src="image/fun_and_flirty.jpeg" alt="Me, Zach Stoebner, fun and flirty, at a bar in Nashville, TN" style="height:100px width:50;" /> 
+<img src="image/fun_and_flirty.jpeg" alt="Me, Zach Stoebner, fun and flirty, at a bar in Nashville, TN" style="height:500px;width:250px;" /> 
 <figcaption>Hi, I'm Zach!</figcaption>
 </figure>
 
