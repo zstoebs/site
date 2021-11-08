@@ -4,7 +4,7 @@ date = 2021-09-14T10:38:19-05:00
 categories = ["research"]
 tags = ["ml", "neuro", "matlab", "R"]
 description = "Noobs think linear regression is easy... try LMMs."
-summary = "Although it will be published after [StoneAnno](/projects/stone-anno), this shape analysis is my first completed research project and technically my first first-authorship, **going for submission at <i>Brain</i>**. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. **We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula.**"
+summary = "Although it will be published after [StoneAnno](/projects/stone-anno), this shape analysis is my first completed research project and technically my first first-authorship, **going for submission at <i>Brain</i>**. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula."
 draft = false
 toc = true
 [schema]
@@ -19,7 +19,7 @@ toc = true
   title = "LGI omnibus results show strong correlation in the insula"
 +++
 
-**tl;dr** Although it will be published after [StoneAnno](/projects/stone-anno), this shape analysis is my first completed research project and technically my first first-authorship, **going for submission at <i>Brain</i>**. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. **We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula.** Of note, I learned that complicated statistical anlayses are uniquely challenging, that I love LMMs and RFT, and that they are too esoteric in the current day -- let's make them more accessible!
+**tl;dr** Although it will be published after [StoneAnno](/projects/stone-anno), this shape analysis is my first completed research project and technically my first first-authorship, **going for submission at <i>Brain</i>**. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, **LGI uniquely detects changes in the insula.** Of note, I learned that complicated statistical anlayses are uniquely challenging, that I love LMMs and RFT, and that they are too esoteric in the current day -- let's make them more accessible!
 
 # Links
 **We are in the process of submitting our manuscript at <i>Brain</i>. As soon as it's published, I will link it here. At that time, I expect to release the code as well.**

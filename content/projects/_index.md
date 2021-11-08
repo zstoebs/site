@@ -1,7 +1,7 @@
 +++
 title = "projects"
 date = 2021-06-27T23:08:00-05:00
-description = "What taught me humility also taught me joy."
+description = "Notice me, senpai."
 draft = false
 [[copyright]]
   owner = "Zach Stoebner"
