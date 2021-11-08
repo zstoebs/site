@@ -1,10 +1,10 @@
 +++
 title = "cortical surface analysis for Huntington's disease using linear-mixed models"
-date = 2021-07-14T10:38:19-05:00
+date = 2021-09-14T10:38:19-05:00
 categories = ["research"]
 tags = ["ml", "neuro", "matlab", "R"]
 description = "Noobs think linear regression is easy... try LMMs."
-summary = "My first completed research project and incredibly my first first-authorship. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. I learned that complicated statistical anlayses are uniquely challenging, that I love LMMs and RFT, and that they are too esoteric in the current day -- let's make them more accessible!"
+summary = "Although it will be published after [StoneAnno](/projects/stone-anno), this shape analysis is my first completed research project and technically my first first-authorship, **going for submission at <i>Brain</i>**. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. **We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula.**"
 draft = false
 toc = true
 [schema]
@@ -16,16 +16,15 @@ toc = true
 [[resources]]
   src = "image/lgi.png"
   name = "thumbnail"
-  title = "LGI results"
+  title = "LGI omnibus results show strong correlation in the insula"
 +++
 
-**tl;dr** My first completed research project and incredibly my first first-authorship. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. I learned that complicated statistical anlayses are uniquely challenging, that I love LMMs and RFT, and that they are too esoteric in the current day -- let's make them more accessible!
+**tl;dr** Although it will be published after [StoneAnno](/projects/stone-anno), this shape analysis is my first completed research project and technically my first first-authorship, **going for submission at <i>Brain</i>**. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. **We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula.** Of note, I learned that complicated statistical anlayses are uniquely challenging, that I love LMMs and RFT, and that they are too esoteric in the current day -- let's make them more accessible!
 
 # Links
-**We are in the process of submitting our manuscript. As soon as it's published, I will link it here.**
+**We are in the process of submitting our manuscript at <i>Brain</i>. As soon as it's published, I will link it here. At that time, I expect to release the code as well.**
 
 # Background
-My first complete research project, a main takeaway was learning the scientific process in action and, most importantly, learning to work with more experienced researchers. I wrote the code and performed all of the analysis that produced our results. However, I did not develop the awesome acquisition method that generated our LGI data nor the statistical theory behind the analysis. Throughout the project, I have relied heavily on the expertise of my co-authors -- all of whom have PhDs whereas I was an undergrad until recently. This first journey in research has been inspiring and indelible and I am beyond grateful for it!
 
 [LMMs](https://stats.idre.ucla.edu/other/mult-pkg/introduction-to-linear-mixed-models/)
 
@@ -66,6 +65,8 @@ The striatum has traditionally been the focus of Huntington’s disease research
 <figcaption> Table 1. Summary of Regions with Significant Changes Per Feature. The percentage of the structure with significant changes are reported, in terms of the number of vertices. Regions are color-coded according to cooccurrence in the three features. Red = regional changes were detected by all three features. Yellow = regional changes were detected by two of the features. Blue = regional changes were detected by one of the features. </figcaption>
 </figure>
 
+# Takeaways
+A main takeaway was learning the scientific process in action and, most importantly, learning to work with more experienced researchers. I wrote the code and performed all of the analysis that produced our results. However, I did not develop the awesome acquisition method that generated our LGI data nor the statistical theory behind the analysis. Throughout the project, I have relied heavily on the expertise of my co-authors -- all of whom have PhDs whereas I was an undergrad until recently. This first journey in research has been inspiring and indelible. I am beyond grateful for it!
 
 # References
 [1]    F. O. Walker, “Huntington’s disease,” Lancet, vol. 369, no. 9557, pp. 218–228, 2007, doi: 10.1016/S0140-6736(07)60111-1.

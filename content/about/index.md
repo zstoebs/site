@@ -47,3 +47,7 @@ My hometown is Austin, TX, and I hope one day I can live there again as a scient
 ---
 
 I am always open to new opportunities, especially those that align with my interests. You can contact me at zachary.a.stoebner@vanderbilt.edu.
+
+<figure>
+<img src="image/rainbow_brain.jpg" alt="A surface mesh with a pixelwise index-based color gradient overlay, visualized with VTK." /> 
+</figure>
