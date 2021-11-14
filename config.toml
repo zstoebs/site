@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Zach Stoebner"
+title = "Zach Stoebner | ml • neuro • kū"
 enableRobotsTXT = true # Suggested, enable robots.txt file
 # pygmentsCodefences = true
 # pygmentsUseClasses = true
@@ -30,7 +30,7 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
 [params]
   powered_by = false
   show_menu = true
-  description = "Zach Stoebner's personal / portfolio website" # Suggested, controls default description meta
+  description = "Zach Stoebner's personal portfolio website" # Suggested, controls default description meta
   author = "Zach Stoebner" # Optional, controls author name display on posts
   hide_author = false # Optional, set true to hide author name on posts
   disable_csp = false # Optional, set true to disable content security policy
@@ -59,7 +59,7 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
 [params.layout.project.featured]
  limit = 3
  items = [
-   "neural-dim",
+   "stone-anno",
    "tello-slam",
    "cortical-surface-analysis"
  ]
@@ -80,10 +80,6 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
   limit = 5
   thumbs = ["resize", "150x150"] # Optional, thumbnail image processing
 
-[params.layout.ku.related]
-  limit = 5
-  thumbs = ["resize", "150x150"] # Optional, thumbnail image processing
-
 [params.layout.ku.featured]
  limit = 3
  items = [
@@ -91,6 +87,10 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
    "spring-summer-2020",
    "spring-summer-2019"
  ]
+
+[params.layout.ku.related]
+ limit = 5
+ thumbs = ["resize", "150x150"] # Optional, thumbnail image processing
 
 ### HOMEPAGE
 [params.layout.home]
