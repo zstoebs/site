@@ -32,7 +32,7 @@ Check out my [projects](/projects/) to see what I'm working on, [notes](/notes/)
 
 ---
 
-I graduated from Vandy in May 2021 with a B.S. in computer science and neuroscience, minoring in applied math. I expect to complete my M.S. in computer science, also at Vandy, in May 2022. <b>Currently, I am applying to PhD programs that encourage interdisciplinary research at the intersection of my interests. Please reach out to me at [+15125477486](tel:+15125477486) or zachary.a.stoebner@vanderbilt.edu if you would like to work together!</b> 
+I graduated from Vandy in May 2021 with a B.S. in computer science and neuroscience, minoring in applied math. I expect to complete my M.S. in computer science, also at Vandy, in May 2022. I am writing my thesis on an automatic segmentation system that I am developing for surgical endoscopy. <b>Currently, I am applying to PhD programs that encourage interdisciplinary research at the intersection of my interests. Please reach out to me at [+15125477486](tel:+15125477486) or zachary.a.stoebner@vanderbilt.edu if you would like to work together!</b> 
 
 During undergrad, I was a mentor in the [VUSE Design Studio](https://my.vanderbilt.edu/designstudio/). I have had the privilege to assist with courses on discrete structures, operating systems, deep learning, and currently AI. 
 
