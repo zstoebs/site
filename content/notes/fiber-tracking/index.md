@@ -5,6 +5,7 @@ description = "Take a little swim through your brain canals!"
 summary = "After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. The open-source softwares required are [3D Slicer](https://www.slicer.org), [ITK](https://itk.org) for C++, and [ITK-SNAP](http://www.itksnap.org/pmwiki/pmwiki.php)."
 categories = ["algo"]
 tags = ["neuroimaging", "C++"]
+toc = true
 draft = false
 [schema]
   type = "note"
