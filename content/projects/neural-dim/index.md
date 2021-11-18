@@ -2,7 +2,7 @@
 title = "dimensionality reduction on neural data"
 date = 2021-06-27T20:58:15-05:00
 categories = ["course"]
-tags = ["neuro", "ml", "python"]
+tags = ["neuro", "ml", "python", "stats"]
 description = "PCA vs. autoencoder: the ultimate dimensionality reduction showdown"
 summary = "I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder."
 draft = false

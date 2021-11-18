@@ -2,7 +2,7 @@
 title = "how to host a Hugo After Dark site on GitHub Pages: a saga"
 date = 2021-07-09T23:36:07-05:00
 categories = ["personal"]
-tags = ["webdev", "html", "hugo", "js"]
+tags = ["webdev", "html", "hugo", "js", "hack"]
 description = "¡¡host fast, pretty website 4 free!! for real, not kidding."
 summary = "From knowing very little about webdev to everything (or at least most) you need to know, all in one place! The [Hugo hosting docs](https://gohugo.io/hosting-and-deployment/hosting-on-github/) and [After Dark]((https://after-dark.habd.as)) tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be. "
 draft = false
