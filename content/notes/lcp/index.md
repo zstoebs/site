@@ -24,7 +24,7 @@ draft = false
 
 # Background
 ## Programming
-A mathematical program is an optimization (min, max) over an objective function and constraints. A [linear progam (LP)](https://en.wikipedia.org/wiki/Linear_programming) is such a progam where the objective function and the constraints are all linear. 
+A mathematical program is an optimization (min, max) over an objective function and constraints. A [linear program (LP)](https://en.wikipedia.org/wiki/Linear_programming) is one where the objective function and the constraints are all linear. 
 
 <figure>
 <img src="image/lp.jpg" alt="general form of a linear program"/> 
@@ -36,7 +36,7 @@ A mathematical program is an optimization (min, max) over an objective function 
 
 
 ## Complementarity
-A complementarity condition is a special kind required for solving [linear complementarity problems (LCPs)](https://en.wikipedia.org/wiki/Linear_complementarity_problem), as the name suggests. The non-negative vectors x and y are complements if one or both of the values at corresponding indices are 0. 
+A complementarity condition is a special kind of constraint required for solving [linear complementarity problems (LCPs)](https://en.wikipedia.org/wiki/Linear_complementarity_problem), as the name suggests. The non-negative vectors x and y are complements if one or both of the values at corresponding indices are 0. 
 
 <figure>
 <img src="image/comp.jpg" alt="definition of complementarity"/> 
@@ -44,13 +44,13 @@ A complementarity condition is a special kind required for solving [linear compl
 </figure>
 <br>
 
-Complementarity is a condition that results in transforming a program into an LCP. Generally, it is not a constraint defined in the programs of the game. 
+Complementarity results from a program's transformation into an LCP. Generally, it is not a constraint defined in the programs of the game. 
 
 
 ## Games & Equilibria
 Intuitively, games are multiple programs that relate to each other. An equilibrium is a simultaneous joint solution that solves all optimization problems in a game. 
 
-In Nash games, it is assumed that the opponent will always play their optimal move so the player will hence always play their optimal move. A [Nash equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium) is the best that each player can do without deviating from their predefined strategy, i.e., a matrix of costs for each of the player's moves against each of the opponent's moves. <u>Therefore, solving such games is the same as finding the Nash equilibria.</u> 
+In Nash games, it is assumed that the opponent will always play their optimal move, so the player should always play their optimal move. A [Nash equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium) is a best player's best move without deviating from their predefined strategy, i.e., a matrix of costs for each of the player's moves against each of the opponent's moves. <u>Solving Nash games is the same as finding the Nash equilibria.</u> 
 
 <i>Aside: John Nash proved that in every finite game all players can arrive at an optimal outcome.</i>
 
@@ -64,10 +64,10 @@ An LCP is defined as:
 </figure>
 <br>
 
-LCPs are important for solving programs because they can be analytically and algorithmically solved. Therefore, any programs that can be transformed into an LCP can be solved by solving the LCP; for Nash games, solutions to the LCP are thus the Nash equilibria. 
+LCPs are important and useful, for both mathematical and computer, programming because they can be analytically and algorithmically solved. Therefore, any programs that can be transformed into an LCP can be solved through the LCP; for Nash games, solutions to the LCP are thus the Nash equilibria. 
 
 ## Karush-Kuhn-Tucker Conditions
-The [Karush-Kuhn-Tucker (KKT) conditions](https://en.wikipedia.org/wiki/Karush–Kuhn–Tucker_conditions) are a set of first-order conditions using a program's objective function and constraints set that must be satisfied by any optima. For the general form of a program: 
+The [Karush-Kuhn-Tucker (KKT) conditions](https://en.wikipedia.org/wiki/Karush–Kuhn–Tucker_conditions) are a set of first-order conditions using a program's objective function and constraints that must be satisfied by any optima. For the general form of a program: 
 
 <figure>
 <img src="image/gen_lp.jpg" alt="general form of a mathematical program"/> 
@@ -115,9 +115,9 @@ Other programs, e.g., [quadratic programs (QPs)](https://en.wikipedia.org/wiki/Q
 </figure>
 <br>
 
-You may already see that <u>essentially finding solutions to the LCP is solving a system of equations</u>. However, since the tableau is a wide matrix, the system is underdetermined so there are infinitely many solutions, i.e., they lie in a conic region defined by complementary pairs of columns in the tableau, or no solution, i.e., if q is not contained in any complementary cone, then there is no solution to the LCP. 
+You may already see that <u>essentially finding solutions to the LCP is solving a system of equations</u>. However, since the tableau is a wide matrix, the system is underdetermined so there are infinitely many solutions, i.e., they lie in a conic region defined by complementary pairs of columns in the tableau, or no solutions, i.e., if q is not contained in any complementary cone. 
 
-For n variables in the z vector, there are necessarily 2n columns in the tableau with the n slack variables for w. Because of the stacked KKT conditions in the function, there are n rows. This suggests that any n of the variables, defined by their corresponding columns, can form a basis B to define the conic region containing a feasible solution. The decomposition of the system into basis and non-basis parts + the rearrangement to solve for the basis variables is:  
+For n variables in the z vector, there are necessarily 2n columns in the tableau with the n slack variables for w. Because of the stacked KKT conditions in the function, there are n rows. This suggests that any n of the variables, defined by their corresponding columns, can form a basis B to define the conic region containing a feasible solution. The decomposition of the system into basis and non-basis parts:  
 
 <figure>
 <img src="image/decomp.jpg" alt="decomposition of an undetermined system into basis and non-basis components"/> 
@@ -125,20 +125,20 @@ For n variables in the z vector, there are necessarily 2n columns in the tableau
 </figure>
 <br>
 
-However, these matrices can be enormous in practice and inverting a matrix is very computationally expensive. Thankfully, iteratively [pivoting](https://people.richland.edu/james/lecture/m116/matrices/pivot.html) the tableau is one way to accomplish what inversion does without ever needing to invert a giant matrix. The high-level steps are: 
+Since B is a basis of linearly independent columns, it can be inverted and the basis variables can technically determined that way. However, these matrices can be enormous in practice and inverting a matrix is very computationally expensive. Thankfully, iteratively [pivoting](https://people.richland.edu/james/lecture/m116/matrices/pivot.html) the tableau is one way to accomplish the same goal without ever needing to invert a giant matrix. The high-level steps are: 
 
 1. Use a minimum ratio test to determine the exiting variable from the basis. 
 2. Row-reduce the tableau along the pivot column that corresponds to the entering variable at the row index of the exiting variable s.t. the pivot column is now one-hot at that row index. 
 3. Replace the exiting variable with the entering variable at its index in the basis vector. 
 4. The next entering variable is the complementary variable to the exiting variable, i.e., `w_i -> z_i`. 
 
-Exiting conditions for the algorithm typically include: the values in the pivot columns are out of bound, i.e., `z_i < 0`, or the initial entering variable `z_0` leaves the basis. <u>At the end of the algorithm, the values in the column corresponding to q will be the values of the basis variables, and their complements will be 0.</u> There are a number of modifications and tricks on top of this basic scaffolding that have been developed to handle variant complementarity problems. For discussion of each variant of Lemke's method and their implementation details, I suggest reading Chapter 2 of the [Murty textbook](http://www-personal.umich.edu/~murty/books/linear_complementarity_webbook/lcp-complete.pdf) linked below. 
+Stop conditions for the algorithm typically include: the values in the pivot columns are out of bounds, i.e., `z_i < 0`, or the initial entering variable `z_0` leaves the basis. <u>At the end of the algorithm, the values in the column corresponding to q will be the values of the basis variables in the final basis, and their complements will be 0.</u> There are a number of modifications and tricks on top of this basic scaffolding that have been developed to handle variant complementarity problems. For discussion of each variant of Lemke's method and their implementation details, I suggest reading Chapter 2 of the [Murty textbook](http://www-personal.umich.edu/~murty/books/linear_complementarity_webbook/lcp-complete.pdf). 
 
 
 # Other Complementarity Problems & Applications
-LCPs are in fact a very specific formulation of complementarity problems and generalizations exist, e.g., [nonlinear (NCP)](https://en.wikipedia.org/wiki/Nonlinear_complementarity_problem), [linear mixed (LMCP)](https://en.wikipedia.org/wiki/Mixed_linear_complementarity_problem), and [mixed (MCP)](https://en.wikipedia.org/wiki/Mixed_complementarity_problem) complementarity problems, which have looser constraints. However, these problems often can not be analytically solved like LCPs, so their solutions are approximated by LCPs. 
+LCPs are in fact a very specific formulation of complementarity problems and generalizations exist, e.g., [nonlinear (NCP)](https://en.wikipedia.org/wiki/Nonlinear_complementarity_problem), [linear mixed (LMCP)](https://en.wikipedia.org/wiki/Mixed_linear_complementarity_problem), and [mixed (MCP)](https://en.wikipedia.org/wiki/Mixed_complementarity_problem) complementarity problems, which have looser constraints than an LCP. However, these problems typically cannot be analytically solved like LCPs, but can be approximated by LCPs. 
 
-Solving multi-agent games underlies many practical applications, ranging from hot topics, such as autonomous driving and reinforcement learning, to age-old games, such as tag, and motion planning, i.e., approximating MCPs with the [PATH solver](https://www.gams.com/34/docs/S_PATH.html). 
+Solving games underlies many practical applications, ranging from hot topics, such as autonomous driving and reinforcement learning, to age-old games, i.e., tag, motion planning, i.e., approximating MCPs with the [PATH solver](https://www.gams.com/34/docs/S_PATH.html), and physics simulations.  
 
 <figure>
 <video src="image/tag.mp4" controls></video>
@@ -149,4 +149,14 @@ Solving multi-agent games underlies many practical applications, ranging from ho
 # References
 [Murty. "LINEAR COMPLEMENTARITY, LINEAR AND NONLINEAR PROGRAMMING." 1997.](http://www-personal.umich.edu/~murty/books/linear_complementarity_webbook/lcp-complete.pdf)
 
+[Cottle, Pang, Stone. "The Linear Complementarity Problem." 2008](https://epubs.siam.org/doi/abs/10.1137/1.9780898719000)
+
 [GAMS PATH Solver](https://www.gams.com/34/docs/S_PATH.html)
+
+[Nisan et al. "Algorithmic Game Theory." 2007](https://www.cs.cmu.edu/~sandholm/cs15-892F13/algorithmic-game-theory.pdf)
+
+[Enzenhofer. "Numerical Solution of Mixed Linear Complementarity Problems in Multibody Dynamics with Contact." 2018](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjszOvY_rH0AhU9CjQIHQFBAx0QFnoECAMQAQ&url=https%3A%2F%2Fescholarship.mcgill.ca%2Fdownloads%2F2z10ws808&usg=AOvVaw3x3QL54b3sOErLRdSzTeO5)
+
+[Nocedal & Wright. "Numerical Optimization." 2006.](http://www.ime.unicamp.br/~pulino/MT404/TextosOnline/NocedalJ.pdf)
+
+[Ralph. "Global Convergence of Damped Newton's Method for Nonsmooth Equations via the Path Search." 1990.](https://ecommons.cornell.edu/xmlui/bitstream/handle/1813/7021/90-1181.pdf?sequence=1)
