@@ -12,9 +12,12 @@ draft = false
 <!-- href="/categories/haiku">haiku</a> <a href="/categories/senryu">senryū</a>-->
 
 {{< hackcss-alert type="info" >}}
- <a href="/notes/haiku-senryu"><b><i>README</i></b></a> <br>
+ <a href="/notes/haiku-senryu"><b><i>README</i></b></a> 
+ <br>
  
- <strong>Featured</strong> <a href="/kus/portugues">kū português</a> <a href="/kus/spring-summer-2020">spring-summer 2020</a> <a href="/kus/spring-summer-2019">spring-summer 2019</a> <br>
+ <strong>Featured</strong> <a href="/kus/portugues">kū português</a> <a href="/kus/spring-summer-2020">spring-summer 2020</a> <a href="/kus/spring-summer-2019">spring-summer 2019</a> 
+ <br>
+ <br>
  
  All kū photos were taken by me with (mostly) a Canon EOS DIGITAL REBEL XS. 
 {{< /hackcss-alert >}}

@@ -1,5 +1,5 @@
 +++
-title = "cortical surface analysis for Huntington's disease using linear-mixed models"
+title = "cortical surface analysis in Huntington's disease using linear-mixed models"
 date = 2021-09-14T10:38:19-05:00
 categories = ["research"]
 tags = ["ml", "neuro", "matlab", "R", "stats"]
