@@ -19,7 +19,7 @@ description = "Legends say that the stache grows commensurately with my wisdom."
 <figcaption>Hi, I'm Zach!</figcaption>
 </figure>
 
-I leverage machine learning to solve challenging problems in neuroscience, computer vision, & intelligent systems. I'm currently a graduate student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) at [Vanderbilt University](https://www.vanderbilt.edu) investigating applied ML for medical and neuroscientific data. Generally, I'm curious about ML & neuroscience, intelligent systems & robotics, and optimization & control. 
+I leverage machine learning to solve challenging problems in neuroscience, computer vision, & intelligent systems. I'm currently a graduate student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) at [Vanderbilt University](https://www.vanderbilt.edu) investigating applied ML for medical and neuroscientific data. Generally, I'm curious about [ML](/tags/ml) & [neuroscience](/tags/neuro), [intelligent systems](/tags/cps) & [robotics](/tags/robotics), and [optimization](/tags/opt) & [control](/tags/control). 
 
 Check out my [projects](/projects/) to see what I'm working on, [notes](/notes/) to see what I'm thinking about, and [kū](/kus/) to see what I'm seeing!
 
@@ -36,15 +36,13 @@ Check out my [projects](/projects/) to see what I'm working on, [notes](/notes/)
 
 I graduated from Vandy in May 2021 with a B.S. in computer science and neuroscience, minoring in applied math. I expect to complete my M.S. in computer science, also at Vandy, in May 2022. I am writing my thesis on an automatic segmentation system that I am developing for surgical endoscopy. 
 
-During undergrad, I was a mentor in the [VUSE Design Studio](https://my.vanderbilt.edu/designstudio/) and a section leader & reviewer for the [Vanderbilt Undergraduate Research Journal](https://vurj.vanderbilt.edu) for natural sciences.
+I am passionate about connecting with youth and the broader community on topics of science and engineering. During undergrad, I was a mentor in the [VUSE Design Studio](https://my.vanderbilt.edu/designstudio/) and served as the communications chair in my senior year. I was also a section leader & reviewer for the [Vanderbilt Undergraduate Research Journal](https://vurj.vanderbilt.edu) for natural sciences. Currently, I am serving as the community outreach chair for [Out in Engineering](https://anchorlink.vanderbilt.edu/organization/outinengineering). 
 
 Over the past couple of years, I have had the privilege to assist with courses on discrete structures, operating systems, deep learning, and currently AI. 
 
-I am passionate about connecting with youth and the broader community on topics of science and engineering. In the [VUSE Design Studio](https://my.vanderbilt.edu/designstudio/), I also served as the communications chair during my senior year. Currently, I am serving as the community outreach chair for Out in Engineering. 
-
 ---
 
-Beyond research, I enjoy heavy weights, friendship, [haiku & senryu](/kus/), [hendiadys](/notes/hendiadys), esports, kombucha, cucumber cocktails, and sunset runs. Occasionally, I take a good photo and write a [kū](/kus/) to pair with it. I especially like to take shameless photoshoots of my cats, Amie and Chaussure. 
+Beyond research, I enjoy heavy weights, friendship, [haiku & senryu](/kus/), [hendiadys](/notes/hendiadys), esports, kombucha, cucumber cocktails, and sunset runs. Occasionally, I take a good photo and write a [kū](/kus/) to pair with it. I especially like to take shameless photoshoots of my cats, [Amie and Chaussure](/kus/spring-summer-2021). 
 
 I am a Lusophone > Hispanophone > Francophone. I self-studied Portuguese throughout high school, then I took a crucial gap year of emotional and linguistic growth in Lisbon, Portugal. 
 
@@ -52,7 +50,7 @@ My hometown is Austin, TX, and I hope one day I can live there again as a scient
 
 ---
 
-I am always open to new opportunities, especially those that align with my interests. You can contact me at zachary.a.stoebner@vanderbilt.edu.
+I am always open to new opportunities, especially those that align with my interests. You can contact me at [+1(512)547-7486](tel:+15125477486) or zachary.a.stoebner@vanderbilt.edu.
 
 <figure>
 <img src="image/rainbow_brain.jpg" alt="A surface mesh with a pixelwise index-based color gradient overlay, visualized with VTK." /> 

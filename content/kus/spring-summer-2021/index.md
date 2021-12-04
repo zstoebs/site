@@ -39,8 +39,6 @@ past shame <br>
 some how withers <br>
 I harden <br>
 
-will I ever be enough? <br>
-
 ---
 
 first world problem  <br>
@@ -56,6 +54,11 @@ filtered  <br>
 filter <br>
 
 # summer
+
+<figure>
+<img src="image/amie_sir.JPG" />
+<figcaption>My cats, Amie (left) and Chaussure (right).</figcaption>
+</figure>
 
 dogwood blooms -- <br>
 loving each other, overflowing <br>
@@ -135,4 +138,6 @@ warmth of coffee <br>
 at the Korean market <br>
 a heartfelt friend <br>
 
-<img src="image/sambal.jpeg" />
+sister and brother : <br>
+mother is kind rectress <br>
+teaching her sun <br>
