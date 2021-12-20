@@ -2,7 +2,7 @@
 title = "face following and vSLAM for a Tello quadcopter"
 date = 2021-07-02T11:46:28-05:00
 categories = ["course"]
-tags = ["quads", "robotics", "cps", "ml", "matlab", "control"]
+tags = ["quads", "robotics", "cps", "ml", "matlab", "control", "ai"]
 description = "Tello can do hard things."
 summary = "Implementation of face detection / following and vSLAM on a [Ryze Tello](https://www.ryzerobotics.com/tello) using its [MATLAB toolkit](https://www.mathworks.com/hardware-support/tello-drone-matlab.html)."
 draft = false
@@ -22,9 +22,9 @@ toc = true
 **tl;dr** Implementation of face detection / following and vSLAM on a [Ryze Tello](https://www.ryzerobotics.com/tello) using its [MATLAB toolkit](https://www.mathworks.com/hardware-support/tello-drone-matlab.html).
 
 # Links
-[GitHub](https://github.com/zstoebs/tello_detection_SLAM)
+[repo](https://github.com/zstoebs/tello_detection_SLAM)
 
-[Paper](/doc/eece6356_paper.pdf)
+[report](/doc/eece6356_paper.pdf)
 
 # Motivation
 Following my [quad build](/projects/quad-build/) experience, I set the intention to continue working with and learning more about quads. Whereas in that project I focused more on the hardware side of quads, I wanted to focus more on the software side in this one. Specifically, I wanted to program a quad with autonomous functionality. While working on the quad build, I stumbled upon face detection & following and SLAM. Face detection & following is straightforward: use deep learning to draw a bounding box around faces in the image and compute the direction to travel based on the size and offset from the image's center. vSLAM on the other hand is more interesting in my opinion. For those that don't know: [simultaneous localization & mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) (SLAM) uses sensor data, i.e., lidar, radar, camera, etc., to create a map and track the location(s) of the agent(s) on the map. This problem is intractable and elegantly implementing it in the field is a unique challenge, often requiring a team with intimate knowledge of the UAV to tailor clever SLAM algorithms to it. 

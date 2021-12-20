@@ -2,7 +2,7 @@
 title = "verification of a VAE & SegNet using NNV"
 date = 2021-07-09T13:51:01-05:00
 categories = ["course"]
-tags = ["ml", "cps", "matlab"]
+tags = ["ml", "cps", "matlab", "ai"]
 description = "''Many things that seem threatening in the dark become welcoming when we shine light on them.'' -- Uncle Iroh"
 summary = "Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks."
 draft = false
@@ -26,9 +26,9 @@ toc = true
 **tl;dr** Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks.
 
 # Links
-[Github](https://github.com/zstoebs/vae_segnet_verification)
+[repo](https://github.com/zstoebs/vae_segnet_verification)
 
-[Paper](/doc/stoebner_cs6315_report.pdf)
+[report](/doc/stoebner_cs6315_report.pdf)
 
 # Motivation
 After many face palms and harrowing all-nighters, I learned that achieving reliable performance, for even a task as simple-sounding as face following, is a true feat worthy of ascension from padawan to knight. Even though teams of engineers can concoct relatively high-performing models, I've learned from first-hand experience, as many others have, that even at the highest level ML messes up... a lot. 

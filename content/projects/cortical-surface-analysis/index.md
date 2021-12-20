@@ -2,7 +2,7 @@
 title = "cortical surface analysis in Huntington's disease using linear-mixed models"
 date = 2021-09-14T10:38:19-05:00
 categories = ["research"]
-tags = ["ml", "neuro", "matlab", "R", "stats"]
+tags = ["ml", "neuro", "matlab", "R", "stats", "ai"]
 description = "Noobs think linear regression is easy... try LMMs."
 summary = "Although it will be published after [StoneAnno](/projects/stone-anno), this shape analysis is my first completed research project and technically my first first-authorship, **going for submission at <i>Brain</i>**. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula."
 draft = false

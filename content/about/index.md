@@ -19,7 +19,7 @@ description = "Legends say that the stache grows commensurately with my wisdom."
 <figcaption>Hi, I'm Zach!</figcaption>
 </figure>
 
-I leverage machine learning to solve challenging problems in neuroscience, computer vision, & intelligent systems. I'm currently a graduate student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) at [Vanderbilt University](https://www.vanderbilt.edu) investigating applied ML for medical and neuroscientific data. Generally, I'm curious about [ML](/tags/ml) & [neuroscience](/tags/neuro), [intelligent systems](/tags/cps) & [robotics](/tags/robotics), and [optimization](/tags/opt) & [control](/tags/control). 
+I leverage machine learning to solve challenging problems in neuroscience, computer vision, and autonomous systems. I'm currently a graduate student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) at [Vanderbilt University](https://www.vanderbilt.edu) investigating applied ML for medical and neuroscientific data. Generally, I'm curious about [AI](/tags/ai)/[ML](/tags/ml) & [neuroscience](/tags/neuro), [intelligent systems](/tags/cps) & [robotics](/tags/robotics), and [optimization](/tags/opt) & [control](/tags/control). 
 
 Check out my [projects](/projects/) to see what I'm working on, [notes](/notes/) to see what I'm thinking about, and [kū](/kus/) to see what I'm seeing!
 
@@ -28,7 +28,7 @@ Check out my [projects](/projects/) to see what I'm working on, [notes](/notes/)
 [LinkedIn](https://www.linkedin.com/in/zstoebs/)
 [Goodreads](https://www.goodreads.com/user/show/99553326-zachary-stoebner)
 
-<b>Currently, I am applying to PhD programs that encourage interdisciplinary research at the intersection of my interests. Please reach out to me at [+1(512)547-7486](tel:+15125477486) or zachary.a.stoebner@vanderbilt.edu if you would like to work together!</b> 
+<strong>Currently, I am applying to PhD programs that encourage interdisciplinary research at the intersection of my interests. Please reach out to me at [+1(512)547-7486](tel:+15125477486) or zachary.a.stoebner@vanderbilt.edu if you would like to work together!</strong>
 
 <!--more-->
 

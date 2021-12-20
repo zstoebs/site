@@ -2,7 +2,7 @@
 title = "dimensionality reduction on neural data"
 date = 2021-06-27T20:58:15-05:00
 categories = ["course"]
-tags = ["neuro", "ml", "python", "stats"]
+tags = ["neuro", "ml", "python", "stats", "ai"]
 description = "PCA vs. autoencoder: the ultimate dimensionality reduction showdown"
 summary = "I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder."
 draft = false
@@ -26,9 +26,9 @@ toc = true
 **tl;dr** I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder. 
 
 # Links 
-[GitHub](https://github.com/zstoebs/neural_dim_reduction)
+[repo](https://github.com/zstoebs/neural_dim_reduction)
 
-[Paper](/doc/cs4262_paper.pdf)
+[report](/doc/cs4262_paper.pdf)
 
 # Motivation
 As I began learning about ML and statistical ML in particular, I became fascinated by [dimensionality reduction ](https://machinelearningmastery.com/dimensionality-reduction-for-machine-learning/) (DR) methods. For those that don't know, DRs project data from a high-dimensional space to a low-dimensional space. In essence, they are generalizations of the vector projection methods onto the x-, y-, and z-axes taught in a multivariable calculus course. DR is akin to conventional information compression, trading off size for information loss so choosing the best method and lower dimension is as much art as it is strategy. 

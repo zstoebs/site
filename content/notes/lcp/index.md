@@ -4,7 +4,7 @@ date = 2021-11-24T11:06:11-06:00
 description = "Solving systems of equations is the most important."
 summary = "This Fall 2021, I am taking a course on computational game theory, which insofar is the formulation of various games (e.g. bimatrix, Stackelberg) as mathematical programs and the algorithms that solve them, or approximate solutions. Linear complementarity problems are foundational for computing Nash equilibria of simple games."
 categories = ["algo"]
-tags = ["cps", "robotics", "control", "opt"]
+tags = ["cps", "robotics", "control", "opt", "ai"]
 toc = true
 draft = false
 [schema]
@@ -150,6 +150,8 @@ Solving games underlies many practical applications, ranging from hot topics, su
 [Murty. "LINEAR COMPLEMENTARITY, LINEAR AND NONLINEAR PROGRAMMING." 1997.](http://www-personal.umich.edu/~murty/books/linear_complementarity_webbook/lcp-complete.pdf)
 
 [Cottle, Pang, Stone. "The Linear Complementarity Problem." 2008](https://epubs.siam.org/doi/abs/10.1137/1.9780898719000)
+
+[Dirkse, Steven & Ferris, Michael. (1995). The path solver: a nommonotone stabilization scheme for mixed complementarity problems. Optimization Methods & Software - OPTIM METHOD SOFTW. 5. 123-156. 10.1080/10556789508805606.](https://www.researchgate.net/publication/250889964_The_path_solver_a_nommonotone_stabilization_scheme_for_mixed_complementarity_problems)
 
 [GAMS PATH Solver](https://www.gams.com/34/docs/S_PATH.html)
 

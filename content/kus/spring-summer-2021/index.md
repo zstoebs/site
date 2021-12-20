@@ -61,7 +61,7 @@ filter <br>
 </figure>
 
 dogwood blooms -- <br>
-loving each other, overflowing <br>
+love each other, overflowing <br>
 the edge of the pond <br>
 
 residential concrete <br>
