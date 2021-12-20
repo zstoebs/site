@@ -36,31 +36,30 @@ if (!doNotTrack) {
     <meta name="generator" content="After Dark Hugo">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>verification of a VAE &amp; SegNet using NNV | Zach Stoebner | ml • neuro • kū</title>
-    <meta name="description" content="&#39;&#39;Many things that seem threatening in the dark become welcoming when we shine light on them.&#39;&#39; -- Uncle Iroh">
-    <meta name="keywords" content="ml, cps, matlab, ai">
+    <title>ai | Zach Stoebner | ml • neuro • kū</title>
+    <meta name="description" content="Zach Stoebner&#39;s personal portfolio website">
+    <meta name="keywords" content="algo, course, haiku, me, personal, poetry, research, senryu, tanka, ">
     
     
     
     
-    <meta property="og:title" content="verification of a VAE &amp; SegNet using NNV" />
-<meta property="og:description" content="&#39;&#39;Many things that seem threatening in the dark become welcoming when we shine light on them.&#39;&#39; -- Uncle Iroh" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/projects/vae-segnet-verif/" /><meta property="og:image" content="/projects/vae-segnet-verif/image/header.png"/><meta property="article:section" content="projects" />
-<meta property="article:published_time" content="2021-07-09T13:51:01-05:00" />
-<meta property="article:modified_time" content="2021-07-09T13:51:01-05:00" />
+    <meta property="og:title" content="ai" />
+<meta property="og:description" content="Zach Stoebner&#39;s personal portfolio website" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/tags/ai/" /><meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322"/>
 
 
     <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="/projects/vae-segnet-verif/image/header.png"/>
-<meta name="twitter:title" content="verification of a VAE &amp; SegNet using NNV"/>
-<meta name="twitter:description" content="&#39;&#39;Many things that seem threatening in the dark become welcoming when we shine light on them.&#39;&#39; -- Uncle Iroh"/>
+<meta name="twitter:image" content="https://source.unsplash.com/collection/983219/2000x1322"/>
+
+<meta name="twitter:title" content="ai"/>
+<meta name="twitter:description" content="Zach Stoebner&#39;s personal portfolio website"/>
 
     
 
-
-
   <meta property="og:image" content="https://source.unsplash.com/collection/983219/2000x1322">
+
+
 
 
     
@@ -115,7 +114,9 @@ fetchInject(["/js/lazysizes.min.js"]);
 
 
     
-    <link rel="canonical" href="/projects/vae-segnet-verif/">
+      <link rel="alternate" type="application/rss+xml" href="/tags/ai/index.xml" title="Zach Stoebner | ml • neuro • kū">
+    
+    <link rel="canonical" href="/tags/ai/">
     
     
     <link rel="icon" sizes="any" href="data:image/svg+xml,%3Csvg%20viewBox='0%200%2046%2045'%20xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EAfter%20Dark%3C/title%3E%3Cpath%20d='M.708%2045L23%20.416%2045.292%2045H.708zM35%2038L23%2019%2011%2038h24z'%20fill='%23000'/%3E%3C/svg%3E">
@@ -272,21 +273,161 @@ ul.thumbnail.grid li a:hover figure::after {
 
 </header>
     <main>
+  <header>
+    <h1>ai</h1>
+  </header>
   
     
-      <style>{{ -}}.hack header figure[itemtype*=ImageObject]{position:relative}.hack header figure[itemtype*=ImageObject] figcaption{position:absolute;bottom:0;right:0;text-align:right;padding:15px;font-style:oblique;font-size:smaller;mix-blend-mode:soft-light}.hack header figure[itemtype*=ImageObject] [itemprop=headline]{font-weight:700}</style>
+
+
+
+
+<article itemprop="citation" itemscope itemtype="https://schema.org/note" id="on-linear-complementarity-problems">
+  <header>
+    <h1 itemprop="name">
+      :: <a href="/notes/lcp/">on linear complementarity problems</a>
+    </h1>
+      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>6 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2021-11-24T11:06:11-06:00">24 Nov, 2021</time>
+
+</p>
     
+      <blockquote itemprop="headline">Solving systems of equations is the most important.</blockquote>
+    
+  </header>
+  <div itemprop="">This Fall 2021, I am taking a course on computational game theory, which insofar is the formulation of various games (e.g. bimatrix, Stackelberg) as mathematical programs and the algorithms that solve them, or approximate solutions. Linear complementarity problems are foundational for computing Nash equilibria of simple games.</div>
+  <meta itemprop="inLanguage" content="en-US">
+  <meta itemprop="datePublished" content="2021-11-24T11:06:11-06:00">
+  <meta itemprop="dateModified" content="2021-11-24T11:06:11-06:00">
   
-  <article itemscope itemtype="https://schema.org/BlogPosting">
-    <meta itemprop="name" content="verification of a VAE &amp; SegNet using NNV">
-<meta itemprop="description" content="&#39;&#39;Many things that seem threatening in the dark become welcoming when we shine light on them.&#39;&#39; -- Uncle Iroh"><meta itemprop="datePublished" content="2021-07-09T13:51:01-05:00" />
-<meta itemprop="dateModified" content="2021-07-09T13:51:01-05:00" />
-<meta itemprop="wordCount" content="1233"><meta itemprop="image" content="/projects/vae-segnet-verif/image/header.png">
-<meta itemprop="keywords" content="ml,cps,matlab,ai," />
-    <header>
-      <h1 itemprop="headline name">verification of a VAE &amp; SegNet using NNV</h1>
-      <p class="muted">
-        <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+</article>
+
+
+  
+    
+
+
+
+
+<article itemprop="citation" itemscope itemtype="https://schema.org/note" id="on-fiber-tracking">
+  <header>
+    <h1 itemprop="name">
+      :: <a href="/notes/fiber-tracking/">on fiber tracking</a>
+    </h1>
+      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>5 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2021-11-16T13:50:49-06:00">16 Nov, 2021</time>
+
+</p>
+    
+      <blockquote itemprop="headline">Take a little swim through your brain canals!</blockquote>
+    
+  </header>
+  <div itemprop="">After brief description of diffusion tensor images and what information they provide, I discuss an intuitive seed-based line propagation algorithm for computing a tractography map of a neuroimage. The open-source softwares required are <a href="https://www.slicer.org">3D Slicer</a>, <a href="https://itk.org">ITK</a> for C++, and <a href="http://www.itksnap.org/pmwiki/pmwiki.php">ITK-SNAP</a>.</div>
+  <meta itemprop="inLanguage" content="en-US">
+  <meta itemprop="datePublished" content="2021-11-16T13:50:49-06:00">
+  <meta itemprop="dateModified" content="2021-11-16T13:50:49-06:00">
+  
+</article>
+
+
+  
+    
+
+
+
+
+<article itemprop="citation" itemscope itemtype="https://schema.org/project" id="segmentation-of-kidney-stones-in-endoscopic-video-feeds">
+  <header>
+    <h1 itemprop="name">
+      :: <a href="/projects/stone-anno/">segmentation of kidney stones in endoscopic video feeds</a>
+    </h1>
+      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>5 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2021-11-07T20:39:01-06:00">7 Nov, 2021</time>
+
+</p>
+    
+      <blockquote itemprop="headline">Really good fast way to color inside the lines of a kidney stone.</blockquote>
+    
+  </header>
+  <div itemprop="">StoneAnno is my first published first-authorship paper, <strong>presenting at SPIE 2022</strong>. With the long-term goal of fully-automated robotic endoscopic surgery, we built a dataset of endoscopic kidney stone removal videos and investigated U-Net, U-Net++, and DenseNet for the segmentation task. We found a U-Net++ model that consistently achieves <strong>&gt;0.9 Dice score</strong>, with low loss, and produces realistic, convincing segmentations. Moving forward, I am implementing our model on hardware for deployment in ORs, as a part of my master&rsquo;s thesis, and I helped Dr. Kavoussi submit an <strong>R21 grant</strong> in October 2021.</div>
+  <meta itemprop="inLanguage" content="en-US">
+  <meta itemprop="datePublished" content="2021-11-07T20:39:01-06:00">
+  <meta itemprop="dateModified" content="2021-11-07T20:39:01-06:00">
+  
+</article>
+
+
+  
+    
+
+
+
+
+<article itemprop="citation" itemscope itemtype="https://schema.org/project" id="cortical-surface-analysis-in-huntingtons-disease-using-linear-mixed-models">
+  <header>
+    <h1 itemprop="name">
+      :: <a href="/projects/cortical-surface-analysis/">cortical surface analysis in Huntington&#39;s disease using linear-mixed models</a>
+    </h1>
+      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>9 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2021-09-14T10:38:19-05:00">14 Sep, 2021</time>
+
+</p>
+    
+      <blockquote itemprop="headline">Noobs think linear regression is easy... try LMMs.</blockquote>
+    
+  </header>
+  <div itemprop="">Although it will be published after <a href="/projects/stone-anno">StoneAnno</a>, this shape analysis is my first completed research project and technically my first first-authorship, <strong>going for submission at <i>Brain</i></strong>. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, LGI uniquely detects changes in the insula.</div>
+  <meta itemprop="inLanguage" content="en-US">
+  <meta itemprop="datePublished" content="2021-09-14T10:38:19-05:00">
+  <meta itemprop="dateModified" content="2021-09-14T10:38:19-05:00">
+  
+</article>
+
+
+  
+    
+
+
+
+
+<article itemprop="citation" itemscope itemtype="https://schema.org/project" id="verification-of-a-vae--segnet-using-nnv">
+  <header>
+    <h1 itemprop="name">
+      :: <a href="/projects/vae-segnet-verif/">verification of a VAE &amp; SegNet using NNV</a>
+    </h1>
+      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
   <circle cx="16" cy="16" r="14" />
   <path d="M16 8 L16 16 20 20" />
 </svg>
@@ -297,155 +438,139 @@ ul.thumbnail.grid li a:hover figure::after {
 
   Published: <time datetime="2021-07-09T13:51:01-05:00">9 Jul, 2021</time>
 
-
-      </p>
-      
-        <blockquote itemprop="description">&#39;&#39;Many things that seem threatening in the dark become welcoming when we shine light on them.&#39;&#39; -- Uncle Iroh</blockquote>
-      
-      
-
-
-
-    </header>
-    
-  <details>
-    <summary>Table of Contents</summary>
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#links">Links</a></li>
-    <li><a href="#motivation">Motivation</a></li>
-    <li><a href="#content">Content</a></li>
-    <li><a href="#method">Method</a></li>
-    <li><a href="#results">Results</a></li>
-    <li><a href="#future">Future</a></li>
-    <li><a href="#references">References</a></li>
-  </ul>
-</nav>
-  </details>
-
-
-    <div itemprop="articleBody">
-      <figure>
-<img src="image/header.png" alt="A shallow autoencoder's projection of 53-dimensional vectors to 3 dimensions." style="height:500px width:200px;" /> 
-<figcaption>Lower bound and upper bound attacks on a generated image from a VAE.</figcaption>
-</figure>
-<p><strong>tl;dr</strong> Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks.</p>
-<h1 id="links">Links</h1>
-<p><a href="https://github.com/zstoebs/vae_segnet_verification">repo</a></p>
-<p><a href="/doc/stoebner_cs6315_report.pdf">report</a></p>
-<h1 id="motivation">Motivation</h1>
-<p>After many face palms and harrowing all-nighters, I learned that achieving reliable performance, for even a task as simple-sounding as face following, is a true feat worthy of ascension from padawan to knight. Even though teams of engineers can concoct relatively high-performing models, I&rsquo;ve learned from first-hand experience, as many others have, that even at the highest level ML messes up&hellip; a lot.</p>
-<p>For computer vision in particular, neural networks [NNs] tend to mess up when images are perturbed in some way, e.g., a brightness attack or a deformation, which may be imperceptible to the human eye. Read about <a href="https://www.unite.ai/optical-adversarial-attack-can-change-the-meaning-of-road-signs/">optical adversarial attacks against road sign classifiers</a> and <a href="https://www.sciencedaily.com/releases/2021/02/210208161927.htm">defeating deepfake detectors</a>. Subtle intensity differences between images frequently confounds analysis in image-based learning and applications; for example, I also research methods for  harmonization of longitudinal MRI datasets using GANs to correct these minute differences. As I was learning about formal methods and automated verification, I wondered whether NNs can be verified for robustness against attacks and, in turn, also verify the performance of generator networks, such as autoencoders, in generating utile images. As a learning experience, this exploratory project is a classic case of &ldquo;know thy enemy&rdquo;.</p>
-<h1 id="content">Content</h1>
-<ul>
-<li>train_segnet.m: trains a SegNet on MNIST</li>
-<li>train_VAE.m: trains a VAE on MNIST</li>
-<li>verify_segnet.m: attempts verification of SegNet given perturbed or unperturbed input</li>
-<li>verify_VAE.m: attempts verification of VAE given perturbed or unperturbed input</li>
-</ul>
-<p>Other files are ported or modified from <a href="https://www.mathworks.com/help/deeplearning/ug/train-a-variational-autoencoder-vae-to-generate-images.html">MATLAB&rsquo;s VAE demo</a>.</p>
-<h1 id="method">Method</h1>
-<p><i>For a light background on some of the set theory behind neural network verification and why this task is particularly challenging, please refer to the report linked at the top of this page.</i></p>
-<p>For the first part of the project, I trained a VAE and SegNet, both with the <a href="https://arxiv.org/pdf/1711.00464.pdf">ELBO loss function</a>, on MNIST. Figures 1 and 2 display real and fake images for each network; the VAE tended to blur the image whereas the SegNet learned the structures suspiciously well, potentially a result of overfitting.</p>
-<figure>
-<img src="image/fig1.png" alt="Fig 1" style="height:500px width:200px;" /> 
-<figcaption><i>Figure 1. Examples of real inputs (left) and fake outputs (right) for the VAE. The pairs demonstrate examples where the VAE performs well and where it does not, noticeably a ‘9’ that becomes an ‘8’ and a ‘4’ that becomes a ‘9’.</i>
-</figcaption>
-</figure>
-<figure>
-<img src="image/fig2.png" alt="Fig 2" style="height:500px width:200px;" /> 
-<figcaption><i>Figure 2. Examples of real inputs (left) and fake outputs (right) for the SegNet autoencoder. Compared to the VAE, the SegNet is less confused about the structure of the input images. However, the two channel output results in an average of the binary masks which gives a gray image.</i>
-</figcaption>
-</figure>
-<p>After training the generator networks, I parsed them into NNV format and appended an MNIST classifier to each of them. In a tutorial, NNV constructed a simple CNN MNIST classifier that performed exceedingly well so I ported that model into this project.</p>
-<p>To verify robustness of the generator + classifier, the top 1% or 5% of pixels in input images were eliminated, where the lower bound zeroed out the original intensity while the upper bound kept 5% of the original intensity. From here, NNV constructs polytope set representations of the input domain to feed to the NNV representations of the networks, in order to approximate the entirety of the output domain as a zonotope, star, and abstract polytope reach set.</p>
-<p>In terms of analysis, NNV plots error bars, denoting the upper and lower bound probabilities that a given example belongs to each class, for each reach set. A network is robust for a certain class, for a certain set, if the lower bound for the class is greater than the upper bound for all other classes, given an approximated reach set.</p>
-<h1 id="results">Results</h1>
-<p>The approximated zonotope reach set was inconclusive for both models at each level of attack whereas ImageStar and abstract polytope sets had almost identical results and differentiated model performance; therefore, these two reach sets were used in subsequent analyses. For the baseline, the output domains became too varied with greater levels of attack that were not reasonably computable on a CPU so no data was gathered for classes at those levels of attack for the baseline. Table 1 contains a summary of the results for each class for MNIST (baseline) and generated VAE &amp; SegNet images. Both models were particularly robust to the digit 3; the star set results are displayed for this class are displayed in Figure 3.</p>
-<figure>
-<img src="image/tab1.jpg" alt="Tab 2" style="height:500px width:200px;" /> 
-<figcaption><i>Table 1. Summary of results per class for baseline, VAE, and SegNet images passed to the classifier. - = robust; {0,1,2,3,4,5,6,7,8,9} = not robust, misclassified to digit; ? = not robust, uncertain, overlapping ranges; ~ = no data.</i></figcaption>
-</figure>
-<figure>
-<img src="image/fig3.jpg" alt="Fig 3" style="height:500px width:200px;" /> 
-<figcaption><i>Figure 3. Error bars for the digit ‘3’ for each method for the ImageStar set for the 1% attack. The classifier was distinctly robust to this class for the three types of images, for both attacks. Compared to other classes, the error bars for the ‘3’ class are very narrow for an attacked image.</i></figcaption>
-</figure>
-<h1 id="future">Future</h1>
-<p>This field of NN verification is extremely new and methods for verifying networks with activations other than ReLU and sigmoid are not well-defined. I learned about the field of neural network verification from this project and at the time of writing I am satisfied by what I&rsquo;ve learned. Extending the project, formulating a procedure for verifying generator network outputs with automated NN verification would be a useful tool for many an ML practicioner. A procedure with the current SOTA using my generator + classifier setup might be feasible; however, I expect that we will have to wait for the field to progress significantly further.</p>
-<h1 id="references">References</h1>
-<p>X. Huang et al., “A Survey of Safety and Trustworthiness of Deep Neural Networks: Verification, Testing, Adversarial Attack and Defence, and Interpretability ∗,” arXiv, pp. 0–94, 2018.</p>
-<p>C. Liu, T. Arnon, C. Lazarus, C. Barrett, and M. J. Kochenderfer, “Algorithms for verifying deep neural networks,” arXiv, pp. 1–126, 2019, doi: 10.1561/2400000035.</p>
-<p>K. Simonyan and A. Zisserman, “Very deep convolutional networks for large-scale image recognition,” 3rd Int. Conf. Learn. Represent. ICLR 2015 - Conf. Track Proc., pp. 1–14, 2015.</p>
-<p>H. D. Tran et al., “NNV: The Neural Network Verification Tool for Deep Neural Networks and Learning-Enabled Cyber-Physical Systems,” Lect. Notes Comput. Sci. (including Subser. Lect. Notes Artif. Intell. Lect. Notes Bioinformatics), vol. 12224 LNCS, pp. 3–17, 2020, doi: 10.1007/978-3- 030-53288-8_1.</p>
-<p>Y. Lecun, L. Bottou, Y. Bengio, and P. Ha, “LeNet,” Proc. IEEE, no. November, pp. 1–46, 1998.</p>
-<p>D. P. Kingma and M. Welling, “Auto-encoding variational bayes,” 2nd Int. Conf. Learn. Represent. ICLR 2014 - Conf. Track Proc., no. Ml, pp. 1–14, 2014.</p>
-<p>V. Badrinarayanan, A. Kendall, and R. Cipolla, “SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 39, no. 12, pp. 2481–2495, 2017, doi: 10.1109/TPAMI.2016.2644615.</p>
-<p>A. A. Alemi, B. Poole, I. Fische, J. V. Dillon, R. A. Saurous, and K. Murphy, “Fixing a broken elbo,” 35th Int. Conf. Mach. Learn. ICML 2018, vol. 1, pp. 245–265, 2018.</p>
-<p>H. D. Tran et al., “Star-based reachability analysis of deep neural networks,” Lect. Notes Comput. Sci. (including Subser. Lect. Notes Artif. Intell. Lect. Notes Bioinformatics), vol. 11800 LNCS, pp. 670–686, 2019, doi: 10.1007/978-3-030-30942-8_39.</p>
-
-    </div>
-    <footer>
-      <hr>
-      <p>
-  Published
-  
-    
-      by <span itemprop="author">Zach Stoebner</span>
-    
-  
-  <time itemprop="datePublished" datetime="2021-07-09T13:51:01-05:00">
-    9 Jul, 2021
-  </time>
-  
-    in <span itemprop="articleSection"><a href="/categories/course/">course</a></span>
-  
-  
-    and tagged <a rel="tag" href="/tags/ai/">ai</a>, <a rel="tag" href="/tags/cps/">cps</a>, <a rel="tag" href="/tags/matlab/">matlab</a> and <a rel="tag" href="/tags/ml/">ml</a>
-  
-  using <span itemprop="wordCount">1233</span> words.
 </p>
-
-      
-
+    
+      <blockquote itemprop="headline">&#39;&#39;Many things that seem threatening in the dark become welcoming when we shine light on them.&#39;&#39; -- Uncle Iroh</blockquote>
+    
+  </header>
+  <div itemprop="">Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks.</div>
+  <meta itemprop="inLanguage" content="en-US">
+  <meta itemprop="datePublished" content="2021-07-09T13:51:01-05:00">
+  <meta itemprop="dateModified" content="2021-07-09T13:51:01-05:00">
+  
+</article>
 
 
   
-    <aside>
-      <header>Related Content</header>
-      
-        <ul>
-          
-            <li><a href="/projects/tello-slam/">face following and vSLAM for a Tello quadcopter</a>
-            <time class="muted" datetime="7M">7 minutes</time>
-          
-            <li><a href="/projects/tgn-viz/">visualizing temporal graph networks</a>
-            <time class="muted" datetime="5M">5 minutes</time>
-          
-            <li><a href="/projects/neural-dim/">dimensionality reduction on neural data</a>
-            <time class="muted" datetime="5M">5 minutes</time>
-          
-            <li><a href="/projects/quad-build/">learning about quadcopters by building one</a>
-            <time class="muted" datetime="3M">3 minutes</time>
-          
-        </ul>
-      
-    </aside>
+    
+
+
+
+
+<article itemprop="citation" itemscope itemtype="https://schema.org/project" id="visualizing-temporal-graph-networks">
+  <header>
+    <h1 itemprop="name">
+      :: <a href="/projects/tgn-viz/">visualizing temporal graph networks</a>
+    </h1>
+      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>5 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2021-07-09T13:28:40-05:00">9 Jul, 2021</time>
+
+</p>
+    
+      <blockquote itemprop="headline">me, 6 months ago: data viz is a dedicated research field??, me, now: thank gawd for data viz researchers...</blockquote>
+    
+  </header>
+  <div itemprop="">Visualizing the resulting <a href="https://observablehq.com/@zstoebs/cs-8395-project">link prediction graph</a> from a <a href="https://arxiv.org/pdf/2006.10637.pdf">temporal graph network</a> on a <a href="https://snap.stanford.edu/jodie/">Wikipedia dataset</a> using Observable and d3.js.</div>
+  <meta itemprop="inLanguage" content="en-US">
+  <meta itemprop="datePublished" content="2021-07-09T13:28:40-05:00">
+  <meta itemprop="dateModified" content="2021-07-09T13:28:40-05:00">
   
+</article>
 
 
-    </footer>
-  </article>
+  
+    
+
+
+
+
+<article itemprop="citation" itemscope itemtype="https://schema.org/project" id="face-following-and-vslam-for-a-tello-quadcopter">
+  <header>
+    <h1 itemprop="name">
+      :: <a href="/projects/tello-slam/">face following and vSLAM for a Tello quadcopter</a>
+    </h1>
+      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>7 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2021-07-02T11:46:28-05:00">2 Jul, 2021</time>
+
+</p>
+    
+      <blockquote itemprop="headline">Tello can do hard things.</blockquote>
+    
+  </header>
+  <div itemprop="">Implementation of face detection / following and vSLAM on a <a href="https://www.ryzerobotics.com/tello">Ryze Tello</a> using its <a href="https://www.mathworks.com/hardware-support/tello-drone-matlab.html">MATLAB toolkit</a>.</div>
+  <meta itemprop="inLanguage" content="en-US">
+  <meta itemprop="datePublished" content="2021-07-02T11:46:28-05:00">
+  <meta itemprop="dateModified" content="2021-07-02T11:46:28-05:00">
+  
+</article>
+
+
+  
+    
+
+
+
+
+<article itemprop="citation" itemscope itemtype="https://schema.org/project" id="dimensionality-reduction-on-neural-data">
+  <header>
+    <h1 itemprop="name">
+      :: <a href="/projects/neural-dim/">dimensionality reduction on neural data</a>
+    </h1>
+      <p class="muted"><svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>5 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2021-06-27T20:58:15-05:00">27 Jun, 2021</time>
+
+</p>
+    
+      <blockquote itemprop="headline">PCA vs. autoencoder: the ultimate dimensionality reduction showdown</blockquote>
+    
+  </header>
+  <div itemprop="">I fell in love with dimensionality reduction when I was learning statistical ML. Since I also study neuroscience, I wanted to practice the art at the intersection of my interests. I compared the 3D projections of a 53-dimensional neurophysiology dataset produced by PCA and a shallow autoencoder.</div>
+  <meta itemprop="inLanguage" content="en-US">
+  <meta itemprop="datePublished" content="2021-06-27T20:58:15-05:00">
+  <meta itemprop="dateModified" content="2021-06-27T20:58:15-05:00">
+  
+</article>
+
+
+  
 </main>
     <footer>
+  <p><nav>
+  
+  
+    <span>Page 1 of 1</span>
+  
+  
+</nav>
+</p>
   <small class="muted">
     
   
-    
-      Copyright &copy; 2021 Zach Stoebner.
-      
-        Licensed under <a  target="_blank" rel="external noopener license" href="https://creativecommons.org/licenses/by-nd/4.0/">CC BY-ND 4.0</a>.
-      
-    
+    Copyright &copy; Zachary Stoebner. Licensed under <a target="_blank" rel="external noopener license" href="https://creativecommons.org/licenses/by-nd/4.0/">CC-BY-ND-4.0</a>.
   
 
 
