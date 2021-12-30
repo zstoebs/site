@@ -8,13 +8,11 @@ draft = false
   date = "2021"
   license = "cc-by-nd-4.0"
 +++
+[hai(k)u + senry(ū)](/notes/haiku-senryu)
 
 <!-- href="/categories/haiku">haiku</a> <a href="/categories/senryu">senryū</a>-->
 
-{{< hackcss-alert type="info" >}}
- <a href="/notes/haiku-senryu"><b><i>README</i></b></a> 
- <br>
- 
+{{< hackcss-alert type="info" >}} 
  <strong>Featured</strong> <a href="/kus/portugues">kū português</a> <a href="/kus/spring-summer-2020">spring-summer 2020</a> <a href="/kus/spring-summer-2019">spring-summer 2019</a> 
  <br>
  <br>

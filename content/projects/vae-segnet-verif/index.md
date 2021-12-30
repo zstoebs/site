@@ -1,7 +1,7 @@
 +++
 title = "verification of a VAE & SegNet using NNV"
 date = 2021-07-09T13:51:01-05:00
-categories = ["course"]
+categories = ["course", "solo"]
 tags = ["ml", "cps", "matlab", "ai"]
 description = "''Many things that seem threatening in the dark become welcoming when we shine light on them.'' -- Uncle Iroh"
 summary = "Neural network automated verification of a VAE and SegNet using NNV. Although neural networks are promising, they are easily confused, particularly if the input domain is perturbed. In this project, I demonstrate the robustness of MNIST-trained VAE and SegNet against varying brightness attacks."

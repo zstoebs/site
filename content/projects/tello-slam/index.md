@@ -1,7 +1,7 @@
 +++
 title = "face following and vSLAM for a Tello quadcopter"
 date = 2021-07-02T11:46:28-05:00
-categories = ["course"]
+categories = ["course", "solo"]
 tags = ["quads", "robotics", "cps", "ml", "matlab", "control", "ai"]
 description = "Tello can do hard things."
 summary = "Implementation of face detection / following and vSLAM on a [Ryze Tello](https://www.ryzerobotics.com/tello) using its [MATLAB toolkit](https://www.mathworks.com/hardware-support/tello-drone-matlab.html)."
