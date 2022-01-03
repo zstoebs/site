@@ -1,5 +1,5 @@
 +++
-title = "spring-summer 2020 **BEST PHOTOS IMHO**"
+title = "spring-summer 2020"
 date = 2021-08-13T19:05:50-05:00
 description = "kū from spring-summer 2020"
 summary = "trip to Portland into Pandemia"

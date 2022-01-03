@@ -1,5 +1,5 @@
 +++
-title = "fall-2020"
+title = "fall 2020"
 date = 2021-08-14T22:24:00-05:00
 description = "kū from fall 2020"
 summary = "we were alive, but really we were dead"
