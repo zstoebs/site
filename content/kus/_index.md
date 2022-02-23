@@ -17,5 +17,5 @@ draft = false
  <br>
  <br>
  
- All kū photos were taken by me with (mostly) a Canon EOS REBEL XS. 
+ All kū photos were taken by me with a Canon EOS REBEL XS, or my iPhone. 
 {{< /hackcss-alert >}}

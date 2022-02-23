@@ -15,7 +15,7 @@ description = "Legends say that the stache grows commensurately with my wisdom."
 +++
 
 <figure>
-<img src="image/profile.jpeg" alt="Zach Stoebner, profle, at 5th&Broadway in Nashville, TN" style="height:579px;width:384px;" />
+<img src="image/profile.jpeg" alt="Zach Stoebner, profle, at 5th&Broadway in Nashville, TN" style="height:500px;width:332px;" />
 <figcaption>Hi, I'm Zach!</figcaption>
 </figure>
 
