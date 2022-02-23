@@ -16,7 +16,7 @@ toc = true
 [[resources]]
   src = "image/hamlet.jpg"
   name = "thumbnail"
-  title = "Laurence Olivier in a scence from Hamlet"
+  title = "Laurence Olivier in a scene from Hamlet"
   [resources.params.meta]
     description = "Laurence Olivier in a scence from Hamlet"
     sameAs = "https://www.britannica.com/topic/Hamlet-fictional-character#/media/1/253483/11365"

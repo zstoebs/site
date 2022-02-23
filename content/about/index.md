@@ -10,12 +10,12 @@ description = "Legends say that the stache grows commensurately with my wisdom."
   date = "2021"
   license = "cc-by-nd-4.0"
 [[resources]]
-  src = "image/fun_and_flirty.jpeg"
+  src = "image/profile.jpeg"
   name = "thumbnail"
 +++
 
 <figure>
-<img src="image/fun_and_flirty.jpeg" alt="Zach Stoebner, fun and flirty, at a bar in Nashville, TN" style="height:500px;width:250px;" /> 
+<img src="image/profile.jpeg" alt="Zach Stoebner, profle, at 5th&Broadway in Nashville, TN" style="height:579px;width:384px;" />
 <figcaption>Hi, I'm Zach!</figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ I graduated from Vandy in May 2021 with a B.S. in computer science and neuroscie
 
 I am passionate about connecting with youth and the broader community on topics of science and engineering. During undergrad, I was a mentor in the [VUSE Design Studio](https://my.vanderbilt.edu/designstudio/) and served as the communications chair in my senior year. I was also a section leader & reviewer for the [Vanderbilt Undergraduate Research Journal](https://vurj.vanderbilt.edu) for natural sciences. Currently, I am serving as the community outreach chair for [Out in Engineering](https://anchorlink.vanderbilt.edu/organization/outinengineering). 
 
-Over the past couple of years, I have had the privilege to assist with courses on discrete structures, operating systems, deep learning, and currently AI. 
+Over the past couple of years, I have had the privilege to assist with courses on discrete structures, operating systems, deep learning, AI, and currently ML projects. 
 
 ---
 
