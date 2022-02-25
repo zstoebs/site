@@ -26,7 +26,6 @@ Check out my [projects](/projects/) to see what I'm working on, [notes](/notes/)
 [CV](/doc/CV.pdf)
 [GitHub](https://github.com/zstoebs)
 [LinkedIn](https://www.linkedin.com/in/zstoebs/)
-[Goodreads](https://www.goodreads.com/user/show/99553326-zachary-stoebner)
 
 <strong>Currently, I am applying to PhD programs that encourage interdisciplinary research at the intersection of my interests. Please reach out to me at [+1(512)547-7486](tel:+15125477486) or zachary.a.stoebner@vanderbilt.edu if you would like to work together!</strong>
 
