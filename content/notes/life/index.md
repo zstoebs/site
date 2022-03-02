@@ -26,7 +26,7 @@ draft = false
 
 # Life
 - I am gay, very sexy, and very smart.
-	- I do not enjoy or vibe with straight culture and do not have to suffer it. 
+	- I do not enjoy or vibe with straight culture and do not have to endure it. 
 - Under no circumstances will I suffer religion, homophobia, or bigotry.
 - Empathy, kindness, forgiveness, flexibility, and adaptability are more logical and worthwhile than hate, stubbornness, rigidity, and immutability.
 - I am an experience-oriented person, much less of a results-oriented person.

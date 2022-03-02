@@ -5,6 +5,7 @@ categories = ["me"]
 description = "Briefly outlining my intentions for notes."
 summary = "Welcome!"
 draft = false
+toc = true
 [schema]
  type = "note"
 [[copyright]]
