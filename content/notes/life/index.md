@@ -28,7 +28,7 @@ draft = false
 - I am gay, very sexy, and very smart.
 	- I do not enjoy or vibe with straight culture and do not have to endure it. 
 - Under no circumstances will I suffer religious zealotry, homophobia, or bigotry.
-- Empathy, kindness, forgiveness, flexibility, and adaptability are more logical and worthwhile than hate, stubbornness, rigidity, and immutability.
+- Empathy, kindness, forgiveness, flexibility, and adaptability are more logical and worthwhile than apathy, hate, vindictiveness, rigidity, and immutability.
 - I am an experience-oriented person, much less of a results-oriented person.
 - <strong>Science, engineering, and math are the most fulfilling and constant themes of my life.</strong>
 - My family by birth is important to me. 
