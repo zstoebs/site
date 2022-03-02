@@ -27,7 +27,7 @@ draft = false
 # Life
 - I am gay, very sexy, and very smart.
 	- I do not enjoy or vibe with straight culture and do not have to endure it. 
-- Under no circumstances will I suffer religion, homophobia, or bigotry.
+- Under no circumstances will I suffer religious zealotry, homophobia, or bigotry.
 - Empathy, kindness, forgiveness, flexibility, and adaptability are more logical and worthwhile than hate, stubbornness, rigidity, and immutability.
 - I am an experience-oriented person, much less of a results-oriented person.
 - <strong>Science, engineering, and math are the most fulfilling and constant themes of my life.</strong>
@@ -39,7 +39,7 @@ draft = false
 - A workout + music / podcast is my critical grounding mechanism, centering meditation, and emotional balancer.
 - I don't have to work out every day.
 - I like to eat chocolate and all macarons.
-- Cutting and bulking is not conducive to my mental well-being. 
+- Cutting and bulking cycles are not conducive to my mental well-being. 
 	- I like to exercise consistently, maintain my diet, and feel physically healthy all year.
 - Few video games provide real value to my life.
 	- But I watch battle royales on Twitch like straight men watch football. 
