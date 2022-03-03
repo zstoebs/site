@@ -27,7 +27,6 @@ draft = false
 # Life
 - I am very, very lucky. 
 - I am gay, very sexy, and very smart.
-<!--	- I do not enjoy or vibe with straight culture and do not have to endure it. -->
 - Under no circumstances will I suffer religious zealotry, homophobia, or bigotry.
 - Empathy, kindness, forgiveness, flexibility, and adaptability are more logical and worthwhile than apathy, hate, vindictiveness, rigidity, and immutability.
 - I am an experience-oriented person, much less of a results-oriented person.
