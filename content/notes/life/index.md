@@ -5,7 +5,7 @@ description = "Self-validated by his visage, another hottie offers unsolicited a
 summary = "Solicited often in fact, friends ask me how I run this full-time gig. How do I stay lean, build muscle, maintain my endurance, and also balance school, publish high-impact research, and play hard every weekend? These are my epiphanies that I hope will answer these questions and let the world understand these pieces of me... ideally maximizing tasteful pride and confidence and minimizing self-aggrandizing narcissism."
 categories = ["me"]
 toc = true
-draft = false
+draft = true
 [schema]
   type = "note"
 [[copyright]]
