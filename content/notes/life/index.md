@@ -18,13 +18,14 @@ draft = false
 +++
 
 <figure>
-<img src="image/titties.jpeg" alt="Zach Stoebner at Mantamar in Puerto Vallarta showing off his big knockers" style="width:400px;height:400px"/> 
+<img src="image/titties.jpeg" alt="Zach Stoebner at Mantamar in Puerto Vallarta showing off his big knockers" style="width:350px;height:350px"/> 
 </figure>
 <br>
 
 **tl;dr** <i>Self-validated by his visage, another hottie offers unsolicited advice on health habits and personal success...</i> Solicited often in fact, friends ask me how I run this full-time gig. How do I stay lean, build muscle, maintain my endurance, and also balance school, publish high-impact research, and play hard every weekend? These are my epiphanies that I hope will answer these questions and let the world understand these pieces of me... ideally maximizing tasteful pride and confidence and minimizing self-aggrandizing narcissism.
 
 # Life
+- I am very, very lucky. 
 - I am gay, very sexy, and very smart.
 	- I do not enjoy or vibe with straight culture and do not have to endure it. 
 - Under no circumstances will I suffer religious zealotry, homophobia, or bigotry.

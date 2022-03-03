@@ -35,7 +35,7 @@ Check out my [projects](/projects/) to see what I'm working on, [notes](/notes/)
 
 I graduated from Vandy in May 2021 with a B.S. in computer science and neuroscience, minoring in applied math. I expect to complete my M.S. in computer science, also at Vandy, in May 2022. I am writing my thesis on an automatic segmentation system that I am developing for surgical endoscopy. 
 
-I am passionate about connecting with youth and the broader community on topics of science and engineering. During undergrad, I was a mentor in the [VUSE Design Studio](https://my.vanderbilt.edu/designstudio/) and served as the communications chair in my senior year. I was also a section leader & reviewer for the [Vanderbilt Undergraduate Research Journal](https://vurj.vanderbilt.edu) for natural sciences. Currently, I am serving as the community outreach chair for [Out in Engineering](https://anchorlink.vanderbilt.edu/organization/outinengineering). 
+I am passionate about connecting with youth and the broader community on topics of science and engineering. During undergrad, I was a mentor in the [VUSE Design Studio](https://my.vanderbilt.edu/designstudio/) and served as the communications chair in my senior year. I was also a section leader & reviewer for the [Vanderbilt Undergraduate Research Journal](https://vurj.vanderbilt.edu) for natural sciences and then served as a graduate mentor. Currently, I am serving as the community outreach chair for [Out in Engineering](https://anchorlink.vanderbilt.edu/organization/outinengineering). 
 
 Over the past couple of years, I have had the privilege to assist with courses on discrete structures, operating systems, deep learning, AI, and currently ML projects. 
 
