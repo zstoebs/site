@@ -1,11 +1,11 @@
 +++
 title = "on my life"
 date = 2022-03-01T17:55:47-06:00
-description = "Self-validated by his visage, another hottie offers unsolicited advice on health habits and personal success..."
-summary = "Solicited often in fact, friends ask me how I run this full-time gig. How do I stay lean, build muscle, maintain my endurance, and also balance school, publish high-impact research, and play hard every weekend? These are my epiphanies that I hope will answer these questions and let the world understand these pieces of me... ideally maximizing tasteful pride and confidence and minimizing self-aggrandizing narcissism."
+description = "Does she even go here??"
+summary = "How do I stay lean, build muscle, maintain my endurance, and also balance school, publish high-impact research, and play hard every weekend? These are my epiphanies that I hope will answer these questions and let the world understand these pieces of me... ideally maximizing tasteful pride and confidence and minimizing self-aggrandizing narcissism."
 categories = ["me"]
 toc = true
-draft = true
+draft = false
 [schema]
   type = "note"
 [[copyright]]
@@ -22,7 +22,7 @@ draft = true
 </figure>
 <br>
 
-**tl;dr** <i>Self-validated by his visage, another hottie offers unsolicited advice on health habits and personal success...</i> Solicited often in fact, friends ask me how I run this full-time gig. How do I stay lean, build muscle, maintain my endurance, and also balance school, publish high-impact research, and play hard every weekend? These are my epiphanies that I hope will answer these questions and let the world understand these pieces of me... ideally maximizing tasteful pride and confidence and minimizing self-aggrandizing narcissism.
+**tl;dr** How do I stay lean, build muscle, maintain my endurance, and also balance school, publish high-impact research, and play hard every weekend? These are my epiphanies that I hope will answer these questions and let the world understand these pieces of me... ideally maximizing tasteful pride and confidence and minimizing self-aggrandizing narcissism.
 
 # Life
 - I am very, very lucky. 
