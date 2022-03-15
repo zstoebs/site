@@ -41,8 +41,10 @@ draft = false
 - I like to eat chocolate and all macarons.
 - Cutting and bulking cycles are not conducive to my mental well-being. 
 	- I like to exercise consistently, maintain my diet, and feel physically healthy all year.
+	- Almond milk and plant protein feel better to my body than cow milk and whey protein.  
 - Few video games provide real value to my life.
 	- But I watch battle royales on Twitch like straight men watch football. 
+	- And the lessons and enjoyment gained from the rare role-playing game with a phenomenal story are valuable to me.  
 
 # Corrigenda
 - I am relatively terrible at time management.
