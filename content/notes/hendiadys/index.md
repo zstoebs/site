@@ -1,7 +1,7 @@
 +++
 title = "on hendiadys"
 date = 2021-07-11T14:43:05-05:00
-categories = ["poetry"]
+categories = ["create", "poetry"]
 tags = ["hendiadys", "hendiatris", "literature"]
 description = "1 + 1 ≠ 2, existential me circa 1600"
 summary = "I bet you have no idea what this is. You've definitely seen one before... but you just didn't know it. Boo!"

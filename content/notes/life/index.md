@@ -2,7 +2,7 @@
 title = "on my life"
 date = 2022-03-01T17:55:47-06:00
 description = "Does she even go here??"
-summary = "How do I stay lean, build muscle, maintain my endurance, and also balance school, publish high-impact research, and play hard every weekend? These are my epiphanies that I hope will answer these questions and let the world understand these pieces of me... ideally maximizing tasteful pride and confidence and minimizing self-aggrandizing narcissism."
+summary = "How do I stay lean, build muscle, maintain my endurance, and also balance school, publish high-impact research, and play hard every weekend? These are my epiphanies that I hope will answer these questions and let the world understand these loves of mine... ideally maximizing tasteful pride and confidence and minimizing self-aggrandizing narcissism."
 categories = ["me"]
 toc = true
 draft = false
@@ -22,7 +22,7 @@ draft = false
 </figure>
 <br>
 
-**tl;dr** How do I stay lean, build muscle, maintain my endurance, and also balance school, publish high-impact research, and play hard every weekend? These are my epiphanies that I hope will answer these questions and let the world understand these pieces of me... ideally maximizing tasteful pride and confidence and minimizing self-aggrandizing narcissism.
+**tl;dr** How do I stay lean, build muscle, maintain my endurance, and also balance school, publish high-impact research, and play hard every weekend? These are my epiphanies that I hope will answer these questions and let the world understand these loves of mine... ideally maximizing tasteful pride and confidence and minimizing self-aggrandizing narcissism.
 
 # Life
 - I am very, very lucky. 
@@ -44,7 +44,8 @@ draft = false
 	- Almond milk and plant protein feel better to my body than cow milk and whey protein.  
 - Few video games provide real value to my life.
 	- But I watch battle royales on Twitch like straight men watch football. 
-	- And the lessons and enjoyment gained from the rare role-playing game with a phenomenal story are valuable to me.  
+	- And the lessons and enjoyment gained from the rare role-playing game with a phenomenal story are valuable to me. 
+- <strong>Brand. Marketing. Is key.</strong>
 
 # Corrigenda
 - I am relatively terrible at time management.

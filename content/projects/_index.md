@@ -10,11 +10,9 @@ draft = false
 +++
 
 {{< hackcss-alert type="info" >}}
-<a href="/categories/research">research</a> = first-author abstracts and results, under permissive policies
-
+I conduct <a href="/categories/research">research</a>
 <br>
-<a href="/categories/course">course</a> = <a href="/categories/solo">solo</a> or <a href="/categories/team">team</a>, proposed and completed independently
-
+bolstered by <a href="/categories/course">courses</a> with <a href="/categories/solo">solo</a> or <a href="/categories/team">team</a> projects
 <br>
-<a href="/categories/personal">personal</a> = the fruit of my own ambitions
+often inspired by my <a href="/categories/personal">personal</a> ambitions. 
 {{< /hackcss-alert >}}

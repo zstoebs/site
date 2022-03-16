@@ -1,6 +1,6 @@
 +++
 title = "on haiku & senryū"
-categories = ["poetry"]
+categories = ["create", "poetry"]
 tags = ["haiku", "senryū", "tanka", "renga"]
 date = 2021-07-05T16:54:04-05:00
 description = "I love poetic primes."

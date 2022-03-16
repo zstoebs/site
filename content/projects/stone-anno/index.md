@@ -37,7 +37,6 @@ Image segmentation has been increasingly applied in medical settings as recent d
 </figure>
 <br>
 
-
 <figure>
 <img src="image/perf_curves2.jpg" alt="Training curves for U-Net, U-Net++, and DenseNet on validation data."/> 
 <figcaption>Figure 2. A comparison of our best models’ Dice score (left) and BCE loss (right) from training. Note that the y-axis is scaled to the range of values. DenseNet had the highest and most variant BCE loss, yet its outlier values are relatively low compared to those in other binary classification tasks as BCE does not have an upper bound. </figcaption>
