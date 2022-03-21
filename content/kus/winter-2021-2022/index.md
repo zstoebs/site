@@ -13,19 +13,17 @@ draft = false
   date = "2022"
   license = "cc-by-nd-4.0"
 [[resources]]
-  src = "image/dark.JPG"
+  src = "image/erosion.JPG"
   name = "header thumbnail"
 +++
+
+ear wind of walking through plain of grass | overhead <br>
 
 <img src="image/falls.JPG" />
 
 daddy fishing :: <br>
 a Star in my lens <br>
 before the falls <br>
-
-<img src="image/erosion.JPG" />
-
-ear wind of walking through plain of grass | overhead <br>
 
 city search <br>
 for sex sounds and sin : <br>
