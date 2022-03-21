@@ -18,9 +18,9 @@ is  <a href="/categories/haiku">hai(k)u</a>
 
 <br>
 <br>
-cold months in <a href="/kus/portugues">Portugal</a> 
+<a href="/kus/winter-2021-2022/">cold</a> months in <a href="/kus/portugues">Portugal</a> 
 <br>
-saw <a href="/kus/spring-summer-2019">Vandy</a> birds one spring
+saw <a href="/kus/spring-summer-2019">Vandy</a> <a href="/kus/fall-winter-2019/">birds</a> one spring
 <br>
 later fly to <a href="/kus/spring-summer-2020">Portland</a>.  
 

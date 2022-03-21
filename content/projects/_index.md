@@ -12,7 +12,7 @@ draft = false
 {{< hackcss-alert type="info" >}}
 I conduct <a href="/categories/research">research</a>
 <br>
-bolstered by <a href="/categories/course">courses</a> with <a href="/categories/solo">solo</a> or <a href="/categories/team">team</a> projects
+bolstered by <a href="/categories/course">courses</a> with <a href="/categories/solo">solo</a> or <a href="/categories/team">team</a> projects,
 <br>
 often inspired by my <a href="/categories/personal">personal</a> ambitions. 
 {{< /hackcss-alert >}}

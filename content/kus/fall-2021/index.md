@@ -70,8 +70,6 @@ cone's tip <br>
 
 <img src="image/yule.jpeg" />
 
-small red fruit <br>
+holly's fruit <br>
 infect leafless branches <br>
 of a Yule tree <br>
-
-

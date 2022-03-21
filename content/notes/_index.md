@@ -12,7 +12,7 @@ draft = false
 {{< hackcss-alert type="info" >}}
 I learn about <a href="/categories/algo">algo</a>, opt, comp, etc
 <br>
-and I <a href="/categories/create">create</a> poetry and other creativities
+and I <a href="/categories/create">create</a> poetry and other creativities,
 <br>
-which has taught <a href="/categories/me">me</a> about myself. 
+which have taught <a href="/categories/me">me</a> about myself. 
 {{< /hackcss-alert >}}
