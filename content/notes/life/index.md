@@ -1,8 +1,8 @@
 +++
 title = "on my life"
 date = 2022-03-01T17:55:47-06:00
-description = "Does she even go here??"
-summary = "How do I stay lean, build muscle, maintain my endurance, and also balance school, publish high-impact research, and play hard every weekend? These are my epiphanies that I hope will answer these questions and let the world understand these loves of mine... ideally maximizing tasteful pride and confidence and minimizing self-aggrandizing narcissism."
+description = "Who even is she??"
+summary = "My guide to effective brand management -- the tenets, epiphanies, and fruits of my efforts -- a reflection of tasteful pride and confidence -- a learning policy optimized over 24 years."
 categories = ["me"]
 toc = true
 draft = false
@@ -13,16 +13,17 @@ draft = false
   date = "2022"
   license = "cc-by-nd-4.0"
 [[resources]]
-  src = "image/titties.jpeg"
+  src = "image/firework.jpg"
   name = "thumbnail"
 +++
 
 <figure>
-<img src="image/titties.jpeg" alt="Zach Stoebner at Mantamar in Puerto Vallarta showing off his big knockers" style="width:350px;height:350px"/> 
+<img src="image/titties.jpeg" alt="Zach Stoebner, at Mantamar in Puerto Vallarta" style="width:350px;height:350px"/> 
+<figcaption>oop</figcaption>
 </figure>
 <br>
 
-**tl;dr** How do I stay lean, build muscle, maintain my endurance, and also balance school, publish high-impact research, and play hard every weekend? These are my epiphanies that I hope will answer these questions and let the world understand these loves of mine... ideally maximizing tasteful pride and confidence and minimizing self-aggrandizing narcissism.
+**tl;dr** My guide to effective brand management -- the tenets, epiphanies, and fruits of my efforts -- a reflection of tasteful pride and confidence -- a learning policy optimized over 24 years. 
 
 # Life
 - I am very, very lucky. 
@@ -39,10 +40,11 @@ draft = false
 - A workout + music / podcast is my critical grounding mechanism, centering meditation, and emotional balancer.
 - I don't have to work out every day.
 - I like to eat chocolate and all macarons.
+	- The two genius foods of our day: chocolate + peanut butter and sea salt chocolate chip cookies.
 - Cutting and bulking cycles are not conducive to my mental well-being. 
 	- I like to exercise consistently, maintain my diet, and feel physically healthy all year.
-	- Almond milk and plant protein feel better to my body than cow milk and whey protein.  
-- Few video games provide real value to my life.
+	- Almond milk and plant protein feel better to my body than cow's milk and whey protein, even though I am not lactose-intolerant.
+- Few video games provide real value to my life as an adult, but many were critical to my growth as a youth.
 	- But I watch battle royales on Twitch like straight men watch football. 
 	- And the lessons and enjoyment gained from the rare role-playing game with a phenomenal story are valuable to me. 
 - <strong>Brand. Marketing. Is key.</strong>
