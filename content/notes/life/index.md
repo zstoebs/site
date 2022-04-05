@@ -27,13 +27,14 @@ draft = false
 
 # Life
 - I am very, very lucky. 
-- I am gay, very sexy, and very smart.
+- I am gay, very sexy, very smart, and very fun.
 - Under no circumstances will I suffer religious zealotry, homophobia, or bigotry.
 - Empathy, kindness, forgiveness, flexibility, and adaptability are more logical and worthwhile than apathy, hate, vindictiveness, rigidity, and immutability.
-- I am an experience-oriented person, much less of a results-oriented person.
+- I am an experience- and purpose-oriented person, less of a results- and -appearance oriented person, yet I am cognizant that the latter is advantageous in some contexts.
 - <strong>Science, engineering, and math are the most fulfilling and constant themes of my life.</strong>
 - My family by birth is important to me. 
 - <strong>My physical fitness, diet, and mental health are intertwined and are core to who I am.</strong>
+- In frustrating situations, stepping back mentally, and sometimes physically, often helps me see the macro-perspective to explore my best path moving forward. 
 
 # Lifestyle
 - My lifestyle is healthy, yet improvable... and non-negotiable.

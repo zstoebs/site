@@ -3,7 +3,7 @@ title = "on my goals for this site"
 date = 2021-06-27T14:18:39-05:00
 categories = ["me"]
 description = "Briefly outlining my goals for my site... and actually celebrating the achievement."
-summary = ":celebrating::answering::clarifying:"
+summary = ":answering::clarifying::tiring:"
 draft = false
 toc = true
 [schema]
@@ -24,11 +24,11 @@ toc = true
 
 To inaugurate this site, I would like to outline my goals... and actually celebrate the achievement. 
 
-# [Projects](/projects/):
+# [projects](/projects/):
 1. To communicate the manifestations of my interests. 
 2. To record major work that I ha e undertaken. 
 
-# [Notes](/notes/): 
+# [notes](/notes/): 
 1. To collect and structure what I learn and ideate. 
 2. To hopefully help and entertain weary travelers and passersby. 
 
