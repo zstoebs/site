@@ -23,7 +23,7 @@ toc = true
 
 # Links
 
-**The paper was accepted for SPIE 2022 Medical Imaging: Image Processing. Once the paper is digitally published on the SPIE archive, I will link it here. At that time, I expect to release the code as well.**
+Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz "Segmentation of kidney stones in endoscopic video feeds", Proc. SPIE 12032, Medical Imaging 2022: Image Processing, 120323G (4 April 2022); https://doi.org/10.1117/12.2613274
 
 [comet.ml project page](https://www.comet.ml/zstoebs/stoneannotation/view/dEmnngcbMromlN06TZBvVj3qb)
 
