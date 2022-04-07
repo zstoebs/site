@@ -5,7 +5,7 @@ description = "Who even is she and does she even go here??"
 summary = "My guide to effective brand management -- the tenets, epiphanies, and fruits of my efforts -- a reflection of tasteful pride and confidence -- a learning policy optimized over 24 years."
 categories = ["me"]
 toc = true
-draft = true
+draft = false
 [schema]
   type = "note"
 [[copyright]]
@@ -17,17 +17,36 @@ draft = true
   name = "thumbnail"
 +++
 
+**tl;dr** My guide to effective brand management -- the tenets, epiphanies, and fruits of my efforts -- a reflection of tasteful pride and confidence -- a learning policy optimized over 24 years. 
+
+# Morning Routine
+My first objective for any day is to warm my brain up with a few bitesized games. Otherwise, it's a slow process getting out of bed and motivating myself for the day because I'm not much of a morning person. 
+
+Daily:
+1. [Wordle](https://www.nytimes.com/games/wordle/index.html)
+2. [Octordle](https://octordle.com)
+3. [Chess](https://www.chess.com/daily-chess-puzzle)
+4. [Semantle](https://semantle.novalis.org)
+
+Occasionally:
+1. [Sudoku](https://www.nytimes.com/puzzles/sudoku/hard)
+2. [Solitaire](https://games.washingtonpost.com/en-us/games/daily-solitaire)
+
+*Sudoku and Solitaire used to be daily for me but they became tedious. Semantle is more challenging to solve but lower stakes, rather lasting the whole day when I have time to guess or think of a good semantic candidate.*
+
+# Tenets
+I'm consistently optimizing, little by little. Serendipitously, I started thinking about some of these ideas as a kid. Although steadfast adherence helps me endure sometimes, I am constantly updating and reevaluating because things change and people can do hard things... such as admitting that I am wrong or that a tenet that I lived my life by up until now may not be optimal anymore. 
+
+## Core
+- I am very, very lucky. 
+- I am gay, very sexy, very smart, and very fun.
+
 <figure>
 <img src="image/titties.jpeg" alt="Zach Stoebner, at Mantamar in Puerto Vallarta" style="width:350px;height:350px"/> 
-<figcaption>oop</figcaption>
+<figcaption>oop... slide in. flex.</figcaption>
 </figure>
 <br>
 
-**tl;dr** My guide to effective brand management -- the tenets, epiphanies, and fruits of my efforts -- a reflection of tasteful pride and confidence -- a learning policy optimized over 24 years. 
-
-# Life
-- I am very, very lucky. 
-- I am gay, very sexy, very smart, and very fun.
 - Under no circumstances will I suffer religious zealotry, homophobia, or bigotry.
 - Empathy, kindness, forgiveness, flexibility, and adaptability are more logical and worthwhile than apathy, hate, vindictiveness, rigidity, and immutability.
 - I am an experience- and purpose-oriented person, less of a results- and -appearance oriented person, yet I am cognizant that the latter is advantageous in some contexts.
@@ -36,7 +55,7 @@ draft = true
 - <strong>My physical fitness, diet, and mental health are intertwined and are core to who I am.</strong>
 - In frustrating situations, stepping back mentally, and sometimes physically, often helps me see the macro-perspective to explore my best path moving forward. 
 
-# Lifestyle
+## Observations
 - My lifestyle is healthy, yet improvable... and non-negotiable.
 - A workout + music / podcast is my critical grounding mechanism, centering meditation, and emotional balancer.
 - I don't have to work out every day.
@@ -50,6 +69,6 @@ draft = true
 	- And the lessons and enjoyment gained from the rare role-playing game with a phenomenal story are valuable to me. 
 - <strong>Brand. Marketing. Is key.</strong>
 
-# Corrigenda
+## Corrigenda
 - I am relatively terrible at time management.
 - I have difficulty focusing, unless I am very excited by the task at hand, even if I want to do it. 
