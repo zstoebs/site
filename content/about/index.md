@@ -19,13 +19,14 @@ description = "Legends say that the stache grows commensurately with my wisdom."
 <figcaption>Hi, I'm Zach!</figcaption>
 </figure>
 
-I leverage machine learning to solve challenging problems in neuroscience, computer vision, and autonomous systems. <strong>I'm an incoming ECE PhD student at UT Austin</strong> on a Cockrell Engineering Fellowship working with Prof. [Jon Tamir](https://users.ece.utexas.edu/~jtamir/) in the [Computational Sensing and Imaging Lab](https://users.ece.utexas.edu/~jtamir/csilab.html). I'm currently a graduate student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) at [Vanderbilt University](https://www.vanderbilt.edu) advised by Prof. Ipek Oguz, investigating AI/ML & deep learning for image & signal processing, historically for brain MRI as well as other medical and neuroscientific data. Generally, I'm curious about [AI](/tags/ai)/[ML](/tags/ml) & [neuroscience](/tags/neuro), [intelligent systems](/tags/cps) & [robotics](/tags/robotics), and [optimization](/tags/opt) & [control](/tags/control). 
+I leverage machine learning to solve challenging problems in neuroscience, computer vision, and autonomous systems. <strong>I'm an incoming [Electrical and Computer Engineering](https://www.ece.utexas.edu) PhD student at [UT Austin](https://www.utexas.edu) on a Cockrell Engineering Fellowship working with Prof. [Jon Tamir](https://users.ece.utexas.edu/~jtamir/) in the [Computational Sensing and Imaging Lab](https://users.ece.utexas.edu/~jtamir/csilab.html).</strong> I'm currently a graduate student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) at [Vanderbilt University](https://www.vanderbilt.edu) advised by Prof. Ipek Oguz, investigating AI/ML & deep learning for image & signal processing, historically for brain MRI as well as other medical and neuroscientific data. Generally, I'm curious about [AI](/tags/ai)/[ML](/tags/ml) & [neuroscience](/tags/neuro), [intelligent systems](/tags/cps) & [robotics](/tags/robotics), and [optimization](/tags/opt) & [control](/tags/control). 
 
 Check out my [projects](/projects/) to see what I'm working on, [notes](/notes/) to see what I'm thinking about, and [kū](/kus/) to see what I'm seeing!
 
 [CV](/doc/CV.pdf)
 [GitHub](https://github.com/zstoebs)
 [LinkedIn](https://www.linkedin.com/in/zstoebs/)
+[Scholar](https://scholar.google.com/citations?authuser=2&user=uQ4eoukAAAAJ)
 
 <!--more-->
 
