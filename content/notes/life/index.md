@@ -39,7 +39,7 @@ I'm consistently optimizing, little by little. Serendipitously, I started thinki
 
 ## Core
 - I am very, very lucky. 
-- I am gay, very sexy, very smart, and very fun.
+- I am gay, very smart, very sexy, and very fun.
 
 <figure>
 <img src="image/titties.jpeg" alt="Zach Stoebner, at Mantamar in Puerto Vallarta" style="width:350px;height:350px"/> 

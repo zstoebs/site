@@ -19,7 +19,7 @@ description = "Legends say that the stache grows commensurately with my wisdom."
 <figcaption>Hi, I'm Zach!</figcaption>
 </figure>
 
-I engineer new methods to process high-dimensional signals, particularly in magnetic resonance imaging, with direct practical benefit. My research spans **signal processing**, **deep learning**, and **machine perception** to solve challenging problems in autonomous systems. Generally, I'm curious about [AI](/tags/ai)/[ML](/tags/ml) & [neuroscience](/tags/neuro), [intelligent systems](/tags/cps) & [robotics](/tags/robotics), and [optimization](/tags/opt) & [control](/tags/control). 
+I engineer new methods to process high-dimensional signals, particularly in magnetic resonance imaging, with practical benefit in mind. My research spans **signal processing**, **deep learning**, and **machine perception** to solve challenging problems in autonomous systems. Generally, I'm curious about [AI](/tags/ai)/[ML](/tags/ml) & [neuroscience](/tags/neuro), [intelligent systems](/tags/cps) & [robotics](/tags/robotics), and [optimization](/tags/opt) & [control](/tags/control). 
 
  <strong>I'm an incoming [Electrical and Computer Engineering](https://www.ece.utexas.edu) PhD student at [UT Austin](https://www.utexas.edu) on a Cockrell Engineering Fellowship working with [Prof. Jon Tamir](https://users.ece.utexas.edu/~jtamir/) in the [Computational Sensing and Imaging Lab](https://users.ece.utexas.edu/~jtamir/csilab.html).</strong> I'm currently a graduate student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) at [Vanderbilt University](https://www.vanderbilt.edu) advised by [Prof. Ipek Oguz](https://engineering.vanderbilt.edu/bio/ipek-oguz). 
 
