@@ -38,15 +38,6 @@ Occasionally:
 I'm consistently optimizing, little by little. Serendipitously, I started thinking about some of these ideas as a kid. Although steadfast adherence helps me endure sometimes, I am constantly updating and reevaluating because things change and people can do hard things... such as admitting that I am wrong or that a tenet that I lived my life by up until now may not be optimal anymore. 
 
 ## Core
-- I am very, very lucky. 
-- I am gay, very smart, very sexy, and very fun.
-
-<figure>
-<img src="image/titties.jpeg" alt="Zach Stoebner, at Mantamar in Puerto Vallarta" style="width:350px;height:350px"/> 
-<figcaption>oop... slide in. flex.</figcaption>
-</figure>
-<br>
-
 - Under no circumstances will I suffer religious zealotry, homophobia, or bigotry.
 - Empathy, kindness, forgiveness, flexibility, and adaptability are more logical and worthwhile than apathy, hate, vindictiveness, rigidity, and immutability.
 - I am an experience- and purpose-oriented person, less of a results- and -appearance oriented person, yet I am cognizant that the latter is advantageous in some contexts.
@@ -56,6 +47,15 @@ I'm consistently optimizing, little by little. Serendipitously, I started thinki
 - In frustrating situations, stepping back mentally, and sometimes physically, often helps me see the macro-perspective to explore my best path moving forward. 
 
 ## Observations
+- I am very, very lucky. 
+- I am gay, very smart, very sexy, and very fun.
+
+<figure>
+<img src="image/titties.jpeg" alt="Zach Stoebner, at Mantamar in Puerto Vallarta" style="width:350px;height:350px"/> 
+<figcaption>oop... slide in. flex.</figcaption>
+</figure>
+<br>
+
 - My lifestyle is healthy, yet improvable... and non-negotiable.
 - A workout + music / podcast is my critical grounding mechanism, centering meditation, and emotional balancer.
 - I don't have to work out every day.
