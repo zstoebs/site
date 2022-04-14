@@ -21,7 +21,7 @@ toc = true
 
 **tl;dr** StoneAnno is my first published first-authorship paper, **presenting at SPIE 2022**. My advisor, Prof. Ipek Oguz, connected me and my friend, David Lu, with Dr. Nick Kavoussi at VUMC who wanted to bring surgical endoscopy out of the dark ages. With the long-term goal of fully-automated robotic endoscopic surgery, we built a dataset of endoscopic kidney stone removal videos and investigated U-Net, U-Net++, and DenseNet for the segmentation task. We found a U-Net++ model that consistently achieves **>0.9 Dice score**, with low loss, and produces realistic, convincing segmentations. Moving forward, I am implementing our model on hardware for deployment in ORs, as a part of my master's thesis, and I helped Dr. Kavoussi submit an **R21 grant** in October 2021. In the early stages of the project, we were also accepted for a poster presentation at the 2021 Engineering & Urology Society annual meeting. 
 
-# Links
+# Citation
 Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz "Segmentation of kidney stones in endoscopic video feeds", Proc. SPIE 12032, Medical Imaging 2022: Image Processing, 120323G (4 April 2022); https://doi.org/10.1117/12.2613274
 
 # Abstract
