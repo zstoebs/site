@@ -24,6 +24,8 @@ toc = true
 # Citation
 Zachary A. Stoebner, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz "Segmentation of kidney stones in endoscopic video feeds", Proc. SPIE 12032, Medical Imaging 2022: Image Processing, 120323G (4 April 2022); https://doi.org/10.1117/12.2613274
 
+[[SPIE](https://doi.org/10.1117/12.2613274)] [[arXiv](https://arxiv.org/abs/2204.14175)]
+
 # Abstract
 Image segmentation has been increasingly applied in medical settings as recent developments have skyrocketed the potential applications of deep learning. Urology, specifically, is one field of medicine that is primed for the adoption of a real-time image segmentation system with the long-term aim of automating endoscopic stone treatment. In this project, we explored supervised deep learning models to annotate kidney stones in surgical endoscopic video feeds. In this paper, we describe how we built a dataset from the raw videos and how we developed a pipeline to automate as much of the process as possible. For the segmentation task, we adapted and analyzed three baseline deep learning models – U-Net, U-Net++, and DenseNet – to predict annotations on the frames of the endoscopic videos with the highest accuracy above 90%. To show clinical potential for real-time use, we also confirmed that our best trained model can accurately annotate new videos at 30 frames per second. Our results demonstrate that the proposed method justifies continued development and study of image segmentation to annotate ureteroscopic video feeds.
 

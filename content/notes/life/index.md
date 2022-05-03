@@ -1,7 +1,7 @@
 +++
 title = "on my life"
 date = 2022-03-01T17:55:47-06:00
-description = "Who even is she and does she even go here??"
+description = "gotta keep track"
 summary = "My guide to effective brand management -- the tenets, epiphanies, and fruits of my efforts -- a reflection of tasteful pride and confidence -- a learning policy optimized over 24 years."
 categories = ["me"]
 toc = true
@@ -26,11 +26,11 @@ Daily:
 1. [Wordle](https://www.nytimes.com/games/wordle/index.html)
 2. [Octordle](https://octordle.com)
 3. [Chess](https://www.chess.com/daily-chess-puzzle)
-4. [Semantle](https://semantle.novalis.org)
 
 Occasionally:
 1. [Sudoku](https://www.nytimes.com/puzzles/sudoku/hard)
 2. [Solitaire](https://games.washingtonpost.com/en-us/games/daily-solitaire)
+3. [Semantle](https://semantle.novalis.org)
 
 *Sudoku and Solitaire used to be daily for me but they became tedious. Semantle is more challenging to solve but lower stakes, rather lasting the whole day when I have time to guess or think of a good semantic candidate.*
 
@@ -45,6 +45,7 @@ I'm consistently optimizing, little by little. Serendipitously, I started thinki
 - My family by birth is important to me. 
 - <strong>My physical fitness, diet, and mental health are intertwined and are core to who I am.</strong>
 - In frustrating situations, stepping back mentally, and sometimes physically, often helps me see the macro-perspective to explore my best path moving forward. 
+- The most fun and approachable to building complex systems is to solve problems modularly and abstractly, starting with the small easy components in abstract terms to lay a strong foundation, understanding, toolkit, etc. from which to build the rest. For me, it all comes together with significantly less frustration if I have tools instrument my objectives. 
 
 ## Observations
 - I am very, very lucky. 
