@@ -10,9 +10,9 @@ draft = false
 +++
 
 {{< hackcss-alert type="info" >}}
-I learn about <a href="/categories/algo">algo</a>, opt, comp, etc
+I learn about <a href="/categories/algo">algo</a>, eng, stats, etc
 <br>
 and I <a href="/categories/create">create</a> poetry and other creativities,
 <br>
-which have taught <a href="/categories/me">me</a> about myself. 
+which reflect <a href="/categories/me">me</a>. 
 {{< /hackcss-alert >}}
