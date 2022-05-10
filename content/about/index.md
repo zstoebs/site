@@ -51,7 +51,3 @@ My hometown is Austin, TX.
 ---
 
 I'm always open to new opportunities, especially those that align with my interests. You can contact me at [+1(512)547-7486](tel:+15125477486) or zachary.a.stoebner@vanderbilt.edu.
-
-<figure>
-<img src="image/rainbow_brain.jpg" alt="A surface mesh with a pixelwise index-based color gradient overlay, visualized with VTK." /> 
-</figure>
