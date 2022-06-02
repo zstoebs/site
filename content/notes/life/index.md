@@ -48,15 +48,6 @@ I'm consistently optimizing, little by little. Serendipitously, I started thinki
 - The most fun and approachable to building complex systems is to solve problems modularly and abstractly, starting with the small easy components in abstract terms to lay a strong foundation, understanding, toolkit, etc. from which to build the rest. For me, it all comes together with significantly less frustration if I have tools instrument my objectives. 
 
 ## Observations
-- I am very, very lucky. 
-- I am gay, very smart, very sexy, and very fun.
-
-<figure>
-<img src="image/titties.jpeg" alt="Zach Stoebner, at Mantamar in Puerto Vallarta" style="width:350px;height:350px"/> 
-<figcaption>oop... slide in. flex.</figcaption>
-</figure>
-<br>
-
 - My lifestyle is healthy, yet improvable... and non-negotiable.
 - A workout + music / podcast is my critical grounding mechanism, centering meditation, and emotional balancer.
 - I don't have to work out every day.
@@ -64,7 +55,7 @@ I'm consistently optimizing, little by little. Serendipitously, I started thinki
 	- The two genius foods of our day: chocolate + peanut butter and sea salt chocolate chip cookies.
 - Cutting and bulking cycles are not conducive to my mental well-being. 
 	- I like to exercise consistently, maintain my diet, and feel physically healthy all year.
-	- Almond milk and plant protein feel better to my body than cow's milk and whey protein, even though I am not lactose-intolerant.
+	- Almond milk and plant protein feel better to my body than cow's milk and whey protein.
 - Few video games provide real value to my life as an adult, but many were critical to my growth as a youth.
 	- But I watch battle royales on Twitch like straight men watch football. 
 	- And the lessons and enjoyment gained from the rare role-playing game with a phenomenal story are valuable to me. 
