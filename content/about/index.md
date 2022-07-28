@@ -21,7 +21,7 @@ description = "Legends say that the stache grows commensurately with my wisdom."
 
 My research spans **image & signal processing**, **deep learning**, and **machine perception** to solve challenging problems in autonomous systems. Generally, I'm curious about [AI](/tags/ai)/[ML](/tags/ml) & [neuroscience](/tags/neuro), [intelligent systems](/tags/cps) & [robotics](/tags/robotics), and [optimization](/tags/opt) & [control](/tags/control). 
 
-I'm an incoming [Electrical and Computer Engineering](https://www.ece.utexas.edu) PhD student at [UT Austin](https://www.utexas.edu) on a Cockrell Engineering Fellowship working with [Prof. Jon Tamir](https://users.ece.utexas.edu/~jtamir/) in the [Computational Sensing and Imaging Lab](https://users.ece.utexas.edu/~jtamir/csilab.html).
+I'm an incoming [Electrical & Computer Engineering](https://www.ece.utexas.edu) PhD student at [UT Austin](https://www.utexas.edu) on a Cockrell Engineering Fellowship working with [Prof. Jon Tamir](https://users.ece.utexas.edu/~jtamir/) in the [Computational Sensing and Imaging Lab](https://users.ece.utexas.edu/~jtamir/csilab.html).
 
 Check out my [projects](/projects/) to see what I'm working on, [notes](/notes/) to see what I'm thinking about, and [kū](/kus/) to see what I'm seeing!
 

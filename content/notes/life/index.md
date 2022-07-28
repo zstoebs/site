@@ -42,25 +42,23 @@ I'm consistently optimizing, little by little. Serendipitously, I started thinki
 - Empathy, kindness, forgiveness, flexibility, and adaptability are more logical and worthwhile than apathy, hate, vindictiveness, rigidity, and immutability.
 - I am an experience- and purpose-oriented person, less of a results- and -appearance oriented person, yet I am cognizant that the latter is advantageous in some contexts.
 - <strong>Science, engineering, and math are the most fulfilling and constant themes of my life.</strong>
-- My family by birth is important to me. 
+- My family by birth is important to me, as is my chosen family. 
 - <strong>My physical fitness, diet, and mental health are intertwined and are core to who I am.</strong>
-- In frustrating situations, stepping back mentally, and sometimes physically, often helps me see the macro-perspective to explore my best path moving forward. 
-- The most fun and approachable to building complex systems is to solve problems modularly and abstractly, starting with the small easy components in abstract terms to lay a strong foundation, understanding, toolkit, etc. from which to build the rest. For me, it all comes together with significantly less frustration if I have tools instrument my objectives. 
+- In frustrating situations, stepping back mentally, and sometimes physically, often helps me see the macro-perspective to explore my best path forward. 
+- To build systems, I solve problems modularly and abstractly. For me, it all comes together with significantly less frustration if I have implemented a set of tools to instrument my objectives... and makes the code more appealing. 
 
 ## Observations
 - My lifestyle is healthy, yet improvable... and non-negotiable.
-- A workout + music / podcast is my critical grounding mechanism, centering meditation, and emotional balancer.
+- A workout + music / podcast / audiobook is my critical grounding mechanism, centering meditation, and emotional balancer.
 - I don't have to work out every day.
 - I like to eat chocolate and all macarons.
 	- The two genius foods of our day: chocolate + peanut butter and sea salt chocolate chip cookies.
 - Cutting and bulking cycles are not conducive to my mental well-being. 
 	- I like to exercise consistently, maintain my diet, and feel physically healthy all year.
 	- Almond milk and plant protein feel better to my body than cow's milk and whey protein.
-- Few video games provide real value to my life as an adult, but many were critical to my growth as a youth.
-	- But I watch battle royales on Twitch like straight men watch football. 
-	- And the lessons and enjoyment gained from the rare role-playing game with a phenomenal story are valuable to me. 
+- Some video games provide real value to my life as an adult and many were critical to my growth as a youth.
+	- I watch battle royales on Twitch like straight men watch football. 
+	- The lessons and enjoyment gained from the rare role-playing game with a phenomenal story are valuable to me. 
 - <strong>Brand. Marketing. Is key.</strong>
-
-## Corrigenda
-- I am relatively terrible at time management.
-- I have difficulty focusing, unless I am very excited by the task at hand, even if I want to do it. 
+- As a experience- and purpose-oriented person, I have to love what I'm doing, even the small things, to motivate myself, focus, and manage my time well. 
+- I love F1. Go Mercedes, go Hamilton!
