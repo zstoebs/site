@@ -25,7 +25,7 @@ my heart! <br>
 
 raw bloom -- <br>
 the stately robin <br>
-careens <br>
+regales <br>
 
 chapter ends <br>
 because nobody seems to remember <br>
