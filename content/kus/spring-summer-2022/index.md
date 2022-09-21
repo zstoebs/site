@@ -2,7 +2,7 @@
 title = "spring-summer-2022"
 date = 2022-09-20T22:58:46-05:00
 description = "kū from spring-summer 2022"
-summary="I was the final girl in the Vandy horror picture"
+summary = "I was the final girl in the Vandy horror picture show"
 categories = ["haiku","senryu", "tanka"]
 tags = ["spring","summer"]
 draft = true

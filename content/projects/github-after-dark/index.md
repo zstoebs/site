@@ -28,7 +28,7 @@ toc = true
 Perhaps the greatest mystery of our time, After Dark and its creater, Josh Habdas, have been seemingly yeeted from the Internet. Perhaps one day the prodigal son will return with his fatted cow... but until then <strong>I have <s>slashed</s> through now dead links</strong>. 
 {{< /hackcss-alert >}}
 
-**tl;dr** From knowing very little about webdev to the bare minimum that you need to know, all in one place! The [Hugo hosting docs](https://gohugo.io/hosting-and-deployment/hosting-on-github/) and <s>After Dark</s> tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be. 
+**tl;dr** From knowing very little about webdev to the bare minimum that you need to know, all in one place! The [Hugo hosting docs](https://gohugo.io/hosting-and-deployment/hosting-on-github/) and [After Dark](https://vhs.codeberg.page/after-dark/) tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be. 
 
 # Links
 [Site source](https://github.com/zstoebs/site)
@@ -38,11 +38,10 @@ Perhaps the greatest mystery of our time, After Dark and its creater, Josh Habda
 [This site](https://motherfuckingwebsite.com) justifies my <i>perfect</i> website build. 
 
 
-# How to Host
-[Hosting Hugo](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+# How to [Host Hugo](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 
 Steps to host a Hugo After Dark site on GitHub pages: 
-1. Download the quick start code locally from the <s>After Dark</s> website. 
+1. Download the quick start code locally from the [After Dark](https://vhs.codeberg.page/after-dark/) website. 
 2. Run `hugo` to generate website files in `public/`. 
 3. Host the generated files in `public/` on the GitHub pages repo, i.e., a repo named [your username].github.io. 
 4. Host the source files in the parent directory in a separate repo, with `public/` ignored. 
@@ -54,8 +53,7 @@ Steps to host a Hugo After Dark site on GitHub pages:
 Steps 3-4, in particular, are not clear on the Hugo docs for GitHub hosting. Fortunately, of the only two other people that I found online that specifically host After Dark on Github, one of them wrote an enlightening [note](https://cedricleroy.github.io/posts/this-website/) that clarified the distinction between the two different directories. Hope that saves you some time!
 
 
-# How to After Dark
-<s>After Dark</s>
+# How to [After Dark](https://vhs.codeberg.page/after-dark/)
 
 Most Hugo sites are run by themes, which define the site's style, layout, <i>and sometimes useful theme-specific shortcodes and advanced automatic features</i>. However, not all themes are created equal and some will require a more advanced knowledge of Hugo to function. Thankfully, After Dark is one of the good ones if you're a web novice. 
 
@@ -81,7 +79,7 @@ Supposedly, if you want to have a featured list of posts for each section displa
 
 - Copy a `list.html` file from each of the schemas and paste into `_default/`. Rename them to the name of the section that the schema corresponds to, e.g., `projects.html` and `notes.html`.
 
-<i>I used this to hack the `_index.md` files for each section. Hugo natively won't display any content in `_index.md` files which reside in non-leaf directories, but will for `index.md` which are leaf directories being the post-content of the site. However, you can override this by adding `{{ .Content }}` into the above HTML files below the header block. I hacked this to add alert blocks with the categories the following list of posts fall into; that way, readers can quicky jump to the <s>taxonomy page</s> for the content that they're interested in.</i>
+<i>I used this to hack the `_index.md` files for each section. Hugo natively won't display any content in `_index.md` files which reside in non-leaf directories, but will for `index.md` which are leaf directories being the post-content of the site. However, you can override this by adding `{{ .Content }}` into the above HTML files below the header block. I hacked this to add alert blocks with the categories the following list of posts fall into; that way, readers can quicky jump to the [taxonomy page](https://vhs.codeberg.page/after-dark/feature/taxonomy-pages/) for the content that they're interested in.</i>
 
 - Partially copy the `/themes/after-dark/layouts/partials/` directory, taking `page-summary.html`, `toc-maybe.html`, and `post/meta.html`. Modify `page-summary.html` by deleting lines 30 and 32. 
 
