@@ -21,7 +21,7 @@ description = "Legends say that the stache grows commensurately with my wisdom."
 
 I'm an [Electrical & Computer Engineering](https://www.ece.utexas.edu) PhD student at [UT Austin](https://www.utexas.edu) on a Cockrell Engineering Fellowship working with [Prof. Jon Tamir](https://users.ece.utexas.edu/~jtamir/) in the [Computational Sensing and Imaging Lab](https://users.ece.utexas.edu/~jtamir/csilab.html).
 
-My research spans **deep learning**, **sensing & imaging**, and **signal processing**. Generally, I'm curious about [AI](/tags/ai)/[ML](/tags/ml) & [neuroscience](/tags/neuro), [optimization](/tags/opt) & [control](/tags/control), and [intelligent systems](/tags/cps) & [robotics](/tags/robotics). 
+My research spans **deep learning**, **sensing & imaging**, and **computer vision**. Generally, I'm curious about [AI](/tags/ai)/[ML](/tags/ml) & [neuroscience](/tags/neuro), [optimization](/tags/opt) & [control](/tags/control), and [intelligent systems](/tags/cps) & [robotics](/tags/robotics). 
 
 Check out my [projects](/projects/) to see what I'm working on, [notes](/notes/) to see what I'm thinking about, and [kū](/kus/) to see what I'm seeing!
 
@@ -34,7 +34,7 @@ Check out my [projects](/projects/) to see what I'm working on, [notes](/notes/)
 
 ---
 
-I graduated from [Vanderbilt University](https://www.vanderbilt.edu) in 2021 with a B.S. in computer science and neuroscience, minoring in applied math, and then again in 2022 with my M.S. in computer science. I was a student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) advised by [Prof. Ipek Oguz](https://engineering.vanderbilt.edu/bio/ipek-oguz) and my thesis was on a [deep learning-enabled automatic segmentation system for surgical endoscopy](/projects/stone-anno/). 
+I graduated from [Vanderbilt University](https://www.vanderbilt.edu) in 2021 with a B.S. in computer science and neuroscience, minoring in applied math, and then again in 2022 with my M.S. in computer science. I was a student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) advised by [Prof. Ipek Oguz](https://engineering.vanderbilt.edu/bio/ipek-oguz) and my thesis was on a [deep learning-enabled automatic segmentation system for surgical endoscopy](https://ir.vanderbilt.edu/handle/1803/17773). 
 
 I'm passionate about connecting with the broader community on topics of science and engineering. During undergrad, I was a mentor in the [VUSE Design Studio](https://my.vanderbilt.edu/designstudio/). I was also a reviewer, section leader, and graduate mentor for the [Vanderbilt Undergraduate Research Journal](https://vurj.vanderbilt.edu).  
 
