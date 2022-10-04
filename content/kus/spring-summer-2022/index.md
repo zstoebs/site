@@ -1,7 +1,7 @@
 +++
 title = "spring-summer-2022"
 date = 2022-09-20T22:58:46-05:00
-description = "kū from spring-summer 2022"
+description = "kū and tanka from spring-summer 2022"
 summary = "final girl in the Vandy horror picture show moves to Austin"
 categories = ["haiku","senryu", "tanka"]
 tags = ["spring","summer"]
