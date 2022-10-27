@@ -13,7 +13,7 @@ draft = false
   date = "2021"
   license = "cc-by-nd-4.0"
 [[resources]]
-  src = "image/stately.JPG"
+  src = "image/regal.JPG"
   name = "header thumbnail"
 +++
 
@@ -23,9 +23,14 @@ spring’s robins -- <br>
 seeding the university soil  <br>
 my heart! <br>
 
+---
+<img src="image/stately.JPG" />
+
 raw bloom -- <br>
 the stately robin <br>
 regales <br>
+
+---
 
 chapter ends <br>
 because nobody seems to remember <br>

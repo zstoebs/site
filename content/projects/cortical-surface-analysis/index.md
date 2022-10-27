@@ -19,10 +19,11 @@ toc = true
   title = "LGI omnibus results show strong correlation in the insula"
 +++
 
-**tl;dr** Although it will be published after [StoneAnno](/projects/stone-anno), this shape analysis is my first completed research project and technically my first first-authorship, **submitted for review**. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, **LGI uniquely detects changes in the insula.** Of note, I learned that complicated statistical anlayses are uniquely challenging, that I love LMMs and RFT, and that they are too esoteric in the current day -- let's make them more accessible!
+**tl;dr** Although it will be published after [StoneAnno](/projects/stone-anno), this shape analysis is my first completed research project and technically my first first-authorship, **published in Human Brain Mapping**. I wrote code in R and MATLAB to fit LMMs to the cortical data from T1w MRI of HD patients and then performed statistical analyses on the results using SurfStat and random field theory. We found that, with a novel method for measuring gyrification, **LGI uniquely detects changes in the insula.** Of note, I learned that complicated statistical anlayses are uniquely challenging, that I love LMMs and RFT, and that they are too esoteric in the current day -- let's make them more accessible!
 
 # Citation
-**The paper is submitted for review. As soon as it's published, I will cite it here. At that time, I expect to release the code as well.**
+
+10.1002/hbm.26125
 
 # Background
 
