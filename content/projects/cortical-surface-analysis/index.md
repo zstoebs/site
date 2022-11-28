@@ -23,7 +23,9 @@ toc = true
 
 # Citation
 
-10.1002/hbm.26125
+Stoebner, Zachary A., et al. "Comprehensive shape analysis of the cortex in Huntington's disease." Human Brain Mapping (2022).
+
+https://doi.org/10.1002/hbm.26125
 
 # Background
 
