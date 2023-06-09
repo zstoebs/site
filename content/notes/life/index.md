@@ -5,7 +5,7 @@ description = "spoiler alert: I'm either thriving or melting"
 summary = "My guide to effective brand management -- the tenets, epiphanies, and fruits of my efforts -- a reflection of tasteful pride and confidence -- a learning policy optimized over 24 years."
 categories = ["me"]
 toc = true
-draft = false
+draft = true 
 [schema]
   type = "note"
 [[copyright]]

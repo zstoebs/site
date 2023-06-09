@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Zach Stoebner | ml • neuro • kū"
+title = "Zach Stoebner | ml • vision • kū"
 enableRobotsTXT = true # Suggested, enable robots.txt file
 # pygmentsCodefences = true
 # pygmentsUseClasses = true
@@ -56,41 +56,41 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
   decoders = ["bpgdec8a"] # Optional, 8-bit javascript decoder with animation
 
 ### SECTIONS
-[params.layout.project.featured]
- limit = 3
- items = [
-   "stone-anno",
-   "tello-slam",
-   "cortical-surface-analysis"
- ]
+# [params.layout.project.featured]
+#  limit = 3
+#  items = [
+#    "stone-anno",
+#    "tello-slam",
+#    "cortical-surface-analysis"
+#  ]
 
-[params.layout.project.related]
-  limit = 5
-  thumbs = ["resize", "150x150"] # Optional, thumbnail image processing
+# [params.layout.project.related]
+#   limit = 5
+#   thumbs = ["resize", "150x150"] # Optional, thumbnail image processing
 
-[params.layout.note.featured]
- limit = 3
- items = [
-   "haiku-senryu",
-   "fast-inv-sqrt",
-   "hendiadys"
- ]
+# [params.layout.note.featured]
+#  limit = 3
+#  items = [
+#    "haiku-senryu",
+#    "fast-inv-sqrt",
+#    "hendiadys"
+#  ]
 
-[params.layout.note.related]
-  limit = 5
-  thumbs = ["resize", "150x150"] # Optional, thumbnail image processing
+# [params.layout.note.related]
+#   limit = 5
+#   thumbs = ["resize", "150x150"] # Optional, thumbnail image processing
 
-[params.layout.ku.featured]
- limit = 3
- items = [
-   "portugues",
-   "spring-summer-2020",
-   "spring-summer-2019"
- ]
+# [params.layout.ku.featured]
+#  limit = 3
+#  items = [
+#    "portugues",
+#    "spring-summer-2020",
+#    "spring-summer-2019"
+#  ]
 
-[params.layout.ku.related]
- limit = 5
- thumbs = ["resize", "150x150"] # Optional, thumbnail image processing
+# [params.layout.ku.related]
+#  limit = 5
+#  thumbs = ["resize", "150x150"] # Optional, thumbnail image processing
 
 ### HOMEPAGE
 [params.layout.home]
@@ -101,35 +101,33 @@ type = "about"
 weight = 1
 
 [[params.layout.home.section]]
- type = "projects"
- weight = 2
- limit = 3
- thumbs = ["fill", "400x400"]
+type = "research"
+weight = 2
 
-[[params.layout.home.section]]
- type = "notes"
- weight = 3
- limit = 3
- thumbs = ["fill", "400x400"]
+# [[params.layout.home.section]]
+#  type = "projects"
+#  weight = 2
+#  limit = 3
+#  thumbs = ["fill", "400x400"]
 
-[[params.layout.home.section]]
-type = "kus"
-weight = 4
-limit = 3
-thumbs = ["fill", "400x400"]
+# [[params.layout.home.section]]
+#  type = "notes"
+#  weight = 3
+#  limit = 3
+#  thumbs = ["fill", "400x400"]
+
+# [[params.layout.home.section]]
+# type = "kus"
+# weight = 4
+# limit = 3
+# thumbs = ["fill", "400x400"]
 
 ### MENU
 [[menu.main]]
-  name = "home"
-  weight = 1
-  identifier = "home"
-  url = "/"
-
-[[menu.main]]
   name = "about"
-  weight = 2
+  weight = 1
   identifier = "about"
-  url = "/about/"
+  url = "/"
 
 [[menu.main]]
   name = "projects"

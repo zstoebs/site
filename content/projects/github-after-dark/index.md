@@ -3,8 +3,8 @@ title = "how to host a Hugo After Dark site on GitHub Pages: a saga"
 date = 2021-07-09T23:36:07-05:00
 categories = ["personal"]
 tags = ["webdev", "html", "hugo", "js", "hack"]
-description = "**now deprecated :(** ¡¡host fast, pretty website 4 free!!"
-summary = "From knowing very little about webdev to a very small amount more, all in one place! The [Hugo hosting docs](https://gohugo.io/hosting-and-deployment/hosting-on-github/) and <s>After Dark</s> tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be. "
+description = "¡¡host fast, pretty website 4 free!!"
+summary = "From knowing very little about webdev to a very small amount more, all in one place! The [Hugo hosting docs](https://gohugo.io/hosting-and-deployment/hosting-on-github/) and [After Dark](https://vhs.codeberg.page/after-dark/) tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be. "
 draft = false
 toc = true
 [schema]
@@ -23,10 +23,6 @@ toc = true
    sameAs = "https://unsplash.com/photos/QABDpFYhNpk" 
    license = "https://unsplash.com/license" 
 +++
-
-{{< hackcss-alert type="error" >}}
-Perhaps the greatest mystery of our time, After Dark and its creater, Josh Habdas, have been seemingly yeeted from the Internet. Perhaps one day the prodigal son will return with his fatted cow... but until then <strong>I have <s>slashed</s> through now dead links</strong>. 
-{{< /hackcss-alert >}}
 
 **tl;dr** From knowing very little about webdev to the bare minimum that you need to know, all in one place! The [Hugo hosting docs](https://gohugo.io/hosting-and-deployment/hosting-on-github/) and [After Dark](https://vhs.codeberg.page/after-dark/) tutorial / docs are sufficient but unclear on the finer details. Here, I flesh those out to make this process as easy for prospective users as it truly should be. 
 
