@@ -16,15 +16,8 @@ is  <a href="/categories/haiku">hai(k)u</a>
 <br>
 + <a href="/categories/senryu">senry(ū)</a>
 
-<br>
-<br>
-<a href="/kus/winter-2021-2022/">cold</a> months in <a href="/kus/portugues">Portugal</a> 
-<br>
-saw <a href="/kus/spring-summer-2019">Vandy</a> <a href="/kus/fall-winter-2019/">birds</a> one spring
-<br>
-later fly to <a href="/kus/spring-summer-2020">Portland</a>.  
 
 <br>
 <br> 
-<i>All kū photos were taken by me with a Canon EOS REBEL XS, or my iPhone.</i>
+<i>All kū photos were taken by me with a Canon EOS REBEL XS, or an iPhone camera.</i>
 {{< /hackcss-alert >}}

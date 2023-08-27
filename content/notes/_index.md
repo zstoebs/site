@@ -8,11 +8,3 @@ draft = false
   date = "2021"
   license = "cc-by-nd-4.0"
 +++
-
-{{< hackcss-alert type="info" >}}
-I learn about <a href="/categories/algo">algo</a>, eng, stats, etc
-<br>
-and I <a href="/categories/create">create</a> poetry and other creativities,
-<br>
-which reflect <a href="/categories/me">me</a>. 
-{{< /hackcss-alert >}}

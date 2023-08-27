@@ -129,11 +129,11 @@ weight = 2
   identifier = "about"
   url = "/"
 
-[[menu.main]]
-  name = "projects"
-  weight = 3
-  identifier = "projects"
-  url = "/projects/"
+# [[menu.main]]
+#   name = "projects"
+#   weight = 3
+#   identifier = "projects"
+#   url = "/projects/"
 
 [[menu.main]]
   name = "notes"
