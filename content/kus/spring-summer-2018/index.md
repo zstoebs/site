@@ -2,7 +2,7 @@
 title = "spring-summer 2018"
 date = 2021-07-01T16:57:10-05:00
 description = "tanka from spring-summer 2018"
-summary = "first-year at Vandy, early in my relationship with Parker"
+summary = "first-year at Vandy, early in my relationship"
 categories = ["tanka"]
 tags = ["spring","summer"]
 draft = false

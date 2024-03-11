@@ -1,5 +1,5 @@
 +++
-title = "spring-summer-2022"
+title = "spring-summer 2022"
 date = 2022-09-20T22:58:46-05:00
 description = "kū and tanka from spring-summer 2022"
 summary = "final girl in the Vandy horror picture show moves to Austin"
@@ -56,4 +56,4 @@ air hums <br>
 in cosmic threads <br>
 at midnight <br>
 
-<img src="image/cmw.jpeg" />
+<img src="image/cmw.jpeg" />  

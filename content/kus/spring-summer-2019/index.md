@@ -2,7 +2,7 @@
 title = "spring-summer 2019"
 date = 2021-07-09T13:28:40-05:00
 description = "kū from spring-summer 2019"
-summary = "a year into my relationship with Parker"
+summary = "a year into my relationship"
 categories = ["haiku","senryu"]
 tags = ["spring","summer"]
 draft = false

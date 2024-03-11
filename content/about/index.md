@@ -22,7 +22,7 @@ summary = "Legends say that the stache grows commensurately with my wisdom."
 
 I'm an [Electrical & Computer Engineering](https://www.ece.utexas.edu) PhD student at [UT Austin](https://www.utexas.edu) working with [Prof. Jon Tamir](https://users.ece.utexas.edu/~jtamir/) in the [Computational Sensing & Imaging Lab](https://users.ece.utexas.edu/~jtamir/csilab.html).
 
-My research interests are at the intersection of **computer vision** and **signal processing** working on **inverse problems** in **computational imaging**. Specifically, I'm interested in learning **neural implicits** and **generative models** to improve **image reconstruction** in **complex imaging systems**. Generally, I'm curious about [AI](/tags/ai)/[ML](/tags/ml) & signal processing, [optimization](/tags/opt) & probability, and [intelligent systems](/tags/cps) & [robotics](/tags/robotics).  
+My research interests are at the intersection of **computer vision** and **signal processing** working on **inverse problems** in **computational imaging**. Generally, I'm curious about [AI](/tags/ai)/[ML](/tags/ml) & signal processing, [optimization](/tags/opt) & [control](/tags/control), and [intelligent systems](/tags/cps) & [robotics](/tags/robotics).  
 
 Check out my [notes](/notes/) to see what I'm thinking about and [kū](/kus/) to see what I'm seeing!
 

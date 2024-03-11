@@ -12,12 +12,11 @@ draft = false
 {{< hackcss-alert type="info" >}} 
 <a href="/notes/haiku-senryu">kū</a>
 <br>
-is  <a href="/categories/haiku">hai(k)u</a>
+is <a href="/categories/haiku">hai(k)u</a>
 <br>
 + <a href="/categories/senryu">senry(ū)</a>
 
-
 <br>
 <br> 
-<i>All kū photos were taken by me with a Canon EOS REBEL XS, or an iPhone camera.</i>
+<i>All photos were taken by me with a Canon EOS REBEL XS, or an iPhone camera.</i>
 {{< /hackcss-alert >}}
