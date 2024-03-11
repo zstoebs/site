@@ -2,7 +2,7 @@
 title = "spring-summer 2023"
 date = 2024-03-09T22:58:46-05:00
 description = "kū and tanka from spring-summer 2023"
-summary = "fighting for my life, from my desk to the wasatch"
+summary = "fighting for my life, from my desk to the Uintas"
 categories = ["haiku","senryu", "tanka"]
 tags = ["spring","summer"]
 draft = false
