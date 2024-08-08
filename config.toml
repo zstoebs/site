@@ -1,10 +1,10 @@
 baseURL = "/"
-title = "Zach Stoebner | ml • vision • kū"
+title = "Zach Stoebner | ECE PhD @ UT Austin"
 enableRobotsTXT = true # Suggested, enable robots.txt file
 # pygmentsCodefences = true
 # pygmentsUseClasses = true
 languageCode = "en-US" # Controls site language
-paginate = 11 # Number of posts to show before paginating
+paginate = 10 # Number of posts to show before paginating
 copyright = "Copyright &copy; Zachary Stoebner. Licensed under <a target=\"_blank\" rel=\"external noopener license\" href=\"https://creativecommons.org/licenses/by-nd/4.0/\">CC-BY-ND-4.0</a>." # Optional, remove to suppress copyright notices
 
 # sets Google Analytics Property stream token for analytics template called in baseof.html
@@ -103,6 +103,10 @@ weight = 1
 [[params.layout.home.section]]
 type = "research"
 weight = 2
+
+# [[params.layout.home.section]]
+# type = "news"
+# weight = 3
 
 # [[params.layout.home.section]]
 #  type = "projects"
