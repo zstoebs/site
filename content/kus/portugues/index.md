@@ -1,6 +1,7 @@
 +++
 title = "kū português"
 date = 2021-06-27T19:24:19-05:00
+showmeta = true
 description = "kū written during 2016-2017 in Portugal"
 summary = "seja alfacinha quem for"
 categories = ["haiku","senryu"]

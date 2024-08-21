@@ -1,6 +1,7 @@
 +++
 title = "winter 2020-2021"
 date = 2021-10-13T22:49:45-05:00
+showmeta = true
 description = "kū and tanka from winter 2020-2021"
 summary = "really in my thoughts here"
 categories = ["haiku","senryu","tanka"]

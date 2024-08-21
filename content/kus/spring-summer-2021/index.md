@@ -1,6 +1,7 @@
 +++
 title = "spring-summer 2021"
 date = 2021-10-13T23:07:42-05:00
+showmeta = true
 description = "kū and tanka from spring-summer 2021"
 summary = "end of undergrad and feeling like the end is in sight"
 categories = ["haiku","senryu","tanka"]

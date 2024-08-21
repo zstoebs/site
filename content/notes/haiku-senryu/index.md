@@ -3,6 +3,7 @@ title = "on haiku & senryū"
 categories = ["create", "poetry"]
 tags = ["haiku", "senryū", "tanka", "renga"]
 date = 2021-07-05T16:54:04-05:00
+showmeta = true
 description = "I love poetic primes."
 summary = "For most of my life, I've been writing poetry when I experience a lightbulb moment. Over time, this habit shapeshifted to mainly haiku & senryū, often composing sequences of 23 - 31 or more on a day out. Although they're usually reluctant to share, the more people that I've met, the more I've discovered that also have this practice in one way or another. People are like onions; they have layers. If you peel back enough, you'll reach the heart -- haiku & senryū are the key to mine."
 draft = false

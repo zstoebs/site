@@ -1,6 +1,7 @@
 +++
 title = "fall-winter 2019-2020"
 date = 2021-07-14T10:38:19-05:00
+showmeta = true
 description = "kū from fall-winter 2019-2020"
 summary = "not many here"
 categories = ["haiku","senryu"]

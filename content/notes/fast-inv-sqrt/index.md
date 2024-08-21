@@ -1,6 +1,7 @@
 +++
 title = "on fast inverse square root"
 date = 2021-07-01T22:46:27-05:00
+showmeta = true
 categories = ["algo"]
 tags = ["C", "hack"]
 description = "An awe-inspiring C exploit imo."

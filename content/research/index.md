@@ -1,6 +1,7 @@
 +++
 title = "research"
 date = 2023-06-09T17:04:52-05:00
+showmeta = false
 description = ""
 summary = "what am I even doing??"
 draft = false

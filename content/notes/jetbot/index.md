@@ -1,6 +1,7 @@
 +++
 title = "autonomous motion planning for an NVIDIA JetBot"
 date = 2021-12-08T19:05:08-06:00
+showmeta = true
 description = "This text is displayed in search result listings."
 summary = ""
 categories = ["course", "solo"]

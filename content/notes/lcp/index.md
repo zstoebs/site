@@ -1,6 +1,7 @@
  +++
 title = "on linear complementarity problems"
 date = 2021-11-24T11:06:11-06:00
+showmeta = true
 description = "Solving systems of equations is the most important."
 summary = "This Fall 2021, I am taking a course on computational game theory, which insofar is the formulation of various games (e.g. bimatrix, Stackelberg) as mathematical programs and the algorithms that solve them, or approximate solutions. Linear complementarity problems are foundational for computing Nash equilibria of simple games."
 categories = ["algo"]

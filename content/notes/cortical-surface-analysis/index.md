@@ -1,6 +1,7 @@
 +++
 title = "cortical surface analysis in Huntington's disease using linear-mixed models"
 date = 2021-09-14T10:38:19-05:00
+showmeta = true
 categories = ["research"]
 tags = ["ml", "neuro", "matlab", "R", "stats", "ai"]
 description = "Noobs think linear regression is easy... enter LMMs."

@@ -1,6 +1,7 @@
 +++
 title = "winter 2021-2022"
 date = 2022-03-19T23:36:13-05:00
+showmeta = true
 description = "kū and tanka from winter 2021-2022"
 summary = "immense freedom, relief, and growth in what felt like the coldest winter"
 categories = ["haiku","senryu"]

@@ -1,6 +1,7 @@
 +++
 title = "fall-winter 2022-2023"
 date = 2024-01-14T10:38:19-05:00
+showmeta = true
 description = "kū and tanka from fall-winter 2022-2023"
 summary = "academic weapon, blunted"
 categories = ["haiku","senryu", "tanka"]

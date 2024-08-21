@@ -1,6 +1,7 @@
 +++
 title = "on system identification and signal reconstruction"
 date = 2024-08-03T15:48:48-05:00
+showmeta = true
 description = "Answering the question: what has to be true for joint system ID and signal reconstruction?"
 summary=""
 draft = true

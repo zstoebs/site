@@ -1,6 +1,7 @@
 +++
 title = "mid-PhD reflection"
 date = 2024-08-08T14:31:27-05:00
+showmeta = true
 description = "what is the meaning of this?!"
 summary=""
 draft = true

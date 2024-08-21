@@ -1,6 +1,7 @@
 +++
 title = "kū"
 date = 2021-09-29T17:16:11-05:00
+showmeta = true
 description = "kū = hai(k)u + senry(ū)"
 draft = false
 [[copyright]]

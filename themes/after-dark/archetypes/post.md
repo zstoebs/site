@@ -20,6 +20,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 +++
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date = {{ .Date }}
+showthedate = true
 description = "This text was generated using the After Dark post archetype."
 draft = true
 toc = false

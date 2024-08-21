@@ -1,6 +1,7 @@
 +++
 title = "learning about quadcopters by building one"
 date = 2021-07-01T16:57:10-05:00
+showmeta = true
 categories = ["personal"]
 tags = ["quads", "cps", "robotics"]
 description = "I used a soldering iron and a raspberry pi during lockdown to stay sane."

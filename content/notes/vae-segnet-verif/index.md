@@ -1,6 +1,7 @@
 +++
 title = "verification of a VAE & SegNet using NNV"
 date = 2021-07-09T13:51:01-05:00
+showmeta = true
 categories = ["course", "solo"]
 tags = ["ml", "cps", "matlab", "ai"]
 description = "''Many things that seem threatening in the dark become welcoming when we shine light on them.'' -- Uncle Iroh"

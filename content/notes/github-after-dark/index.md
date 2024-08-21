@@ -1,6 +1,7 @@
 +++
 title = "how to host a Hugo After Dark site on GitHub Pages: a saga"
 date = 2021-07-09T23:36:07-05:00
+showmeta = true
 categories = ["personal"]
 tags = ["webdev", "html", "hugo", "js", "hack"]
 description = "¡¡host fast, pretty website 4 free!!"

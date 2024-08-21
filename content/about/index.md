@@ -1,11 +1,12 @@
 +++
 title = "about me"
 date = 2021-06-27T19:24:19-05:00
+showmeta = false
 categories = ["me"]
 description = ""
 summary = "Legends say that the stache grows commensurately with my wisdom."
 [schema]
- type = "note"
+  type = "note"
 [[copyright]]
   owner = "Zach Stoebner"
   date = "2021"

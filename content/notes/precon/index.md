@@ -1,6 +1,7 @@
 +++
 title = "on preconditioning for iterative optimization"
 date = 2024-08-03T15:49:00-05:00
+showmeta = true
 description = "Overview, motivation, and examples of preconditioning iterative optimization methods"
 summary=""
 draft = true

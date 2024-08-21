@@ -1,6 +1,7 @@
 +++
 title = "fall-winter 2018-2019"
 date = 2021-07-02T11:46:28-05:00
+showmeta = true
 description = "kū and tanka from fall-winter 2018-2019"
 summary = "season of the puppy dawg"
 categories = ["haiku","senryu","tanka"]

@@ -12,8 +12,8 @@ googleAnalytics = "G-CLGDWRWCBJ"
 
 # Controls default theme and theme components
 theme = [
+  "after-dark", # AGPL-3.0-or-later
   "fractal-forest", # OBSD
-  "after-dark" # AGPL-3.0-or-later
 ]
 
 disableLiveReload = false # Optional, set true to disable live reload
@@ -28,6 +28,7 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
   noClasses = false # Suggested, used for custom syntax highlighting
 
 [params]
+  ShowMeta = true
   powered_by = false
   show_menu = true
   description = "Zach Stoebner's personal portfolio website" # Suggested, controls default description meta

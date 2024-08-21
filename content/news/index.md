@@ -1,6 +1,7 @@
 +++
 title = "news"
 date = 2024-08-03T15:26:20-05:00
+showmeta = false
 description = ""
 summary=""
 draft = false

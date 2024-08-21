@@ -1,6 +1,7 @@
 +++
 title = "visualizing temporal graph networks"
 date = 2021-07-09T13:28:40-05:00
+showmeta = true
 categories = ["course", "team"]
 tags = ["gnn", "ml", "viz", "js", "html", "ai"]
 description = "me, 6 months ago: data viz is a dedicated research field??, me, now: thank gawd for data viz researchers..."

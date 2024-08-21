@@ -1,6 +1,7 @@
 +++
 title = "face following and vSLAM for a Tello quadcopter"
 date = 2021-07-02T11:46:28-05:00
+showmeta = true
 categories = ["course", "solo"]
 tags = ["quads", "robotics", "cps", "ml", "matlab", "control", "ai", "sigproc"]
 description = "Tello can do hard things."

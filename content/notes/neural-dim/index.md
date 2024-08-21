@@ -1,6 +1,7 @@
 +++
 title = "dimensionality reduction on neural data"
 date = 2021-06-27T20:58:15-05:00
+showmeta = true
 categories = ["course", "solo"]
 tags = ["neuro", "ml", "python", "stats", "ai", "sigproc"]
 description = "PCA vs. autoencoder: the ultimate dimensionality reduction showdown"

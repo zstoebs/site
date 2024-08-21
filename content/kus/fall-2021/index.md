@@ -1,6 +1,7 @@
 +++
 title = "fall 2021"
 date = 2022-02-23T12:17:56-06:00
+showmeta = true
 description = "kū from fall 2021"
 summary="breakup"
 categories = ["haiku","senryu"]
