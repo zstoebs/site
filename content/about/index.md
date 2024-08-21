@@ -11,15 +11,27 @@ summary = "Legends say that the stache grows commensurately with my wisdom."
   owner = "Zach Stoebner"
   date = "2021"
   license = "cc-by-nd-4.0"
-[[resources]]
-  src = "image/profile.jpeg"
-  name = "thumbnail"
 +++
 
-<figure>
-<img src="image/profile.jpeg" alt="Zach Stoebner, profile, at 5th&Broadway in Nashville, TN" style="height:500px;width:332px;" />
-<figcaption>Hi, I'm Zach!</figcaption>
-</figure>
+<div id="random-image"></div>
+
+<script>
+
+// **when adding new images, run rename_images.py and paste output here**
+var images = ['1.jpeg', '10.jpeg', '11.jpeg', '12.jpeg', '2.jpeg', '3.jpeg', '4.jpeg', '5.jpeg', '6.jpeg', '7.jpeg', '8.jpeg', '9.jpeg', '13.jpeg', '14.jpeg', '15.jpeg', '16.jpeg', '17.jpeg', '18.jpeg'];  
+
+// Function to select and display a random image
+function displayRandomImage() {
+    var randomImage = images[Math.floor(Math.random() * images.length)];
+    var imgElement = `<img src="profiles/${randomImage}" alt="random image of Zach Stoebner" style="height:500px;max-width:100%;" >`;
+    document.getElementById("random-image").innerHTML = imgElement;
+}
+
+// Call the function to display the random image
+displayRandomImage();
+</script>
+
+Hi, I'm Zach.  
 
 I'm an [Electrical & Computer Engineering](https://www.ece.utexas.edu) PhD student at [UT Austin](https://www.utexas.edu) working with [Prof. Jon Tamir](https://users.ece.utexas.edu/~jtamir/) in the [Computational Sensing & Imaging Lab](https://users.ece.utexas.edu/~jtamir/csilab.html).
 
