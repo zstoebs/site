@@ -37,7 +37,7 @@ I'm always open to new opportunities and collaborations within my interests. You
 
 ---
 
-I graduated from [Vanderbilt University](https://www.vanderbilt.edu) in 2021 with a B.S. in computer science and neuroscience, minoring in applied math, and then again in 2022 with my M.S. in computer science. I was a student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) advised by [Prof. Ipek Oguz](https://engineering.vanderbilt.edu/bio/ipek-oguz).  
+I graduated from [Vanderbilt University](https://www.vanderbilt.edu) in 2021 with a B.S. in computer science and neuroscience, minoring in applied math, and then again in 2022 with my M.S. in computer science. I was a student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) advised by [Prof. Ipek Oguz](https://engineering.vanderbilt.edu/bio/ipek-oguz) where I worked on computational neuroscience and deep learning methods for image processing. My awesome collaborators were [Dr. Nick Kavoussi](https://www.vumc.org/urology/person/nicholas-kavoussi-md) at VUMC and [David Lu](https://www.vanderbilt.edu/vise/visepeople/daiwei-david-lu/).  
 
 ---
 
