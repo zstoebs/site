@@ -15,11 +15,13 @@ draft = false
 
 ## in progress
 
-"Generalized system identification with implicit neural representations while jointly reconstructing the image in MRI", Zachary A. Stoebner, Jonathan I. Tamir.
+"Generalized system identification with implicit neural representations while jointly reconstructing the image in MRI", **Zachary A. Stoebner**, Jonathan I. Tamir.
 
-"Preconditioned monotone operator learning for fast, memory-efficient, noise-robust compressed sensing MRI", Zachary A. Stoebner, Jonathan I. Tamir.
+"Preconditioned monotone operator learning for fast, memory-efficient, noise-robust compressed sensing MRI", **Zachary A. Stoebner**, Jonathan I. Tamir.
 
 ## conference
+
+"INFusion: Diffusion Regularized Implicit Neural Representations for 2D and 3D accelerated MRI reconstruction", Yamin Arefeen, Brett Levac, **Zach Stoebner**, Jonathan I Tamir. arXiv preprint arXiv:2406.13895 (2024). [arXiv](https://arxiv.org/pdf/2406.13895)
 
 "Segmentation of kidney stones in endoscopic video feeds", **Zachary A. Stoebner**, Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz, Proc. SPIE 12032, <i>Medical Imaging 2022: Image Processing</i> (2022). [DOI](https://doi.org/10.1117/12.2613274) [arXiv](https://arxiv.org/abs/2204.14175) [note](/projects/stone-anno)
 
