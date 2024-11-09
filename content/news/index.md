@@ -16,7 +16,9 @@ draft = false
 
 ## Past:   -->
 
-- October 3, 2024: I presented a poster at the [Oden SciML Workshop](https://sites.utexas.edu/scimlworkshop/) on [Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI](/doc/ZachStoebner_SciMLPoster.pdf).
+- November 15, 2024: I presented a poster at the [6G@UT](https://wncg.org) Student Research Showcase on [Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI](/doc/ZachStoebner_sysidINR_poster.pdf).
+
+- October 3, 2024: I presented a poster at the [Oden SciML Workshop](https://sites.utexas.edu/scimlworkshop/) on [Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI](/doc/ZachStoebner_sysidINR_poster.pdf).
 
 - July 29, 2024: Asilomar 2024 accepted our paper [INFusion: Diffusion Regularized Implicit Neural Representations for 2D and 3D accelerated MRI reconstruction](https://arxiv.org/pdf/2406.13895).  
 
