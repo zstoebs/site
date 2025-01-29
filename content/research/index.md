@@ -15,9 +15,9 @@ draft = false
 
 ## in progress
 
-"Generalized system identification with implicit neural representations while jointly reconstructing the image in MRI", **Zachary A. Stoebner**, Jonathan I. Tamir.
+"Generalized, interpretable system identification for joint parameter estimation and signal recovery", **Zachary A. Stoebner**, Jonathan I. Tamir.
 
-"Preconditioned monotone operator learning for fast, memory-efficient, noise-robust compressed sensing MRI", **Zachary A. Stoebner**, Jonathan I. Tamir.
+"Preconditioning for monotone operator learning", **Zachary A. Stoebner**, Jonathan I. Tamir.
 
 ## conference
 

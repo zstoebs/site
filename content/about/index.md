@@ -35,7 +35,7 @@ Hi, I'm Zach.
 
 I'm an [Electrical & Computer Engineering](https://www.ece.utexas.edu) PhD student at [UT Austin](https://www.utexas.edu) working with [Prof. Jon Tamir](https://users.ece.utexas.edu/~jtamir/) in the [Computational Sensing & Imaging Lab](https://users.ece.utexas.edu/~jtamir/csilab.html).
 
-My research interests span **computational imaging**, **computer vision**, **machine learning**, and **optimization**. Currently, I am working on provable learning methods for solving inverse problems in Fourier imaging systems with an emphasis on magnetic resonance imaging. Generally, I'm curious about [AI](/tags/ai)/[ML](/tags/ml) & [signal processing](/tags/sigproc), [optimization](/tags/opt) & [control](/tags/control), and [intelligent systems](/tags/cps) & [robotics](/tags/robotics).  
+I am working on provable learning methods for solving inverse problems in computational imaging. Generally, I'm curious about [AI](/tags/ai)/[ML](/tags/ml), [signal processing](/tags/sigproc), [optimization](/tags/opt), [control](/tags/control), [intelligent systems](/tags/cps), and [robotics](/tags/robotics).  
 
 Check out my [notes](/notes/) to see what I'm thinking about and [kū](/kus/) to see what I'm seeing!
 
