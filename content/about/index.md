@@ -27,7 +27,6 @@ function displayRandomImage() {
     document.getElementById("random-image").innerHTML = imgElement;
 }
 
-// Call the function to display the random image
 displayRandomImage();
 </script>
 
@@ -35,7 +34,7 @@ Hi, I'm Zach.
 
 I'm an [Electrical & Computer Engineering](https://www.ece.utexas.edu) PhD student at [UT Austin](https://www.utexas.edu) working with [Prof. Jon Tamir](https://users.ece.utexas.edu/~jtamir/) in the [Computational Sensing & Imaging Lab](https://users.ece.utexas.edu/~jtamir/csilab.html).
 
-I am working on provable learning methods for solving inverse problems in computational imaging. Generally, I'm curious about [AI](/tags/ai)/[ML](/tags/ml), [signal processing](/tags/sigproc), [optimization](/tags/opt), [control](/tags/control), [intelligent systems](/tags/cps), and [robotics](/tags/robotics).  
+I'm working on provable learning methods for solving inverse problems in computational imaging. Generally, I'm curious about [AI](/tags/ai)/[ML](/tags/ml), [signal processing](/tags/sigproc), [optimization](/tags/opt), [probability](/tags/prob), [statistics](/tags/stats), and [control](/tags/control).  
 
 Check out my [notes](/notes/) to see what I'm thinking about and [kū](/kus/) to see what I'm seeing!
 
@@ -50,11 +49,11 @@ I'm always open to new opportunities and collaborations within my interests. You
 
 ---
 
-I graduated from [Vanderbilt University](https://www.vanderbilt.edu) in 2021 with a B.S. in computer science and neuroscience, minoring in applied math, and then again in 2022 with my M.S. in computer science. I was a student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) advised by [Prof. Ipek Oguz](https://engineering.vanderbilt.edu/bio/ipek-oguz) where I worked on computational neuroscience and deep learning methods for image processing. My awesome collaborators were [Dr. Nick Kavoussi](https://www.vumc.org/urology/person/nicholas-kavoussi-md) at VUMC and [David Lu](https://www.vanderbilt.edu/vise/visepeople/daiwei-david-lu/).  
+I graduated from [Vanderbilt University](https://www.vanderbilt.edu) in 2021 with a B.S. in computer science and neuroscience, minoring in applied math, and again in 2022 with my M.S. in computer science. I was a student researcher in [VISE MedICL](https://www.vanderbilt.edu/vise/visepeople/zachary-stoebner/) advised by [Prof. Ipek Oguz](https://engineering.vanderbilt.edu/bio/ipek-oguz) where I worked on computational neuroscience and deep learning methods for image processing. My awesome collaborators were [Dr. Nick Kavoussi](https://www.vumc.org/urology/person/nicholas-kavoussi-md) at VUMC, [David Lu](https://www.vanderbilt.edu/vise/visepeople/daiwei-david-lu/), and [Kilian Hett](https://scholar.google.fr/citations?user=_NqSLFAAAAAJ&hl=fr).  
 
 ---
 
-I enjoy tennis, heavy weights, trail running, climbing, backpacking in the mountains, [kū & tanka poetry and photography](/kus/), and [hendiadys](/notes/hendiadys).  
+I enjoy climbing, heavy weights, trail running, backpacking in the mountains, tennis, and [kū & tanka poetry and photography](/kus/).  
 
 I am an Anglophone > Lusophone > Hispanophone > Francophone.  
 

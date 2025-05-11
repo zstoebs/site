@@ -16,8 +16,10 @@ draft = false
 is <a href="/categories/haiku">hai(k)u</a>
 <br>
 + <a href="/categories/senryu">senry(ū)</a>
-
 <br>
+zooming into moments where I stopped to smell the flowers <br>
+panning out because life is so much more than human things <br>
+
 <br> 
 <i>All photos were taken by me with a Canon EOS REBEL XS, or an iPhone camera.</i>
 {{< /hackcss-alert >}}

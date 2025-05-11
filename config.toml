@@ -19,6 +19,15 @@ theme = [
 disableLiveReload = false # Optional, set true to disable live reload
 sectionPagesMenu = "main" # Enable menu system for lazy bloggers
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
+
 [markup.goldmark.renderer]
   unsafe = true # Optional, allows HTML inside your CommonMark content
 [markup.tableOfContents]
@@ -28,6 +37,7 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
   noClasses = false # Suggested, used for custom syntax highlighting
 
 [params]
+  math = true # Optional, set true to enable mathjax
   ShowMeta = true
   powered_by = false
   show_menu = true

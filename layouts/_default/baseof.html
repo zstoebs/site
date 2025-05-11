@@ -73,6 +73,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         <link href="{{ "/css/syntax.css" | relURL }}" rel="stylesheet">
       </noscript>
     {{ end }}
+    {{ if .Param "math" }}
+      {{ partialCached "math.html" . }}
+    {{ end }}
   </head>
   {{ $hackcss_disabled := .Site.Params.hackcss.disabled | default false }}
   {{ $hackcss_mode := .Site.Params.hackcss.mode | default "hack" }}
