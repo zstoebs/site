@@ -16,6 +16,8 @@ draft = false
 
 ## Past:   -->
 
+- May 27, 2025: I've started working at Adobe in San Jose as an AI/ML research intern for Firefly.  
+
 - November 15, 2024: I presented a poster at the [6G@UT](https://wncg.org) Student Research Showcase on [Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI](/doc/ZachStoebner_sysidINR_poster.pdf).
 
 - October 3, 2024: I presented a poster at the [Oden SciML Workshop](https://sites.utexas.edu/scimlworkshop/) on [Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI](/doc/ZachStoebner_sysidINR_poster.pdf).
