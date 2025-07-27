@@ -16,7 +16,7 @@ draft = false
 
 ## Past:   -->
 
-- May 27, 2025: I've started working at Adobe in San Jose as an AI/ML research intern for Firefly.  
+- May 27, 2025: I've started working at [Adobe](https://www.adobe.com) in San Jose as an AI/ML research intern for [Firefly](https://firefly.adobe.com/?media=featured), working on structured state-space models for long-form text-to-image/video generation.  
 
 - November 15, 2024: I presented a poster at the [6G@UT](https://wncg.org) Student Research Showcase on [Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI](/doc/ZachStoebner_sysidINR_poster.pdf).
 
