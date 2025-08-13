@@ -34,7 +34,7 @@ Hi, I'm Zach.
 
 I'm an [Electrical & Computer Engineering](https://www.ece.utexas.edu) PhD student at [UT Austin](https://www.utexas.edu) working with [Prof. Jon Tamir](https://users.ece.utexas.edu/~jtamir/) in the [Computational Sensing & Imaging Lab](https://users.ece.utexas.edu/~jtamir/csilab.html).
 
-I'm working on provable learning methods for solving inverse problems in computational imaging and sequence modeling. Generally, I'm curious about [AI](/tags/ai)/[ML](/tags/ml), [signal processing](/tags/sigproc), [optimization](/tags/opt), [probability](/tags/prob), [statistics](/tags/stats), and [control](/tags/control).  
+I'm working on provably efficient, scalable, and robust algorithms for computational imaging and sequence modeling. Generally, I'm curious about [AI](/tags/ai)/[ML](/tags/ml), [signal processing](/tags/sigproc), [optimization](/tags/opt), [probability](/tags/prob), [statistics](/tags/stats), and [control](/tags/control).  
 
 Check out my [notes](/notes/) to see what I'm thinking about and [kū](/kus/) to see what I'm seeing!
 

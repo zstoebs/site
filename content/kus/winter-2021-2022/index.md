@@ -48,8 +48,6 @@ behind branches <br>
 
 ---
 
-<img src="image/job.JPG" />
-
 flock of days <br>
 already far away <br>
 still undone <br>
