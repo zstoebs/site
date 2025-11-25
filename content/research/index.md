@@ -3,7 +3,7 @@ title = "research"
 date = 2023-06-09T17:04:52-05:00
 showmeta = false
 description = ""
-summary = "what am I even doing??"
+summary = "list of research works"
 draft = false
 [schema]
   type = "note"
@@ -15,7 +15,9 @@ draft = false
 
 ## in progress
 
-"Preconditioning for monotone operator learning", **Zachary A. Stoebner**, Jonathan I. Tamir.
+"Preconditioned monotone operator learning", **Zachary A. Stoebner**, Jon Tamir.
+
+"Double blind imaging with generative modeling", Brett Levac, Yamin Arefeen, **Zachary A. Stoebner**, Jon Tamir. *In review for CVPR 2026*.
 
 ## conference
 

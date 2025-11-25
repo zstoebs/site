@@ -2,7 +2,7 @@
 title = "segmentation of kidney stones in endoscopic video feeds"
 date = 2021-11-07T20:39:01-06:00
 showmeta = true
-description = "Really good fast way to color inside the lines of a kidney stone."
+description = ""
 summary = "StoneAnno is my first published first-authorship paper, **presenting at SPIE 2022**. With the long-term goal of fully-automated robotic endoscopic surgery, we built a dataset of endoscopic kidney stone removal videos and investigated U-Net, U-Net++, and DenseNet for the segmentation task. We found a U-Net++ model that consistently achieves **>0.9 Dice score**, with low loss, and produces realistic, convincing segmentations. Moving forward, I am implementing our model on hardware for deployment in ORs, as a part of my master's thesis, and I helped Dr. Kavoussi submit an **R21 grant** in October 2021."
 categories = ["research"]
 tags = ["ml", "seg", "vision", "python", "ai", "sigproc"]

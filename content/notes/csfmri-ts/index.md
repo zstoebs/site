@@ -2,7 +2,7 @@
 title = "exploring compressed sensing fMRI time series"
 date = 2022-05-31T13:26:14-05:00
 showmeta = true
-description = "we are once again solving systems of equations"
+description = ""
 summary = "An exploration of compressed sensing fMRI time series with 3 different algorithms. Typically, compressed sensing reconstructs a single volume of MRI but fMRI are composed of many volumes; sensing along the time domain could reduce the number of volumes required. Of the 3 algorithms, BSBL-BO performed the best with the error curve elbowing around 30% subsampling."
 categories = ["course", "solo"]
 tags = ["opt", "control", "stats", "python", "ai", "sigproc"]

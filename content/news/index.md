@@ -3,7 +3,7 @@ title = "news"
 date = 2024-08-03T15:26:20-05:00
 showmeta = false
 description = ""
-summary=""
+summary="the news"
 draft = false
 [[copyright]]
   owner = "Zach Stoebner"
@@ -16,7 +16,7 @@ draft = false
 
 ## Past:   -->
 
-- May 27, 2025: I've started working at [Adobe](https://www.adobe.com) in San Jose as an AI/ML research intern for [Firefly](https://firefly.adobe.com/?media=featured), working on structured state-space models for long-form text-to-image/video generation.  
+- May - Sep 2025: I interned at [Adobe](https://www.adobe.com) in the Bay Area as an AI/ML research intern for [Firefly](https://firefly.adobe.com/?media=featured), working on structured state-space models for long-form text-to-image/video generation.  
 
 - November 15, 2024: I presented a poster at the [6G@UT](https://wncg.org) Student Research Showcase on [Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI](/doc/ZachStoebner_sysidINR_poster.pdf).
 

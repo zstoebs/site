@@ -4,8 +4,8 @@ date = 2021-07-01T22:46:27-05:00
 showmeta = true
 categories = ["algo"]
 tags = ["C", "hack"]
-description = "An awe-inspiring C exploit imo."
-summary = "I found it on [YouTube](https://www.youtube.com/watch?v=p8u_k2LIZyo) and, as my friend Nolan reminded me the other night, this algorithm is not new. The [fast inverse square root](https://en.wikipedia.org/wiki/Fast_inverse_square_root) shook the nerd world with its implementation in Quake III (1999). "
+description = ""
+summary = "I found it on [YouTube](https://www.youtube.com/watch?v=p8u_k2LIZyo) and, as my friend reminded me the other night, this algorithm is not new. The [fast inverse square root](https://en.wikipedia.org/wiki/Fast_inverse_square_root) shook the nerd world with its implementation in Quake III (1999). "
 draft = false
 toc = true
 [schema]

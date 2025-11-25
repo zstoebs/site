@@ -2,7 +2,7 @@
 title = "autonomous motion planning for an NVIDIA JetBot"
 date = 2021-12-08T19:05:08-06:00
 showmeta = true
-description = "zoom zoom"
+description = ""
 summary = "Built a JetBot + an exploration and novice implementation of motion planning on said JetBot. This computational game theory project marked my first foray into optimization and a glimpse of its power muahahaha. It ain't exquisite but it was heading in the right direction."
 categories = ["course", "solo"]
 tags = ["ai", "ml", "control", "opt", "cps", "robotics", "python"]

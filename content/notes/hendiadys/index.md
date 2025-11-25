@@ -1,11 +1,11 @@
 +++
-title = "on hendiadys"
+title = "on hendiadys & hendiatris"
 date = 2021-07-11T14:43:05-05:00
 showmeta = true
 categories = ["create", "poetry"]
 tags = ["hendiadys", "hendiatris", "literature"]
-description = "1 + 1 ≠ 2, existential me circa 1600"
-summary = "I bet you have no idea what this is. You've definitely seen one before... but you just didn't know it. Boo!"
+description = ""
+summary = "subtle, pithy, and mighty"
 draft = false
 toc = true
 [schema]

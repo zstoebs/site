@@ -17,8 +17,10 @@ theme = [
 ]
 
 disableLiveReload = false # Optional, set true to disable live reload
-sectionPagesMenu = "main" # Enable menu system for lazy bloggers
+# sectionPagesMenu = "main" # Enable menu system for lazy bloggers
+sectionPagesMenu = "" # Enable menu system for lazy bloggers
 
+# MATHTEX
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]
@@ -156,8 +158,8 @@ weight = 3
   identifier = "notes"
   url = "/notes/"
 
-[[menu.main]]
-  name = "kū"
-  weight = 5
-  identifier = "kus"
-  url = "/kus/"
+# [[menu.main]]
+#  name = "kū"
+#  weight = 5
+#  identifier = "kus"
+#  url = "/kus/"
