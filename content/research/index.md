@@ -15,7 +15,10 @@ draft = false
 
 ## in progress
 
-"Preconditioned monotone operator learning", **Zachary A. Stoebner**, Jon Tamir.
+"Preconditioned monotone operator learning for high-dimensional, non-Cartesian inverse problems", **Zachary A. Stoebner**, Jon Tamir.
+
+"Generative Koopman Method for Nonlinear System Identification and Signal Recovery in Computational Imaging", **Zachary A. Stoebner**,
+Jon Tamir. 
 
 "Double blind imaging with generative modeling", Brett Levac, Yamin Arefeen, **Zachary A. Stoebner**, Jon Tamir. *In review for CVPR 2026*.
 
