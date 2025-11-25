@@ -181,3 +181,33 @@ img {
     margin-left: calc(100vw - 100%); /* @see https://aykevl.nl/2014/09/fix-jumping-scrollbar */
   }
 }
+
+.refresh-btn {
+  background-color: #000;
+  /* Blue background */
+  border: 1px solid #ff2e88;
+  color: #ff2e88;
+  /* White text */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  /* Hand pointer on hover */
+  border-radius: 8px;
+  /* Rounded corners */
+  transition: background-color 0.3s ease;
+  /* Smooth transition for hover */
+}
+
+.refresh-btn:hover {
+  background-color: #ff9800;
+  /* Darker blue on hover */
+}
+
+.refresh-btn:active {
+  background-color: #004085;
+  /* Even darker blue when clicked */
+}

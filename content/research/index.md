@@ -33,7 +33,7 @@ draft = false
 
 ## poster
 
-"Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI", **Zachary A. Stoebner**, Jonathan I. Tamir. <i>{6G@UT, Oden SciML Workshop}</i> (2024).
+"Generalized system identification and joint signal reconstruction with implicit neural representations, with application to MRI", **Zachary A. Stoebner**, Jonathan I. Tamir. <i>{6G@UT, Oden SciML Workshop}</i> (2024). [note](/doc/ZachStoebner_sysidINR_poster.pdf)
 
 ## patent
 

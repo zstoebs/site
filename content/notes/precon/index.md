@@ -80,7 +80,7 @@ which implies the Newton step so this is consistent if B is the Hessian.
 The [secant equation](https://en.wikipedia.org/wiki/Secant_method) is a line in the function's gradient space that can be used as a condition for each update of the Hessian. How this secant equation is solved is what sets different quasi-Newton methods apart. In BFGS, the quasi-Newton condition is:
 
 $$
-B_{k+1} (x_{k+1} - x_k) = \nabla x_{k+1} - \nabla x_k
+B_{k+1} (x_{k+1} - x_k) = \nabla f(x_{k+1}) - \nabla f(x_k) 
 $$
 
 First, we set $B_0 = \beta I$ where $\beta > 0$ is hyperparameter ensuring that we start with a positive-definite matrix and choose step size $\alpha_k$ with an exact line search adhering to the [Wolfe conditions](https://en.wikipedia.org/wiki/Wolfe_conditions) which are:

@@ -18,7 +18,7 @@ summary = "Legends say that the stache grows commensurately with my wisdom."
 <script>
 
 // **when adding new images, run rename_images.py and paste output here**
-var images = ['1.jpeg', '10.jpeg', '11.jpeg', '12.jpeg', '13.jpeg', '14.jpeg', '15.jpeg', '16.jpeg', '9.jpeg', '18.jpeg', '2.jpeg', '3.jpeg', '4.jpeg', '5.jpeg', '6.jpeg', '7.jpeg', '17.jpeg'];  
+var images = ['1.jpeg', '2.jpeg', '3.jpeg', '4.jpeg', '5.jpeg', '6.jpeg', '7.jpeg', '8.jpeg', '9.jpeg', '10.jpeg', '11.jpeg', '12.jpeg'];  
 
 // Function to select and display a random image
 function displayRandomImage() {
@@ -29,12 +29,13 @@ function displayRandomImage() {
 
 displayRandomImage();
 </script>
+{{< refresh_button >}}
 
 Hi, I'm Zach.  
 
 I'm an [Electrical & Computer Engineering](https://www.ece.utexas.edu) PhD student at [UT Austin](https://www.utexas.edu) working with [Prof. Jon Tamir](https://users.ece.utexas.edu/~jtamir/) in the [Computational Sensing & Imaging Lab](https://users.ece.utexas.edu/~jtamir/csilab.html).
 
-I'm working on provably efficient, scalable, and robust algorithms related to inverse problems. Generally, I'm curious about [AI](/tags/ai)/[ML](/tags/ml), [signal processing](/tags/sigproc), [optimization](/tags/opt), [probability](/tags/prob), [statistics](/tags/stats), and [control](/tags/control).  
+I'm working on provably efficient, scalable, and robust algorithms for inverse problems. Generally, I'm curious about [AI](/tags/ai)/[ML](/tags/ml), [signal processing](/tags/sigproc), [optimization](/tags/opt), [probability](/tags/prob), [statistics](/tags/stats), and [control](/tags/control).  
 
 I'm always open to new opportunities and collaborations within my interests. You can contact me at <zstoebner@austin.utexas.edu>.
 
