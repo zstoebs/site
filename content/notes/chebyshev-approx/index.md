@@ -2,6 +2,7 @@
 title = "on univariate Chebyshev approximation"
 date = 2025-12-21T22:13:58+09:00
 showmeta = true
+tags = ["opt", "sigproc"]
 description = ""
 summary="Chebyshev polynomials of the first kind are a popular choice of basis polynomials for function approximation. Here, I collect some properties and theorems for approximating univariate functions, with an example."
 draft = false 

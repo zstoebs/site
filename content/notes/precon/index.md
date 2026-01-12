@@ -1,6 +1,6 @@
 +++
 title = "on preconditioning for iterative optimization"
-date = 2024-08-03T15:49:00-05:00
+date = 2025-05-03T15:49:00-05:00
 showmeta = true
 tags = ["ml", "opt", "sigproc", "python"]
 description = ""
