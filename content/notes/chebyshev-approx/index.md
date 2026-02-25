@@ -12,7 +12,7 @@ draft = false
   license = "cc-by-nd-4.0"
 +++
 
-<iframe src="/notes/on_univariate_cheby_approx.pdf" width="100%" height="800" style="border:0;"></iframe>
+<iframe src="/doc/on_univariate_cheby_approx.pdf" width="100%" height="800" style="border:0;"></iframe>
 
 <!-- fallback link -->
-<p><a href="/notes/on_univariate_cheby_approx.pdf" target="_blank" rel="noopener">Open/download PDF</a></p>
+<p><a href="/doc/on_univariate_cheby_approx.pdf" target="_blank" rel="noopener">Open PDF</a></p>
