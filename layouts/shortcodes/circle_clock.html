@@ -1,0 +1,69 @@
+<div class="canvas-container" style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
+    <canvas id="circleCanvas" width="400" height="400"
+        style="max-width: 100%; height: auto; background-color: transparent;"></canvas>
+</div>
+
+<script>
+    (function () {
+        const canvas = document.getElementById('circleCanvas');
+        if (!canvas) return;
+        const ctx = canvas.getContext('2d');
+
+        const centerX = canvas.width / 2;
+        const centerY = canvas.height / 2;
+
+        const rOrange = 160;
+        const rBlack = 96 - 5;
+        const rWhite = 40 - 5;
+
+        function draw() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            const now = new Date();
+            const ms = now.getMilliseconds();
+            const seconds = now.getSeconds() + ms / 1000;
+            const minutes = now.getMinutes() + seconds / 60;
+
+            const angleMinutes = (minutes / 60) * 2 * Math.PI - Math.PI / 2;
+            const angleSeconds = (seconds / 60) * 2 * Math.PI - Math.PI / 2;
+
+            // 1. Outer Circle (Burnt Orange)
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, rOrange, 0, 2 * Math.PI);
+            ctx.fillStyle = '#BF5700';
+            ctx.fill();
+
+            // 2. Inner Middle Circle (Black)
+            const maxBlackOffset = rOrange - rBlack - 5
+            const blackX = centerX + maxBlackOffset * Math.cos(angleMinutes);
+            const blackY = centerY + maxBlackOffset * Math.sin(angleMinutes);
+
+            ctx.beginPath();
+            ctx.arc(blackX, blackY, rBlack, 0, 2 * Math.PI);
+            ctx.fillStyle = '#000000';
+            ctx.fill();
+
+            // 3. Innermost Shifting Circle (Vanderbilt Gold Gradient)
+            const maxWhiteOffset = rBlack - rWhite - 5;
+            const whiteX = blackX + maxWhiteOffset * Math.cos(angleSeconds);
+            const whiteY = blackY + maxWhiteOffset * Math.sin(angleSeconds);
+
+            // Create linear gradient relative to the moving inner circle's bounds
+            const goldGradient = ctx.createLinearGradient(
+                whiteX - rWhite, whiteY - rWhite,
+                whiteX + rWhite, whiteY + rWhite
+            );
+            goldGradient.addColorStop(0, '#FEEEB6');   // Light Gold Anchor
+            goldGradient.addColorStop(0.5, '#CFAE70'); // Mid Flat Gold
+            goldGradient.addColorStop(1, '#B49248');   // Deep Metallic Gold
+
+            ctx.beginPath();
+            ctx.arc(whiteX, whiteY, rWhite, 0, 2 * Math.PI);
+            ctx.fillStyle = goldGradient; // Apply metallic sheen
+            ctx.fill();
+
+            requestAnimationFrame(draw);
+        }
+        requestAnimationFrame(draw);
+    })();
+</script>

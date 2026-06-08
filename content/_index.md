@@ -19,3 +19,5 @@ I'm an ECE PhD candidate at UT Austin. I like [AI](/tags/ai)/[ML](/tags/ml), [si
 [Scholar](https://scholar.google.com/citations?authuser=2&user=uQ4eoukAAAAJ)
 
 [first initial][last name]@austin.utexas.edu
+
+<!-- {{< circle_clock >}} -->
