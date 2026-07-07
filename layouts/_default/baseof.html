@@ -81,8 +81,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
   {{ $hackcss_palette := .Site.Params.hackcss.palette | default "dark" }}
   <body class="{{ if ne $hackcss_disabled true }}{{ $hackcss_mode }} {{ $hackcss_palette }} main container{{ end }}">
     <header>{{ block "header" . }}{{ end }}</header>
-    <main>{{ block "main" . }}{{ end }}</main>
     {{ partial "corner_clock.html" . }}
+    <main>{{ block "main" . }}{{ end }}</main>
     <footer>{{ block "footer" . }}{{ end }}</footer>
     {{ $defaults := .Site.Params.defaults.modules }}
     {{ $modules := .Site.Params.modules }}
