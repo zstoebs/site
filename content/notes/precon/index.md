@@ -15,6 +15,8 @@ toc = true
 
 Preconditioning adjusts the state of a model to {expedite, improve, stabilize} convergence of an optimization procedure, typically by adjusting the gradient in the update rule with the inverse of the Hessian or improving the condition number of a matrix whose spectrum affects convergence. For the following problems, we are solving $\min_x \frac{1}{2}||Ax-b||_2^2$ for positive definite $A$ where $\kappa (A)$ is large.
 
+Code can be found [here](https://github.com/zstoebs/site_nbs/blob/main/precon_examples.ipynb). 
+
 ## [Newton method](https://en.wikipedia.org/wiki/Newton%27s_method)
 
 This is a root-finding method for a convex function based on its linear approximation (first-order definition of convexity):
