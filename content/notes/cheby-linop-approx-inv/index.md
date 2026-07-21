@@ -4,7 +4,7 @@ date = 2026-07-19T13:18:51-05:00
 showmeta = true
 tags = ["opt", "sigproc"]
 description = ""
-summary = "These notes outline the steps and analysis to approximating the inverse of a linear operator with Chebyshev polynomials, with an example on Tikhonov-regularized image reconstruction."
+summary = "These notes outline the steps and analysis for approximating the inverse of a linear operator with Chebyshev polynomials, with an example on Tikhonov-regularized image reconstruction."
 draft = false
 [[copyright]]
   owner = "Zach Stoebner"
