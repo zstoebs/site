@@ -21,7 +21,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
   {{ with (index .Params "copyright") }}
     {{ range . }}
       Copyright &copy; {{ .date }} {{ .owner }}.
-      {{ with (index $.Site.Data.licenses .license) }}
+      {{ with (index hugo.Data.licenses .license) }}
         Licensed under {{ partial "components/external.html" (dict "href" .link "body" .shorthand "rel" "external noopener license") }}.
       {{ else }}
         Copyright &copy; {{ .date }} {{ .owner }}.

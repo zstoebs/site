@@ -3,7 +3,7 @@ title = "Zach Stoebner | ECE PhD @ UT Austin"
 enableRobotsTXT = true # Suggested, enable robots.txt file
 # pygmentsCodefences = true
 # pygmentsUseClasses = true
-languageCode = "en-US" # Controls site language
+locale = "en-US" # Controls site language
 pagination.pagerSize = 10 # Number of posts to show before paginating
 copyright = "Copyright &copy; Zachary Stoebner. Licensed under <a target=\"_blank\" rel=\"external noopener license\" href=\"https://creativecommons.org/licenses/by-nd/4.0/\">CC-BY-ND-4.0</a>." # Optional, remove to suppress copyright notices
 
